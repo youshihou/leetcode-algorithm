@@ -76,10 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				0340399A244D302A00896919 /* T16-sub-sort-lcci.h */,
-				0340399B244D302A00896919 /* T88-merge-sorted-array.h */,
-				0340399C244D302A00896919 /* T75-sort-colors.c */,
 				0340399D244D302A00896919 /* T16-sub-sort-lcci.c */,
+				0340399B244D302A00896919 /* T88-merge-sorted-array.h */,
 				0340399E244D302A00896919 /* T88-merge-sorted-array.c */,
+				0340399C244D302A00896919 /* T75-sort-colors.c */,
 				0340399F244D302A00896919 /* T75-sort-colors.h */,
 			);
 			path = "array-sort";
