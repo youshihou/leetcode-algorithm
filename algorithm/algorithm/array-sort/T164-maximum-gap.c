@@ -7,3 +7,8 @@
 //
 
 #include "T164-maximum-gap.h"
+
+int maximumGap(int* nums, int numsSize) {
+    
+    return 0;
+}
