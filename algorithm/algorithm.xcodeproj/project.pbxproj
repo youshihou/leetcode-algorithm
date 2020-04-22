@@ -15,6 +15,7 @@
 		035A402A244F355000CAFCCF /* T203-remove-linked-list-elements.c in Sources */ = {isa = PBXBuildFile; fileRef = 035A4029244F355000CAFCCF /* T203-remove-linked-list-elements.c */; };
 		03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */ = {isa = PBXBuildFile; fileRef = 03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */; };
 		03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F935862450732000FCF702 /* T2-add-two-numbers.c */; };
+		03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,8 @@
 		03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T164-maximum-gap.c"; sourceTree = "<group>"; };
 		03F935852450732000FCF702 /* T2-add-two-numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T2-add-two-numbers.h"; sourceTree = "<group>"; };
 		03F935862450732000FCF702 /* T2-add-two-numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T2-add-two-numbers.c"; sourceTree = "<group>"; };
+		03F9358824508A3E00FCF702 /* T160-intersection-of-two-linked-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T160-intersection-of-two-linked-lists.h"; sourceTree = "<group>"; };
+		03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T160-intersection-of-two-linked-lists.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				035A402B244F37E400CAFCCF /* linked-list-common.h */,
 				03F935852450732000FCF702 /* T2-add-two-numbers.h */,
 				03F935862450732000FCF702 /* T2-add-two-numbers.c */,
+				03F9358824508A3E00FCF702 /* T160-intersection-of-two-linked-lists.h */,
+				03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */,
 			);
 			path = "linked-list";
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */,
 				034039A0244D302A00896919 /* T75-sort-colors.c in Sources */,
 				03403993244D300E00896919 /* main.c in Sources */,
+				03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */,
 				035A402A244F355000CAFCCF /* T203-remove-linked-list-elements.c in Sources */,
 				034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */,
 			);
