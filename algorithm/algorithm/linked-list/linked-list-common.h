@@ -10,6 +10,8 @@
 #define linked_list_common_h
 
 #include <stdlib.h>
+#include <stdbool.h>
+
 
 struct ListNode {
     int val;
