@@ -8,7 +8,6 @@
 
 #include "T160-intersection-of-two-linked-lists.h"
 #include "linked-list-common.h"
-#include <stdlib.h>
 
 /**
  * Definition for singly-linked list.
@@ -23,7 +22,7 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     struct ListNode* curA = headA;
     struct ListNode* curB = headB;
     
-    while (curA != curB) { 
+    while (curA != curB) {
         curA = curA == NULL ? headB : curA->next;
         curB = curB == NULL ? headA : curB->next;
         

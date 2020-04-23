@@ -9,6 +9,8 @@
 #ifndef linked_list_common_h
 #define linked_list_common_h
 
+#include <stdlib.h>
+
 struct ListNode {
     int val;
     struct ListNode *next;

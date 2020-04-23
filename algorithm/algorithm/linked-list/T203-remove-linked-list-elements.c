@@ -8,7 +8,6 @@
 
 #include "T203-remove-linked-list-elements.h"
 #include "linked-list-common.h"
-#include <stdlib.h>
 
 /**
  * Definition for singly-linked list.
