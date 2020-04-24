@@ -9,8 +9,6 @@
 #ifndef T88_merge_sorted_array_h
 #define T88_merge_sorted_array_h
 
-// https://leetcode-cn.com/problems/merge-sorted-array/
-
 #include <stdio.h>
 
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n);

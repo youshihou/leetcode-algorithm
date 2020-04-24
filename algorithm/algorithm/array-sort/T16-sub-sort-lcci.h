@@ -9,8 +9,6 @@
 #ifndef T16_sub_sort_lcci_h
 #define T16_sub_sort_lcci_h
 
-// https://leetcode-cn.com/problems/sub-sort-lcci/
-
 #include <stdio.h>
 
 int* subSort(int* array, int arraySize, int* returnSize);

@@ -6,8 +6,12 @@
 //  Copyright © 2020 Ankui. All rights reserved.
 //
 
+// https://leetcode-cn.com/problems/sub-sort-lcci/
+
+
 #include "T16-sub-sort-lcci.h"
 #include <stdlib.h>
+
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

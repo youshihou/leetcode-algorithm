@@ -16,6 +16,9 @@
 		035A4026244F330900CAFCCF /* T977-squares-of-a-sorted-array.c in Sources */ = {isa = PBXBuildFile; fileRef = 035A4025244F330900CAFCCF /* T977-squares-of-a-sorted-array.c */; };
 		035A402A244F355000CAFCCF /* T203-remove-linked-list-elements.c in Sources */ = {isa = PBXBuildFile; fileRef = 035A4029244F355000CAFCCF /* T203-remove-linked-list-elements.c */; };
 		03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */ = {isa = PBXBuildFile; fileRef = 03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */; };
+		03C8A63924531081001D5584 /* T138-copy-list-with-random-pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */; };
+		03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63C245312FC001D5584 /* T155-min-stack.c */; };
+		03C8A64224532E5F001D5584 /* T239-sliding-window-maximum.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64124532E5F001D5584 /* T239-sliding-window-maximum.c */; };
 		03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F935862450732000FCF702 /* T2-add-two-numbers.c */; };
 		03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */; };
 /* End PBXBuildFile section */
@@ -52,6 +55,13 @@
 		035A402B244F37E400CAFCCF /* linked-list-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "linked-list-common.h"; sourceTree = "<group>"; };
 		03AA31D3244DF66D008B0B20 /* T164-maximum-gap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T164-maximum-gap.h"; sourceTree = "<group>"; };
 		03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T164-maximum-gap.c"; sourceTree = "<group>"; };
+		03C8A63724531080001D5584 /* T138-copy-list-with-random-pointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T138-copy-list-with-random-pointer.h"; sourceTree = "<group>"; };
+		03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T138-copy-list-with-random-pointer.c"; sourceTree = "<group>"; };
+		03C8A63B245312FC001D5584 /* T155-min-stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T155-min-stack.h"; sourceTree = "<group>"; };
+		03C8A63C245312FC001D5584 /* T155-min-stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T155-min-stack.c"; sourceTree = "<group>"; };
+		03C8A63E24531773001D5584 /* stack-queue-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "stack-queue-common.h"; sourceTree = "<group>"; };
+		03C8A64024532E5F001D5584 /* T239-sliding-window-maximum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T239-sliding-window-maximum.h"; sourceTree = "<group>"; };
+		03C8A64124532E5F001D5584 /* T239-sliding-window-maximum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T239-sliding-window-maximum.c"; sourceTree = "<group>"; };
 		03F935852450732000FCF702 /* T2-add-two-numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T2-add-two-numbers.h"; sourceTree = "<group>"; };
 		03F935862450732000FCF702 /* T2-add-two-numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T2-add-two-numbers.c"; sourceTree = "<group>"; };
 		03F9358824508A3E00FCF702 /* T160-intersection-of-two-linked-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T160-intersection-of-two-linked-lists.h"; sourceTree = "<group>"; };
@@ -88,6 +98,7 @@
 		03403991244D300E00896919 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				03C8A63A245312DB001D5584 /* stack-queue */,
 				035A4027244F352300CAFCCF /* linked-list */,
 				03403999244D302A00896919 /* array-sort */,
 				03403992244D300E00896919 /* main.c */,
@@ -102,8 +113,8 @@
 				0340399D244D302A00896919 /* T16-sub-sort-lcci.c */,
 				0340399B244D302A00896919 /* T88-merge-sorted-array.h */,
 				0340399E244D302A00896919 /* T88-merge-sorted-array.c */,
-				0340399C244D302A00896919 /* T75-sort-colors.c */,
 				0340399F244D302A00896919 /* T75-sort-colors.h */,
+				0340399C244D302A00896919 /* T75-sort-colors.c */,
 				03AA31D3244DF66D008B0B20 /* T164-maximum-gap.h */,
 				03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */,
 				035A4024244F330900CAFCCF /* T977-squares-of-a-sorted-array.h */,
@@ -126,8 +137,22 @@
 				0300364E2451C7E80026657D /* T86-partition-list.c */,
 				030036502451D0CD0026657D /* T234-palindrome-linked-list.h */,
 				030036512451D0CD0026657D /* T234-palindrome-linked-list.c */,
+				03C8A63724531080001D5584 /* T138-copy-list-with-random-pointer.h */,
+				03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */,
 			);
 			path = "linked-list";
+			sourceTree = "<group>";
+		};
+		03C8A63A245312DB001D5584 /* stack-queue */ = {
+			isa = PBXGroup;
+			children = (
+				03C8A63B245312FC001D5584 /* T155-min-stack.h */,
+				03C8A63C245312FC001D5584 /* T155-min-stack.c */,
+				03C8A63E24531773001D5584 /* stack-queue-common.h */,
+				03C8A64024532E5F001D5584 /* T239-sliding-window-maximum.h */,
+				03C8A64124532E5F001D5584 /* T239-sliding-window-maximum.c */,
+			);
+			path = "stack-queue";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,12 +215,15 @@
 				035A4026244F330900CAFCCF /* T977-squares-of-a-sorted-array.c in Sources */,
 				03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */,
 				034039A2244D302B00896919 /* T88-merge-sorted-array.c in Sources */,
+				03C8A64224532E5F001D5584 /* T239-sliding-window-maximum.c in Sources */,
+				03C8A63924531081001D5584 /* T138-copy-list-with-random-pointer.c in Sources */,
 				03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */,
 				034039A0244D302A00896919 /* T75-sort-colors.c in Sources */,
 				03403993244D300E00896919 /* main.c in Sources */,
 				03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */,
 				035A402A244F355000CAFCCF /* T203-remove-linked-list-elements.c in Sources */,
 				034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */,
+				03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */,
 				0300364F2451C7E80026657D /* T86-partition-list.c in Sources */,
 				030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */,
 			);

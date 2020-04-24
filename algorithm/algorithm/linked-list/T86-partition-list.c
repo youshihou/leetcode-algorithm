@@ -6,6 +6,8 @@
 //  Copyright © 2020 Ankui. All rights reserved.
 //
 
+// https://leetcode-cn.com/problems/partition-list/
+
 #include "T86-partition-list.h"
 #include "linked-list-common.h"
 
