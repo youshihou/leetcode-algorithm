@@ -10,6 +10,8 @@
 #include "T88-merge-sorted-array.h"
 #include "T16-sub-sort-lcci.h"
 #include "T234-palindrome-linked-list.h"
+#include "stack.h"
+#include "T654-maximum-binary-tree.h"
 
 
 
@@ -57,14 +59,37 @@ int main(int argc, const char * argv[]) {
 
         isPalindrome(head);
         
-        while (head != NULL) {
-            printf("%d->", head->val);
-            head = head->next;
-        }
-        printf("\n");
+//        while (head != NULL) {
+//            printf("%d->", head->val);
+//            head = head->next;
+//        }
+//        printf("\n");
 
     }
     
 
+    {
+        Stack *s = create();
+        push(s, 1);
+        printf("push value is 1\n");
+
+        int x = top(s);
+        printf("top value is %d\n", x);
+
+        x = pop(s);
+        printf("pop value is %d\n", x);
+
+        int i = 0;
+        while (i < 5) {
+            push(s, i++);
+        }
+        printf("top is stack value is %d\n", s->next->val);
+    }
+    
+    {
+        int a[] = {3, 2, 1, 6, 0, 5};
+        parentIndexex(a, 6);
+    }
+    
     return 0;
 }

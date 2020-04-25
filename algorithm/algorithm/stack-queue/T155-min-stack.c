@@ -11,7 +11,6 @@
 #include "T155-min-stack.h"
 #include "stack-queue-common.h"
 #include <limits.h>
-#include <math.h>
 
 /**
  * Your MinStack struct will be instantiated and called as such:

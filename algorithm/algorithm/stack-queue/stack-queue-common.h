@@ -12,4 +12,12 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+
+struct TreeNode {
+    int val;
+    struct TreeNode *left;
+    struct TreeNode *right;
+};
+
+
 #endif /* stack_queue_common_h */
