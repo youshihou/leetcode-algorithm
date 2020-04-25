@@ -21,6 +21,32 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize) {
     *returnSize = TSize;
     
     int* result = malloc(sizeof(int) * TSize);
+    result[TSize - 1] = 0;
+    
+    for (int i = TSize - 2; i >= 0; i--) {
+        int j = i + 1;
+        while (true) {
+            if (T[i] < T[j]) {
+                result[i] = j - i;
+                break;
+            } else if (result[j] == 0) {
+                result[i] = 0;
+                break;
+            }
+            j = result[j] + j;
+        }
+    }
+    
+    return result;
+}
+
+
+
+int* dailyTemperatures2(int* T, int TSize, int* returnSize) {
+    if (T == NULL || TSize == 0) { return NULL; }
+    *returnSize = TSize;
+    
+    int* result = malloc(sizeof(int) * TSize);
 //    memset(result, 0, sizeof(int) * TSize);
     result[TSize - 1] = 0;
     
