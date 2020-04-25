@@ -23,6 +23,7 @@
 		03C8A6482454260D001D5584 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A6472454260D001D5584 /* stack.c */; };
 		03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64A24544401001D5584 /* T739-daily-temperatures.c */; };
 		03C8A64F24546A3C001D5584 /* T01-09-string-rotation-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64E24546A3C001D5584 /* T01-09-string-rotation-lcci.c */; };
+		03C8A653245474F3001D5584 /* T572-subtree-of-another-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A652245474F3001D5584 /* T572-subtree-of-another-tree.c */; };
 		03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F935862450732000FCF702 /* T2-add-two-numbers.c */; };
 		03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,8 @@
 		03C8A64D24546A3C001D5584 /* T01-09-string-rotation-lcci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T01-09-string-rotation-lcci.h"; sourceTree = "<group>"; };
 		03C8A64E24546A3C001D5584 /* T01-09-string-rotation-lcci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T01-09-string-rotation-lcci.c"; sourceTree = "<group>"; };
 		03C8A65024546DB5001D5584 /* string-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "string-common.h"; sourceTree = "<group>"; };
+		03C8A651245474F3001D5584 /* T572-subtree-of-another-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T572-subtree-of-another-tree.h"; sourceTree = "<group>"; };
+		03C8A652245474F3001D5584 /* T572-subtree-of-another-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T572-subtree-of-another-tree.c"; sourceTree = "<group>"; };
 		03F935852450732000FCF702 /* T2-add-two-numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T2-add-two-numbers.h"; sourceTree = "<group>"; };
 		03F935862450732000FCF702 /* T2-add-two-numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T2-add-two-numbers.c"; sourceTree = "<group>"; };
 		03F9358824508A3E00FCF702 /* T160-intersection-of-two-linked-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T160-intersection-of-two-linked-lists.h"; sourceTree = "<group>"; };
@@ -181,6 +184,8 @@
 				03C8A64D24546A3C001D5584 /* T01-09-string-rotation-lcci.h */,
 				03C8A64E24546A3C001D5584 /* T01-09-string-rotation-lcci.c */,
 				03C8A65024546DB5001D5584 /* string-common.h */,
+				03C8A651245474F3001D5584 /* T572-subtree-of-another-tree.h */,
+				03C8A652245474F3001D5584 /* T572-subtree-of-another-tree.c */,
 			);
 			path = string;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 				03C8A63924531081001D5584 /* T138-copy-list-with-random-pointer.c in Sources */,
 				03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */,
 				034039A0244D302A00896919 /* T75-sort-colors.c in Sources */,
+				03C8A653245474F3001D5584 /* T572-subtree-of-another-tree.c in Sources */,
 				03403993244D300E00896919 /* main.c in Sources */,
 				03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */,
 				035A402A244F355000CAFCCF /* T203-remove-linked-list-elements.c in Sources */,
