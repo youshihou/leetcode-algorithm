@@ -12,7 +12,7 @@
 #include "T234-palindrome-linked-list.h"
 #include "stack.h"
 #include "T654-maximum-binary-tree.h"
-
+#include "T01-09-string-rotation-lcci.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -69,26 +69,33 @@ int main(int argc, const char * argv[]) {
     
 
     {
-        Stack *s = create();
-        push(s, 1);
-        printf("push value is 1\n");
-
-        int x = top(s);
-        printf("top value is %d\n", x);
-
-        x = pop(s);
-        printf("pop value is %d\n", x);
-
-        int i = 0;
-        while (i < 5) {
-            push(s, i++);
-        }
-        printf("top is stack value is %d\n", s->next->val);
+//        Stack *s = create();
+//        push(s, 1);
+//        printf("push value is 1\n");
+//
+//        int x = top(s);
+//        printf("top value is %d\n", x);
+//
+//        x = pop(s);
+//        printf("pop value is %d\n", x);
+//
+//        int i = 0;
+//        while (i < 5) {
+//            push(s, i++);
+//        }
+//        printf("top is stack value is %d\n", s->next->val);
     }
     
     {
-        int a[] = {3, 2, 1, 6, 0, 5};
-        parentIndexes(a, 6);
+//        int a[] = {3, 2, 1, 6, 0, 5};
+//        parentIndexes(a, 6);
+    }
+    
+    {
+//        char *s1 = "aba";
+//        char *s2 = "bab";
+        
+//        isFlipedString(s1, s2);
     }
     
     return 0;

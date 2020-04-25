@@ -22,6 +22,7 @@
 		03C8A6452454182D001D5584 /* T654-maximum-binary-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A6442454182D001D5584 /* T654-maximum-binary-tree.c */; };
 		03C8A6482454260D001D5584 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A6472454260D001D5584 /* stack.c */; };
 		03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64A24544401001D5584 /* T739-daily-temperatures.c */; };
+		03C8A64F24546A3C001D5584 /* T01-09-string-rotation-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64E24546A3C001D5584 /* T01-09-string-rotation-lcci.c */; };
 		03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F935862450732000FCF702 /* T2-add-two-numbers.c */; };
 		03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,9 @@
 		03C8A6472454260D001D5584 /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
 		03C8A64924544401001D5584 /* T739-daily-temperatures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T739-daily-temperatures.h"; sourceTree = "<group>"; };
 		03C8A64A24544401001D5584 /* T739-daily-temperatures.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T739-daily-temperatures.c"; sourceTree = "<group>"; };
+		03C8A64D24546A3C001D5584 /* T01-09-string-rotation-lcci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T01-09-string-rotation-lcci.h"; sourceTree = "<group>"; };
+		03C8A64E24546A3C001D5584 /* T01-09-string-rotation-lcci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T01-09-string-rotation-lcci.c"; sourceTree = "<group>"; };
+		03C8A65024546DB5001D5584 /* string-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "string-common.h"; sourceTree = "<group>"; };
 		03F935852450732000FCF702 /* T2-add-two-numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T2-add-two-numbers.h"; sourceTree = "<group>"; };
 		03F935862450732000FCF702 /* T2-add-two-numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T2-add-two-numbers.c"; sourceTree = "<group>"; };
 		03F9358824508A3E00FCF702 /* T160-intersection-of-two-linked-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T160-intersection-of-two-linked-lists.h"; sourceTree = "<group>"; };
@@ -107,6 +111,7 @@
 		03403991244D300E00896919 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				03C8A64C24546956001D5584 /* string */,
 				03C8A63A245312DB001D5584 /* stack-queue */,
 				035A4027244F352300CAFCCF /* linked-list */,
 				03403999244D302A00896919 /* array-sort */,
@@ -168,6 +173,16 @@
 				03C8A64A24544401001D5584 /* T739-daily-temperatures.c */,
 			);
 			path = "stack-queue";
+			sourceTree = "<group>";
+		};
+		03C8A64C24546956001D5584 /* string */ = {
+			isa = PBXGroup;
+			children = (
+				03C8A64D24546A3C001D5584 /* T01-09-string-rotation-lcci.h */,
+				03C8A64E24546A3C001D5584 /* T01-09-string-rotation-lcci.c */,
+				03C8A65024546DB5001D5584 /* string-common.h */,
+			);
+			path = string;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +258,7 @@
 				03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */,
 				0300364F2451C7E80026657D /* T86-partition-list.c in Sources */,
 				03C8A6482454260D001D5584 /* stack.c in Sources */,
+				03C8A64F24546A3C001D5584 /* T01-09-string-rotation-lcci.c in Sources */,
 				030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
