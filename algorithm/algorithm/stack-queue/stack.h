@@ -24,6 +24,6 @@ bool isEmpty(Stack*);
 void push(Stack*, int);
 int pop(Stack*);
 int top(Stack*);
-
+void stack_free(Stack*);
 
 #endif /* stack_h */

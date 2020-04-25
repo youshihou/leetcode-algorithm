@@ -55,8 +55,8 @@ int top(Stack* s) {
     return s->next->val;
 }
 
-//void free(Stack* s) {
-//    while (@isEmpty(s)) {
-//        pop(s);
-//    }
-//}
+void stack_free(Stack* s) {
+    while (!isEmpty(s)) {
+        pop(s);
+    }
+}

@@ -11,6 +11,6 @@
 
 #include <stdio.h>
 
-int* parentIndexex(int* nums, int numberSize);
+int* parentIndexes(int* nums, int numberSize);
 
 #endif /* T654_maximum_binary_tree_h */

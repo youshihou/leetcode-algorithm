@@ -88,7 +88,7 @@ int main(int argc, const char * argv[]) {
     
     {
         int a[] = {3, 2, 1, 6, 0, 5};
-        parentIndexex(a, 6);
+        parentIndexes(a, 6);
     }
     
     return 0;

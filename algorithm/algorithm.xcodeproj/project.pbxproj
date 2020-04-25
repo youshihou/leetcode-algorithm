@@ -21,6 +21,7 @@
 		03C8A64224532E5F001D5584 /* T239-sliding-window-maximum.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64124532E5F001D5584 /* T239-sliding-window-maximum.c */; };
 		03C8A6452454182D001D5584 /* T654-maximum-binary-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A6442454182D001D5584 /* T654-maximum-binary-tree.c */; };
 		03C8A6482454260D001D5584 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A6472454260D001D5584 /* stack.c */; };
+		03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64A24544401001D5584 /* T739-daily-temperatures.c */; };
 		03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F935862450732000FCF702 /* T2-add-two-numbers.c */; };
 		03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,8 @@
 		03C8A6442454182D001D5584 /* T654-maximum-binary-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T654-maximum-binary-tree.c"; sourceTree = "<group>"; };
 		03C8A6462454260D001D5584 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		03C8A6472454260D001D5584 /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		03C8A64924544401001D5584 /* T739-daily-temperatures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T739-daily-temperatures.h"; sourceTree = "<group>"; };
+		03C8A64A24544401001D5584 /* T739-daily-temperatures.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T739-daily-temperatures.c"; sourceTree = "<group>"; };
 		03F935852450732000FCF702 /* T2-add-two-numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T2-add-two-numbers.h"; sourceTree = "<group>"; };
 		03F935862450732000FCF702 /* T2-add-two-numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T2-add-two-numbers.c"; sourceTree = "<group>"; };
 		03F9358824508A3E00FCF702 /* T160-intersection-of-two-linked-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T160-intersection-of-two-linked-lists.h"; sourceTree = "<group>"; };
@@ -161,6 +164,8 @@
 				03C8A6442454182D001D5584 /* T654-maximum-binary-tree.c */,
 				03C8A6462454260D001D5584 /* stack.h */,
 				03C8A6472454260D001D5584 /* stack.c */,
+				03C8A64924544401001D5584 /* T739-daily-temperatures.h */,
+				03C8A64A24544401001D5584 /* T739-daily-temperatures.c */,
 			);
 			path = "stack-queue";
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 				03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */,
 				035A402A244F355000CAFCCF /* T203-remove-linked-list-elements.c in Sources */,
 				03C8A6452454182D001D5584 /* T654-maximum-binary-tree.c in Sources */,
+				03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */,
 				034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */,
 				03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */,
 				0300364F2451C7E80026657D /* T86-partition-list.c in Sources */,

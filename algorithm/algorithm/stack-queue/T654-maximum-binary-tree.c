@@ -48,7 +48,7 @@ struct TreeNode* constructMaximumBinaryTree(int* nums, int numsSize) {
 
 #include "stack.h"
 
-int* parentIndexex(int* nums, int numberSize) {
+int* parentIndexes(int* nums, int numberSize) {
     if (nums == NULL || numberSize == 0) { return NULL; }
     
     int* lis = malloc(sizeof(int) * numberSize);
