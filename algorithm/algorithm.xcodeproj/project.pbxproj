@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0300364F2451C7E80026657D /* T86-partition-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0300364E2451C7E80026657D /* T86-partition-list.c */; };
 		030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 030036512451D0CD0026657D /* T234-palindrome-linked-list.c */; };
+		03211BA4245721E400632DD8 /* T242-valid-anagram.c in Sources */ = {isa = PBXBuildFile; fileRef = 03211BA3245721E400632DD8 /* T242-valid-anagram.c */; };
 		03403993244D300E00896919 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 03403992244D300E00896919 /* main.c */; };
 		034039A0244D302A00896919 /* T75-sort-colors.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399C244D302A00896919 /* T75-sort-colors.c */; };
 		034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399D244D302A00896919 /* T16-sub-sort-lcci.c */; };
@@ -45,6 +46,8 @@
 		0300364E2451C7E80026657D /* T86-partition-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T86-partition-list.c"; sourceTree = "<group>"; };
 		030036502451D0CD0026657D /* T234-palindrome-linked-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T234-palindrome-linked-list.h"; sourceTree = "<group>"; };
 		030036512451D0CD0026657D /* T234-palindrome-linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T234-palindrome-linked-list.c"; sourceTree = "<group>"; };
+		03211BA2245721E400632DD8 /* T242-valid-anagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T242-valid-anagram.h"; sourceTree = "<group>"; };
+		03211BA3245721E400632DD8 /* T242-valid-anagram.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T242-valid-anagram.c"; sourceTree = "<group>"; };
 		0340398F244D300E00896919 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		03403992244D300E00896919 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0340399A244D302A00896919 /* T16-sub-sort-lcci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "T16-sub-sort-lcci.h"; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 				03C8A65024546DB5001D5584 /* string-common.h */,
 				03C8A651245474F3001D5584 /* T572-subtree-of-another-tree.h */,
 				03C8A652245474F3001D5584 /* T572-subtree-of-another-tree.c */,
+				03211BA2245721E400632DD8 /* T242-valid-anagram.h */,
+				03211BA3245721E400632DD8 /* T242-valid-anagram.c */,
 			);
 			path = string;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				0300364F2451C7E80026657D /* T86-partition-list.c in Sources */,
 				03C8A6482454260D001D5584 /* stack.c in Sources */,
 				03C8A64F24546A3C001D5584 /* T01-09-string-rotation-lcci.c in Sources */,
+				03211BA4245721E400632DD8 /* T242-valid-anagram.c in Sources */,
 				030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

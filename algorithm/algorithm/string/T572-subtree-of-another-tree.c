@@ -34,14 +34,14 @@ void serialize(struct TreeNode* s, char* r) {
         serialize(s->right, r);
     }
     
-    char v[10];
-    sprintf(v, "%d!", s->val);
-    strcat(r, v);
+    char val[128]; // CARE!!!
+    sprintf(val, "%d!", s->val);
+    strcat(r, val);
 }
 
 char* post_serialize(struct TreeNode* s) {
-    char *r = malloc(sizeof(char) * 1024);
-//    memset(r, '\0', sizeof(char) * 1024);
+    char *r = malloc(sizeof(char) * 102400); // CARE!!!
+    memset(r, 0, sizeof(char) * 102400); // CARE!!!
     serialize(s, r);
     return r;
 }

@@ -101,43 +101,49 @@ int main(int argc, const char * argv[]) {
     }
     
     {
-        struct TreeNode* root = malloc(sizeof(struct TreeNode));
-        root->val = 3;
-        struct TreeNode* t5 = malloc(sizeof(struct TreeNode));
-        t5->val = 5;
-        t5->left = NULL;
-        t5->right = NULL;
-        struct TreeNode* t4 = malloc(sizeof(struct TreeNode));
-        t4->val = 4;
-        struct TreeNode* t1 = malloc(sizeof(struct TreeNode));
-        t1->val = 1;
-        t1->left = NULL;
-        t1->right = NULL;
-        struct TreeNode* t2 = malloc(sizeof(struct TreeNode));
-        t2->val = 2;
-        t2->left = NULL;
-        t2->right = NULL;
-        
-        root->right = t5;
-        root->left = t4;
-        root->left->left = t1;
-        root->left->right = t2;
-        
-        struct TreeNode* node = malloc(sizeof(struct TreeNode));
-        node->val = 4;
-        struct TreeNode* n1 = malloc(sizeof(struct TreeNode));
-        n1->val = 1;
-        n1->left = NULL;
-        n1->right = NULL;
-        struct TreeNode* n2 = malloc(sizeof(struct TreeNode));
-        n2->val = 2;
-        n2->left = NULL;
-        n2->right = NULL;
-        node->left = n1;
-        node->right = n2;
-        
-        isSubtree(root, node);
+//        struct TreeNode* root = malloc(sizeof(struct TreeNode));
+//        root->val = 3;
+//        struct TreeNode* t5 = malloc(sizeof(struct TreeNode));
+//        t5->val = 5;
+//        t5->left = NULL;
+//        t5->right = NULL;
+//        struct TreeNode* t4 = malloc(sizeof(struct TreeNode));
+//        t4->val = 4;
+//        struct TreeNode* t1 = malloc(sizeof(struct TreeNode));
+//        t1->val = 1;
+//        t1->left = NULL;
+//        t1->right = NULL;
+//        struct TreeNode* t2 = malloc(sizeof(struct TreeNode));
+//        t2->val = 2;
+//        t2->left = NULL;
+//        t2->right = NULL;
+//
+//        root->right = t5;
+//        root->left = t4;
+//        root->left->left = t1;
+//        root->left->right = t2;
+//
+//        struct TreeNode* node = malloc(sizeof(struct TreeNode));
+//        node->val = 4;
+//        struct TreeNode* n1 = malloc(sizeof(struct TreeNode));
+//        n1->val = 1;
+//        n1->left = NULL;
+//        n1->right = NULL;
+//        struct TreeNode* n2 = malloc(sizeof(struct TreeNode));
+//        n2->val = 2;
+//        n2->left = NULL;
+//        n2->right = NULL;
+//        node->left = n1;
+//        node->right = n2;
+//
+//        isSubtree(root, node);
     }
+    
+    
+    
+    
+    
+    
     
     return 0;
 }
