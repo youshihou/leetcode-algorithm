@@ -26,6 +26,7 @@
 		03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64A24544401001D5584 /* T739-daily-temperatures.c */; };
 		03C8A64F24546A3C001D5584 /* T01-09-string-rotation-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64E24546A3C001D5584 /* T01-09-string-rotation-lcci.c */; };
 		03C8A653245474F3001D5584 /* T572-subtree-of-another-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A652245474F3001D5584 /* T572-subtree-of-another-tree.c */; };
+		03F438D12459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F438D02459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c */; };
 		03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F935862450732000FCF702 /* T2-add-two-numbers.c */; };
 		03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */; };
 /* End PBXBuildFile section */
@@ -84,6 +85,8 @@
 		03C8A65024546DB5001D5584 /* string-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "string-common.h"; sourceTree = "<group>"; };
 		03C8A651245474F3001D5584 /* T572-subtree-of-another-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T572-subtree-of-another-tree.h"; sourceTree = "<group>"; };
 		03C8A652245474F3001D5584 /* T572-subtree-of-another-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T572-subtree-of-another-tree.c"; sourceTree = "<group>"; };
+		03F438CF2459BBC800E668AA /* T3-longest-substring-without-repeating-characters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T3-longest-substring-without-repeating-characters.h"; sourceTree = "<group>"; };
+		03F438D02459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T3-longest-substring-without-repeating-characters.c"; sourceTree = "<group>"; };
 		03F935852450732000FCF702 /* T2-add-two-numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T2-add-two-numbers.h"; sourceTree = "<group>"; };
 		03F935862450732000FCF702 /* T2-add-two-numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T2-add-two-numbers.c"; sourceTree = "<group>"; };
 		03F9358824508A3E00FCF702 /* T160-intersection-of-two-linked-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T160-intersection-of-two-linked-lists.h"; sourceTree = "<group>"; };
@@ -196,6 +199,8 @@
 				03211BA3245721E400632DD8 /* T242-valid-anagram.c */,
 				0345CF5E2458702700D8E5AE /* T151-reverse-words-in-a-string.h */,
 				0345CF5F2458702700D8E5AE /* T151-reverse-words-in-a-string.c */,
+				03F438CF2459BBC800E668AA /* T3-longest-substring-without-repeating-characters.h */,
+				03F438D02459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c */,
 			);
 			path = string;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				03C8A6482454260D001D5584 /* stack.c in Sources */,
 				03C8A64F24546A3C001D5584 /* T01-09-string-rotation-lcci.c in Sources */,
 				03211BA4245721E400632DD8 /* T242-valid-anagram.c in Sources */,
+				03F438D12459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c in Sources */,
 				030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
