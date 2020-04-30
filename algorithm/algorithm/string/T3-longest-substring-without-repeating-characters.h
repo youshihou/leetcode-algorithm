@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+int lengthOfLongestSubstring(char * s);
+
 #endif /* T3_longest_substring_without_repeating_characters_h */
