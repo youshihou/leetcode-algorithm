@@ -20,6 +20,13 @@
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
+		038BDDFA245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF9245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.c */; };
+		038BDDFD245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDFC245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.c */; };
+		038BDE00245C079B00AA6763 /* T122-best-time-to-buy-and-sell-stock-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDFF245C079B00AA6763 /* T122-best-time-to-buy-and-sell-stock-ii.c */; };
+		038BDE03245C07DD00AA6763 /* T123-best-time-to-buy-and-sell-stock-iii.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDE02245C07DD00AA6763 /* T123-best-time-to-buy-and-sell-stock-iii.c */; };
+		038BDE06245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDE05245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.c */; };
+		038BDE09245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDE08245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c */; };
+		038BDE0C245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDE0B245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.c */; };
 		03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */ = {isa = PBXBuildFile; fileRef = 03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */; };
 		03C8A63924531081001D5584 /* T138-copy-list-with-random-pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */; };
 		03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63C245312FC001D5584 /* T155-min-stack.c */; };
@@ -75,6 +82,20 @@
 		038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T64-minimum-path-sum.c"; sourceTree = "<group>"; };
 		038BDDF5245BC1D100AA6763 /* T62-unique-paths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T62-unique-paths.h"; sourceTree = "<group>"; };
 		038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T62-unique-paths.c"; sourceTree = "<group>"; };
+		038BDDF8245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T121-best-time-to-buy-and-sell-stock.h"; sourceTree = "<group>"; };
+		038BDDF9245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T121-best-time-to-buy-and-sell-stock.c"; sourceTree = "<group>"; };
+		038BDDFB245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T63-gu-piao-de-zui-da-li-run-lcof.h"; sourceTree = "<group>"; };
+		038BDDFC245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T63-gu-piao-de-zui-da-li-run-lcof.c"; sourceTree = "<group>"; };
+		038BDDFE245C079B00AA6763 /* T122-best-time-to-buy-and-sell-stock-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T122-best-time-to-buy-and-sell-stock-ii.h"; sourceTree = "<group>"; };
+		038BDDFF245C079B00AA6763 /* T122-best-time-to-buy-and-sell-stock-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T122-best-time-to-buy-and-sell-stock-ii.c"; sourceTree = "<group>"; };
+		038BDE01245C07DD00AA6763 /* T123-best-time-to-buy-and-sell-stock-iii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T123-best-time-to-buy-and-sell-stock-iii.h"; sourceTree = "<group>"; };
+		038BDE02245C07DD00AA6763 /* T123-best-time-to-buy-and-sell-stock-iii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T123-best-time-to-buy-and-sell-stock-iii.c"; sourceTree = "<group>"; };
+		038BDE04245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T188-best-time-to-buy-and-sell-stock-iv.h"; sourceTree = "<group>"; };
+		038BDE05245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T188-best-time-to-buy-and-sell-stock-iv.c"; sourceTree = "<group>"; };
+		038BDE07245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T714-best-time-to-buy-and-sell-stock-with-transaction-fee.h"; sourceTree = "<group>"; };
+		038BDE08245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c"; sourceTree = "<group>"; };
+		038BDE0A245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T674-longest-continuous-increasing-subsequence.h"; sourceTree = "<group>"; };
+		038BDE0B245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T674-longest-continuous-increasing-subsequence.c"; sourceTree = "<group>"; };
 		03AA31D3244DF66D008B0B20 /* T164-maximum-gap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T164-maximum-gap.h"; sourceTree = "<group>"; };
 		03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T164-maximum-gap.c"; sourceTree = "<group>"; };
 		03C8A63724531080001D5584 /* T138-copy-list-with-random-pointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T138-copy-list-with-random-pointer.h"; sourceTree = "<group>"; };
@@ -190,6 +211,20 @@
 				038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */,
 				038BDDF5245BC1D100AA6763 /* T62-unique-paths.h */,
 				038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */,
+				038BDE0A245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.h */,
+				038BDE0B245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.c */,
+				038BDDF8245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.h */,
+				038BDDF9245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.c */,
+				038BDDFE245C079B00AA6763 /* T122-best-time-to-buy-and-sell-stock-ii.h */,
+				038BDDFF245C079B00AA6763 /* T122-best-time-to-buy-and-sell-stock-ii.c */,
+				038BDE01245C07DD00AA6763 /* T123-best-time-to-buy-and-sell-stock-iii.h */,
+				038BDE02245C07DD00AA6763 /* T123-best-time-to-buy-and-sell-stock-iii.c */,
+				038BDE04245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.h */,
+				038BDE05245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.c */,
+				038BDE07245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.h */,
+				038BDE08245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c */,
+				038BDDFB245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.h */,
+				038BDDFC245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.c */,
 			);
 			path = "dynamic-programming";
 			sourceTree = "<group>";
@@ -290,10 +325,13 @@
 				035A4026244F330900CAFCCF /* T977-squares-of-a-sorted-array.c in Sources */,
 				03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */,
 				034039A2244D302B00896919 /* T88-merge-sorted-array.c in Sources */,
+				038BDE0C245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.c in Sources */,
+				038BDE03245C07DD00AA6763 /* T123-best-time-to-buy-and-sell-stock-iii.c in Sources */,
 				03C8A64224532E5F001D5584 /* T239-sliding-window-maximum.c in Sources */,
 				03C8A63924531081001D5584 /* T138-copy-list-with-random-pointer.c in Sources */,
 				03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */,
 				034039A0244D302A00896919 /* T75-sort-colors.c in Sources */,
+				038BDE09245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c in Sources */,
 				038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */,
 				03C8A653245474F3001D5584 /* T572-subtree-of-another-tree.c in Sources */,
 				03403993244D300E00896919 /* main.c in Sources */,
@@ -303,13 +341,17 @@
 				03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */,
 				0345CF602458702700D8E5AE /* T151-reverse-words-in-a-string.c in Sources */,
 				038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */,
+				038BDE00245C079B00AA6763 /* T122-best-time-to-buy-and-sell-stock-ii.c in Sources */,
 				034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */,
+				038BDDFD245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.c in Sources */,
 				03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */,
+				038BDE06245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.c in Sources */,
 				0300364F2451C7E80026657D /* T86-partition-list.c in Sources */,
 				038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */,
 				03C8A6482454260D001D5584 /* stack.c in Sources */,
 				03C8A64F24546A3C001D5584 /* T01-09-string-rotation-lcci.c in Sources */,
 				03211BA4245721E400632DD8 /* T242-valid-anagram.c in Sources */,
+				038BDDFA245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.c in Sources */,
 				03F438D12459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c in Sources */,
 				030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */,
 			);
