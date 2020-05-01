@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+int uniquePaths(int m, int n);
+
 #endif /* T62_unique_paths_h */

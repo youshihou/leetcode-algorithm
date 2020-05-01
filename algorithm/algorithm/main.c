@@ -16,6 +16,7 @@
 #include "T572-subtree-of-another-tree.h"
 #include "T151-reverse-words-in-a-string.h"
 #include "T3-longest-substring-without-repeating-characters.h"
+#include "T62-unique-paths.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -147,7 +148,11 @@ int main(int argc, const char * argv[]) {
     
     {
         
-        lengthOfLongestSubstring("au");
+//        lengthOfLongestSubstring("au");
+    }
+    
+    {
+        uniquePaths(3, 2);
     }
     
     
