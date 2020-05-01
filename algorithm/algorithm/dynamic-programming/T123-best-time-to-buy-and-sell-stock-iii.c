@@ -10,7 +10,7 @@
 
 #include "T123-best-time-to-buy-and-sell-stock-iii.h"
 
-int maxProfit(int* prices, int pricesSize) {
+int maxProfit3(int* prices, int pricesSize) {
 
     return 0;
 }

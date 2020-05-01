@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+int minDistance(char * word1, char * word2);
+
 #endif /* T72_edit_distance_h */

@@ -27,6 +27,8 @@
 		038BDE06245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDE05245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.c */; };
 		038BDE09245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDE08245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c */; };
 		038BDE0C245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDE0B245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.c */; };
+		038BDE0F245C0B3C00AA6763 /* T72-edit-distance.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDE0E245C0B3C00AA6763 /* T72-edit-distance.c */; };
+		038BDE12245C1CB300AA6763 /* T5-longest-palindromic-substring.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDE11245C1CB300AA6763 /* T5-longest-palindromic-substring.c */; };
 		03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */ = {isa = PBXBuildFile; fileRef = 03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */; };
 		03C8A63924531081001D5584 /* T138-copy-list-with-random-pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */; };
 		03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63C245312FC001D5584 /* T155-min-stack.c */; };
@@ -96,6 +98,10 @@
 		038BDE08245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c"; sourceTree = "<group>"; };
 		038BDE0A245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T674-longest-continuous-increasing-subsequence.h"; sourceTree = "<group>"; };
 		038BDE0B245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T674-longest-continuous-increasing-subsequence.c"; sourceTree = "<group>"; };
+		038BDE0D245C0B3C00AA6763 /* T72-edit-distance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T72-edit-distance.h"; sourceTree = "<group>"; };
+		038BDE0E245C0B3C00AA6763 /* T72-edit-distance.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T72-edit-distance.c"; sourceTree = "<group>"; };
+		038BDE10245C1CB300AA6763 /* T5-longest-palindromic-substring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T5-longest-palindromic-substring.h"; sourceTree = "<group>"; };
+		038BDE11245C1CB300AA6763 /* T5-longest-palindromic-substring.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T5-longest-palindromic-substring.c"; sourceTree = "<group>"; };
 		03AA31D3244DF66D008B0B20 /* T164-maximum-gap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T164-maximum-gap.h"; sourceTree = "<group>"; };
 		03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T164-maximum-gap.c"; sourceTree = "<group>"; };
 		03C8A63724531080001D5584 /* T138-copy-list-with-random-pointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T138-copy-list-with-random-pointer.h"; sourceTree = "<group>"; };
@@ -225,6 +231,10 @@
 				038BDE08245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c */,
 				038BDDFB245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.h */,
 				038BDDFC245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.c */,
+				038BDE0D245C0B3C00AA6763 /* T72-edit-distance.h */,
+				038BDE0E245C0B3C00AA6763 /* T72-edit-distance.c */,
+				038BDE10245C1CB300AA6763 /* T5-longest-palindromic-substring.h */,
+				038BDE11245C1CB300AA6763 /* T5-longest-palindromic-substring.c */,
 			);
 			path = "dynamic-programming";
 			sourceTree = "<group>";
@@ -336,7 +346,9 @@
 				03C8A653245474F3001D5584 /* T572-subtree-of-another-tree.c in Sources */,
 				03403993244D300E00896919 /* main.c in Sources */,
 				03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */,
+				038BDE0F245C0B3C00AA6763 /* T72-edit-distance.c in Sources */,
 				035A402A244F355000CAFCCF /* T203-remove-linked-list-elements.c in Sources */,
+				038BDE12245C1CB300AA6763 /* T5-longest-palindromic-substring.c in Sources */,
 				03C8A6452454182D001D5584 /* T654-maximum-binary-tree.c in Sources */,
 				03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */,
 				0345CF602458702700D8E5AE /* T151-reverse-words-in-a-string.c in Sources */,

@@ -10,7 +10,7 @@
 
 #include "T714-best-time-to-buy-and-sell-stock-with-transaction-fee.h"
 
-int maxProfit(int* prices, int pricesSize, int fee) {
+int maxProfit5(int* prices, int pricesSize, int fee) {
 
     return 0;
 }

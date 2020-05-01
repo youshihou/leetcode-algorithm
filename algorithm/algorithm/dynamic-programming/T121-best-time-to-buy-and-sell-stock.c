@@ -11,7 +11,7 @@
 #include "T121-best-time-to-buy-and-sell-stock.h"
 #include "dynamic-programming-common.h"
 
-int maxProfit(int* prices, int pricesSize) {
+int maxProfit1(int* prices, int pricesSize) {
     if (prices == NULL || pricesSize == 0) { return 0; }
     
     int max = 0;

@@ -17,6 +17,9 @@
 #include "T151-reverse-words-in-a-string.h"
 #include "T3-longest-substring-without-repeating-characters.h"
 #include "T62-unique-paths.h"
+#include "T72-edit-distance.h"
+
+
 
 int main(int argc, const char * argv[]) {
     
@@ -152,7 +155,11 @@ int main(int argc, const char * argv[]) {
     }
     
     {
-        uniquePaths(3, 2);
+//        uniquePaths(3, 2);
+    }
+    
+    {
+        minDistance("horse", "ros");
     }
     
     

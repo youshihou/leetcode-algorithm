@@ -11,7 +11,7 @@
 #include "T63-gu-piao-de-zui-da-li-run-lcof.h"
 #include "dynamic-programming-common.h"
 
-int maxProfit(int* prices, int pricesSize) {
+int maxProfit6(int* prices, int pricesSize) {
     if (prices == NULL || pricesSize == 0) { return 0; }
     
     int max = 0;
