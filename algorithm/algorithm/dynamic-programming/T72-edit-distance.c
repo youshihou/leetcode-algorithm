@@ -13,31 +13,36 @@
 
 int minDistance(char * word1, char * word2) {
     return 0;
+    
 //    if (word1 == NULL || word2 == NULL) { return 0; }
 //    size_t len1 = strlen(word1);
 //    size_t len2 = strlen(word2);
-
-    // horse
-    // ros
-    // TODO: - use int[]
-//    size_t len = MAX(len1, len2);
-//    int dp[len + 1];
-//    for (int i = 0; i <= len; i++) {
+//
+//    size_t rows = len1;
+//    size_t cols = len2;
+//    if (len1 < len2) {
+//        rows = len2;
+//        cols = len1;
+//    }
+//    // TODO: use int[]
+//    int dp[cols + 1];
+//    for (int i = 0; i <= cols; i++) {
 //        dp[i] = i;
 //    }
-//    for (int i = 1; i <= len1; i++) {
+//    for (int row = 1; row <= rows; row++) {
 //        int cur = 0;
-//        for (int j = 1; j <= len2; j++) {
+//        for (int col = 1; col <= cols; col++) {
 //            int leftTop = cur;
-//            cur = dp[j];
-//            if (word1[i - 1] != word2[j - 1]) {
+//            cur = dp[col];
+//            int top = dp[col - 1] + 1;
+//            int left = dp[col] + 1;
+//            if (word1[row - 1] != word2[col - 1]) {
 //                leftTop++;
 //            }
-//            dp[j] = MIN(leftTop, dp[j - 1]);
+//            dp[col] = MIN(leftTop, MIN(top, left));
 //        }
 //    }
-//
-//    return dp[len];
+//    return dp[cols];
 }
 
 int minDistance1(char * word1, char * word2) {
