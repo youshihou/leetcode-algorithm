@@ -49,12 +49,28 @@ void recoverTree(struct TreeNode* root) {
                 node = node->left;
             } else { // pred->right == node
                 find(&prev, &first, &second, node);
+//                if (prev != NULL && prev->val > node->val) {
+//                    second = node;
+//                    if (first == NULL) {
+//                        first = prev;
+//                    }
+//                }
+//                prev = node;
+                
                 pred->right = NULL;
                 node = node->right;
             }
             
         } else {
             find(&prev, &first, &second, node);
+//            if (prev != NULL && prev->val > node->val) {
+//                second = node;
+//                if (first == NULL) {
+//                    first = prev;
+//                }
+//            }
+//            prev = node;
+            
             node = node->right;
         }
     }
