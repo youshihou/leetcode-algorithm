@@ -11,6 +11,37 @@
 #include "T5-longest-palindromic-substring.h"
 #include "dynamic-programming-common.h"
 
+
+char * longestPalindrome(char * s) {
+    if (s == NULL) { return NULL; }
+    int len = (int)strlen(s);
+    if (len <= 1) { return s; }
+    
+    int maxLen = 1;
+    int begin = 0;
+    int i = 0;
+    while (i < len) {
+        int l = i - 1;
+        int r = i;
+        while (++r < len && s[r] == s[i]) ;
+        i = r;
+        while (l >= 0 && r < len && s[l] == s[r]) {
+            l--;
+            r++;
+        }
+        int le = r - ++l;
+        if (le > maxLen) {
+            maxLen = le;
+            begin = l;
+        }
+    }
+    
+    s[begin + maxLen] = '\0';
+    return s + begin;
+}
+
+
+
 int palindromeLength(char * s, int l, int r) {
     while (l >= 0 && r < strlen(s) && s[l] == s[r]) {
         l--;
@@ -19,7 +50,7 @@ int palindromeLength(char * s, int l, int r) {
     return r - l - 1;
 }
 
-char * longestPalindrome(char * s) {
+char * longestPalindrome2(char * s) {
     if (s == NULL) { return NULL; }
     int len = (int)strlen(s);
     if (len <= 1) { return s; }
