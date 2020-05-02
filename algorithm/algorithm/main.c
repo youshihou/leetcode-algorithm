@@ -19,6 +19,7 @@
 #include "T62-unique-paths.h"
 #include "T72-edit-distance.h"
 #include "T5-longest-palindromic-substring.h"
+#include "T99-recover-binary-search-tree.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -160,6 +161,35 @@ int main(int argc, const char * argv[]) {
     
     {
 //        minDistance("horse", "ros");
+    }
+    
+    {
+        /*
+         输入: [3,1,4,null,null,2]
+           3
+          / \
+         1   4
+            /
+           2
+         */
+
+        struct TreeNode* t2 = malloc(sizeof(struct TreeNode));
+        t2->val = 2;
+        t2->left = NULL;
+        t2->right = NULL;
+        struct TreeNode* t1 = malloc(sizeof(struct TreeNode));
+        t1->val = 1;
+        t1->left = NULL;
+        t1->right = NULL;
+        struct TreeNode* t4 = malloc(sizeof(struct TreeNode));
+        t4->val = 4;
+        t4->left = t2;
+        t4->right = NULL;
+        struct TreeNode* root = malloc(sizeof(struct TreeNode));
+        root->val = 3;
+        root->left = t1;
+        root->right = t4;
+        recoverTree1(root);
     }
     
     

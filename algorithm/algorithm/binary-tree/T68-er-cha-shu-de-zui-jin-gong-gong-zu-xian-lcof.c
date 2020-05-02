@@ -21,7 +21,7 @@
  */
 
 
-struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p, struct TreeNode* q) {
+struct TreeNode* lowestCommonAncestor1(struct TreeNode* root, struct TreeNode* p, struct TreeNode* q) {
 
     return NULL;
 }
