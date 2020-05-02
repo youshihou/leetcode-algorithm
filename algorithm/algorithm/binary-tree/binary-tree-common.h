@@ -9,5 +9,11 @@
 #ifndef binary_tree_common_h
 #define binary_tree_common_h
 
+#include <stdlib.h>
+#include <stdbool.h>
+#include <string.h>
+
+#include "stack-queue-common.h"
+
 
 #endif /* binary_tree_common_h */

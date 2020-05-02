@@ -6,4 +6,22 @@
 //  Copyright © 2020 Ankui. All rights reserved.
 //
 
+// https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/
+
 #include "T68-er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.h"
+#include "binary-tree-common.h"
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     struct TreeNode *left;
+ *     struct TreeNode *right;
+ * };
+ */
+
+
+struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p, struct TreeNode* q) {
+
+    return NULL;
+}
