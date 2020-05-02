@@ -20,6 +20,54 @@
  */
 
 
+void find(struct TreeNode** prev, struct TreeNode** first, struct TreeNode** second, struct TreeNode* node) {
+    if (*prev != NULL && (*prev)->val > node->val) {
+        *second = node;
+        if (*first != NULL) { return; }
+        *first = *prev;
+    }
+    *prev = node;
+}
+
+void recoverTree(struct TreeNode* root) {
+    if (root == NULL) { return; }
+    
+    struct TreeNode* prev = NULL;
+    struct TreeNode* first = NULL;
+    struct TreeNode* second = NULL;
+
+    struct TreeNode* node = root;
+    while (node != NULL) {
+        if (node->left != NULL) {
+            struct TreeNode* pred = node->left;
+            while (pred->right != NULL && pred->right != node) {
+                pred = pred->right;
+            }
+            
+            if (pred->right == NULL) {
+                pred->right = node;
+                node = node->left;
+            } else { // pred->right == node
+                find(&prev, &first, &second, node);
+                pred->right = NULL;
+                node = node->right;
+            }
+            
+        } else {
+            find(&prev, &first, &second, node);
+            node = node->right;
+        }
+    }
+    
+    int val = first->val;
+    first->val = second->val;
+    second->val = val;
+}
+
+
+
+
+
 void findNode(struct TreeNode* root, struct TreeNode** prev, struct TreeNode** first, struct TreeNode** second) {
     if (root == NULL) { return; }
     
@@ -41,8 +89,7 @@ void findNode(struct TreeNode* root, struct TreeNode** prev, struct TreeNode** f
     findNode(root->right, prev, first, second);
 }
 
-
-void recoverTree(struct TreeNode* root) {
+void recoverTree2(struct TreeNode* root) {
     if (root == NULL) { return; }
     
 //    findWrongNode(root);
