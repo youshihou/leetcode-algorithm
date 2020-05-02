@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+char * longestPalindrome(char * s);
+
 #endif /* T5_longest_palindromic_substring_h */

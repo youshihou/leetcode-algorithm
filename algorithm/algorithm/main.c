@@ -18,7 +18,7 @@
 #include "T3-longest-substring-without-repeating-characters.h"
 #include "T62-unique-paths.h"
 #include "T72-edit-distance.h"
-
+#include "T5-longest-palindromic-substring.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -159,9 +159,8 @@ int main(int argc, const char * argv[]) {
     }
     
     {
-        minDistance("horse", "ros");
+//        minDistance("horse", "ros");
     }
-    
     
     
     return 0;
