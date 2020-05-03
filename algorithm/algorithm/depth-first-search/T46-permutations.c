@@ -17,13 +17,13 @@
  * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
  */
 
-void swap(int* nums, int i, int j) {
+void swap1(int* nums, int i, int j) {
     int tmp = nums[i];
     nums[i] = nums[j];
     nums[j] = tmp;
 }
 
-void dfs(int* nums, int numsSize, int* returnSize, int** returnColumnSizes, int** list, int idx) {
+void dfs2(int* nums, int numsSize, int* returnSize, int** returnColumnSizes, int** list, int idx) {
     if (idx == numsSize) {
         list[*returnSize] = malloc(sizeof(int) * numsSize);
         memcpy(list[*returnSize], nums, sizeof(int) * numsSize);
@@ -33,9 +33,9 @@ void dfs(int* nums, int numsSize, int* returnSize, int** returnColumnSizes, int*
     }
     
     for (int i = idx; i < numsSize; i++) {
-        swap(nums, idx, i);
-        dfs(nums, numsSize, returnSize, returnColumnSizes, list, idx + 1);
-        swap(nums, idx, i);
+        swap1(nums, idx, i);
+        dfs2(nums, numsSize, returnSize, returnColumnSizes, list, idx + 1);
+        swap1(nums, idx, i);
     }
 }
 
@@ -52,7 +52,7 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     memset(list, 0, sizeof(int *) * len);
     *returnColumnSizes = malloc(sizeof(int) * len);
 
-    dfs(nums, numsSize, returnSize, returnColumnSizes, list, 0);
+    dfs2(nums, numsSize, returnSize, returnColumnSizes, list, 0);
     
     return list;
 }
