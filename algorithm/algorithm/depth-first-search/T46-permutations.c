@@ -17,7 +17,48 @@
  * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
  */
 
-void dfs(int* nums, int numsSize, int* returnSize, int** returnColumnSizes, bool* used, int* array, int** list, int idx) {
+void swap(int* nums, int i, int j) {
+    int tmp = nums[i];
+    nums[i] = nums[j];
+    nums[j] = tmp;
+}
+
+void dfs(int* nums, int numsSize, int* returnSize, int** returnColumnSizes, int** list, int idx) {
+    if (idx == numsSize) {
+        list[*returnSize] = malloc(sizeof(int) * numsSize);
+        memcpy(list[*returnSize], nums, sizeof(int) * numsSize);
+        (*returnColumnSizes)[*returnSize] = numsSize;
+        (*returnSize)++;
+        return;
+    }
+    
+    for (int i = idx; i < numsSize; i++) {
+        swap(nums, idx, i);
+        dfs(nums, numsSize, returnSize, returnColumnSizes, list, idx + 1);
+        swap(nums, idx, i);
+    }
+}
+
+int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes) {
+    *returnSize = 0;
+    (*returnColumnSizes)[0] = 0;
+    if (nums == NULL || numsSize == 0) { return NULL; }
+        
+    int len = 1;
+    for (int i = 1; i <= numsSize; i++) {
+        len *= i;
+    }
+    int** list = malloc(sizeof(int *) * len);
+    memset(list, 0, sizeof(int *) * len);
+    *returnColumnSizes = malloc(sizeof(int) * len);
+
+    dfs(nums, numsSize, returnSize, returnColumnSizes, list, 0);
+    
+    return list;
+}
+
+
+void dfs1(int* nums, int numsSize, int* returnSize, int** returnColumnSizes, bool* used, int* array, int** list, int idx) {
     if (idx == numsSize) {
         list[*returnSize] = malloc(sizeof(int) * numsSize);
         memcpy(list[*returnSize], array, sizeof(int) *numsSize);
@@ -32,12 +73,12 @@ void dfs(int* nums, int numsSize, int* returnSize, int** returnColumnSizes, bool
         if (used[i]) continue;
         array[idx] = nums[i];
         used[i] = true;
-        dfs(nums, numsSize, returnSize, returnColumnSizes, used, array, list, idx + 1);
+        dfs1(nums, numsSize, returnSize, returnColumnSizes, used, array, list, idx + 1);
         used[i] = false;
     }
 }
 
-int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes) {
+int** permute1(int* nums, int numsSize, int* returnSize, int** returnColumnSizes) {
     *returnSize = 0;
 //    **returnColumnSizes = 0;
     (*returnColumnSizes)[0] = 0;
@@ -56,7 +97,7 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     memset(list, 0, sizeof(int *) * len);
     *returnColumnSizes = malloc(sizeof(int) * len);
 
-    dfs(nums, numsSize, returnSize, returnColumnSizes, used, array, list, 0);
+    dfs1(nums, numsSize, returnSize, returnColumnSizes, used, array, list, 0);
     
     return list;
 }
