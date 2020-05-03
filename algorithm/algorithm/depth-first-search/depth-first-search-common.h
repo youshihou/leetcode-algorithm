@@ -12,5 +12,6 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
+#include "stack-queue-common.h"
 
 #endif /* depth_first_search_common_h */

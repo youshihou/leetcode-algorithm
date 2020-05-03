@@ -37,6 +37,10 @@
 		039AD434245E950800A3935C /* T46-permutations.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD433245E950800A3935C /* T46-permutations.c */; };
 		039AD437245EB65D00A3935C /* T47-permutations-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD436245EB65D00A3935C /* T47-permutations-ii.c */; };
 		039AD43A245EC55500A3935C /* T22-generate-parentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD439245EC55500A3935C /* T22-generate-parentheses.c */; };
+		039AD43D245ED1C700A3935C /* T113-path-sum-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD43C245ED1C700A3935C /* T113-path-sum-ii.c */; };
+		039AD440245ED32A00A3935C /* T39-combination-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD43F245ED32A00A3935C /* T39-combination-sum.c */; };
+		039AD443245EE5DD00A3935C /* T112-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD442245EE5DD00A3935C /* T112-path-sum.c */; };
+		039AD446245EE62E00A3935C /* T93-restore-ip-addresses.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD445245EE62E00A3935C /* T93-restore-ip-addresses.c */; };
 		03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */ = {isa = PBXBuildFile; fileRef = 03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */; };
 		03C8A63924531081001D5584 /* T138-copy-list-with-random-pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */; };
 		03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63C245312FC001D5584 /* T155-min-stack.c */; };
@@ -128,6 +132,14 @@
 		039AD436245EB65D00A3935C /* T47-permutations-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-permutations-ii.c"; sourceTree = "<group>"; };
 		039AD438245EC55500A3935C /* T22-generate-parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T22-generate-parentheses.h"; sourceTree = "<group>"; };
 		039AD439245EC55500A3935C /* T22-generate-parentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T22-generate-parentheses.c"; sourceTree = "<group>"; };
+		039AD43B245ED1C700A3935C /* T113-path-sum-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T113-path-sum-ii.h"; sourceTree = "<group>"; };
+		039AD43C245ED1C700A3935C /* T113-path-sum-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T113-path-sum-ii.c"; sourceTree = "<group>"; };
+		039AD43E245ED32A00A3935C /* T39-combination-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T39-combination-sum.h"; sourceTree = "<group>"; };
+		039AD43F245ED32A00A3935C /* T39-combination-sum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T39-combination-sum.c"; sourceTree = "<group>"; };
+		039AD441245EE5DD00A3935C /* T112-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T112-path-sum.h"; sourceTree = "<group>"; };
+		039AD442245EE5DD00A3935C /* T112-path-sum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T112-path-sum.c"; sourceTree = "<group>"; };
+		039AD444245EE62E00A3935C /* T93-restore-ip-addresses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T93-restore-ip-addresses.h"; sourceTree = "<group>"; };
+		039AD445245EE62E00A3935C /* T93-restore-ip-addresses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T93-restore-ip-addresses.c"; sourceTree = "<group>"; };
 		03AA31D3244DF66D008B0B20 /* T164-maximum-gap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T164-maximum-gap.h"; sourceTree = "<group>"; };
 		03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T164-maximum-gap.c"; sourceTree = "<group>"; };
 		03C8A63724531080001D5584 /* T138-copy-list-with-random-pointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T138-copy-list-with-random-pointer.h"; sourceTree = "<group>"; };
@@ -295,6 +307,14 @@
 				039AD436245EB65D00A3935C /* T47-permutations-ii.c */,
 				039AD438245EC55500A3935C /* T22-generate-parentheses.h */,
 				039AD439245EC55500A3935C /* T22-generate-parentheses.c */,
+				039AD441245EE5DD00A3935C /* T112-path-sum.h */,
+				039AD442245EE5DD00A3935C /* T112-path-sum.c */,
+				039AD43B245ED1C700A3935C /* T113-path-sum-ii.h */,
+				039AD43C245ED1C700A3935C /* T113-path-sum-ii.c */,
+				039AD43E245ED32A00A3935C /* T39-combination-sum.h */,
+				039AD43F245ED32A00A3935C /* T39-combination-sum.c */,
+				039AD444245EE62E00A3935C /* T93-restore-ip-addresses.h */,
+				039AD445245EE62E00A3935C /* T93-restore-ip-addresses.c */,
 			);
 			path = "depth-first-search";
 			sourceTree = "<group>";
@@ -406,11 +426,13 @@
 				034039A0244D302A00896919 /* T75-sort-colors.c in Sources */,
 				038BDE09245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c in Sources */,
 				03965270245D7B46008049D8 /* T68-er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.c in Sources */,
+				039AD443245EE5DD00A3935C /* T112-path-sum.c in Sources */,
 				038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */,
 				0396527B245DD04E008049D8 /* T17-letter-combinations-of-a-phone-number.c in Sources */,
 				03C8A653245474F3001D5584 /* T572-subtree-of-another-tree.c in Sources */,
 				03403993244D300E00896919 /* main.c in Sources */,
 				03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */,
+				039AD43D245ED1C700A3935C /* T113-path-sum-ii.c in Sources */,
 				038BDE0F245C0B3C00AA6763 /* T72-edit-distance.c in Sources */,
 				035A402A244F355000CAFCCF /* T203-remove-linked-list-elements.c in Sources */,
 				038BDE12245C1CB300AA6763 /* T5-longest-palindromic-substring.c in Sources */,
@@ -419,6 +441,7 @@
 				03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */,
 				0345CF602458702700D8E5AE /* T151-reverse-words-in-a-string.c in Sources */,
 				038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */,
+				039AD440245ED32A00A3935C /* T39-combination-sum.c in Sources */,
 				038BDE00245C079B00AA6763 /* T122-best-time-to-buy-and-sell-stock-ii.c in Sources */,
 				034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */,
 				038BDDFD245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.c in Sources */,
@@ -426,6 +449,7 @@
 				038BDE06245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.c in Sources */,
 				0300364F2451C7E80026657D /* T86-partition-list.c in Sources */,
 				038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */,
+				039AD446245EE62E00A3935C /* T93-restore-ip-addresses.c in Sources */,
 				03965273245D83D4008049D8 /* T99-recover-binary-search-tree.c in Sources */,
 				03C8A6482454260D001D5584 /* stack.c in Sources */,
 				039AD437245EB65D00A3935C /* T47-permutations-ii.c in Sources */,

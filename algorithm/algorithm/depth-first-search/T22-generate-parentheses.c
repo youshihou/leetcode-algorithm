@@ -15,7 +15,7 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
 
-void dfs(int n, int* returnSize, int left, int right, char* string, char** list, int idx) {
+void dfs4(int n, int* returnSize, int left, int right, char* string, char** list, int idx) {
     if (idx == (n << 1)) {
         list[*returnSize] = malloc(sizeof(char) * ((n << 1) + 1)); // CARE!!!
         strcpy(list[*returnSize], string);
@@ -25,12 +25,12 @@ void dfs(int n, int* returnSize, int left, int right, char* string, char** list,
     
     if (left > 0) {
         string[idx] = '(';
-        dfs(n, returnSize, left - 1, right, string, list, idx + 1);
+        dfs4(n, returnSize, left - 1, right, string, list, idx + 1);
     }
     
     if (right > 0 && left != right) {
         string[idx] = ')';
-        dfs(n, returnSize, left, right - 1, string, list, idx + 1);
+        dfs4(n, returnSize, left, right - 1, string, list, idx + 1);
     }
 }
 
@@ -48,7 +48,7 @@ char ** generateParenthesis(int n, int* returnSize) {
     char* string = malloc(sizeof(char) * ((n << 1) + 1));
     memset(string, '\0', sizeof(char) * ((n << 1) + 1));
     
-    dfs(n, returnSize, n, n, string, list, 0);
+    dfs4(n, returnSize, n, n, string, list, 0);
     
     return list;
 }
