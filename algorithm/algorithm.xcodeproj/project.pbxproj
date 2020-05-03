@@ -34,6 +34,7 @@
 		03965273245D83D4008049D8 /* T99-recover-binary-search-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 03965272245D83D4008049D8 /* T99-recover-binary-search-tree.c */; };
 		03965276245DBDCC008049D8 /* T333-largest-bst-subtree.c in Sources */ = {isa = PBXBuildFile; fileRef = 03965275245DBDCC008049D8 /* T333-largest-bst-subtree.c */; };
 		0396527B245DD04E008049D8 /* T17-letter-combinations-of-a-phone-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 0396527A245DD04E008049D8 /* T17-letter-combinations-of-a-phone-number.c */; };
+		039AD434245E950800A3935C /* T46-permutations.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD433245E950800A3935C /* T46-permutations.c */; };
 		03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */ = {isa = PBXBuildFile; fileRef = 03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */; };
 		03C8A63924531081001D5584 /* T138-copy-list-with-random-pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */; };
 		03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63C245312FC001D5584 /* T155-min-stack.c */; };
@@ -119,6 +120,8 @@
 		03965278245DD015008049D8 /* depth-first-search-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "depth-first-search-common.h"; sourceTree = "<group>"; };
 		03965279245DD04E008049D8 /* T17-letter-combinations-of-a-phone-number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T17-letter-combinations-of-a-phone-number.h"; sourceTree = "<group>"; };
 		0396527A245DD04E008049D8 /* T17-letter-combinations-of-a-phone-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T17-letter-combinations-of-a-phone-number.c"; sourceTree = "<group>"; };
+		039AD432245E950800A3935C /* T46-permutations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T46-permutations.h"; sourceTree = "<group>"; };
+		039AD433245E950800A3935C /* T46-permutations.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T46-permutations.c"; sourceTree = "<group>"; };
 		03AA31D3244DF66D008B0B20 /* T164-maximum-gap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T164-maximum-gap.h"; sourceTree = "<group>"; };
 		03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T164-maximum-gap.c"; sourceTree = "<group>"; };
 		03C8A63724531080001D5584 /* T138-copy-list-with-random-pointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T138-copy-list-with-random-pointer.h"; sourceTree = "<group>"; };
@@ -280,6 +283,8 @@
 				03965278245DD015008049D8 /* depth-first-search-common.h */,
 				03965279245DD04E008049D8 /* T17-letter-combinations-of-a-phone-number.h */,
 				0396527A245DD04E008049D8 /* T17-letter-combinations-of-a-phone-number.c */,
+				039AD432245E950800A3935C /* T46-permutations.h */,
+				039AD433245E950800A3935C /* T46-permutations.c */,
 			);
 			path = "depth-first-search";
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				035A4026244F330900CAFCCF /* T977-squares-of-a-sorted-array.c in Sources */,
+				039AD434245E950800A3935C /* T46-permutations.c in Sources */,
 				03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */,
 				034039A2244D302B00896919 /* T88-merge-sorted-array.c in Sources */,
 				038BDE0C245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.c in Sources */,
