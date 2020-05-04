@@ -11,7 +11,7 @@
 #include "T283-move-zeroes.h"
 
 void moveZeroes(int* nums, int numsSize) {
-    if (nums == NULL || numsSize == 0) { return; }
+    if (nums == NULL || numsSize <= 0) { return; }
     
     for (int i = 0, cur = 0; i < numsSize; i++) {
         if (nums[i] == 0) { continue; }
