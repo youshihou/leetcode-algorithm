@@ -14,7 +14,98 @@
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
-char ** restoreIpAddresses(char * s, int* returnSize) {
 
-    return NULL;
+bool isValid(char* s, int len) {
+    if (len <= 0 || len > 3) { return false; }
+    if (len > 1 && s[0] - '0' == 0) { return false; }
+    
+    int num = 0;
+    for (int i = 0; i < len; i++) {
+        num = num * 10 + s[i] - '0';
+    }
+    return num > 255 ? false : true;
+}
+
+void dfs(char* s, int* returnSize, char* string, char** list, int idx, int start) {
+    if (start > 4) { return; }
+    if (s[0] == '\0' && start == 4) {
+        list[*returnSize] = malloc(sizeof(char) * (strlen(string) + 1));
+        strcpy(list[*returnSize], string);
+        (*returnSize)++;
+        return;
+    }
+    
+    if (start > 0 && start < 4) {
+        string[idx++] = '.';
+    }
+    for (int i = 1; i <= 3 && i <= strlen(s); i++) {
+        if (isValid(s, i)) {
+            for (int j = 0; j < i; j++) {
+                string[idx + j] = s[j];
+            }
+            dfs(s + i, returnSize, string, list, idx + i, start + 1);
+        }
+    }
+}
+
+char ** restoreIpAddresses(char * s, int* returnSize) {
+    *returnSize = 0;
+    if (s == NULL) { return NULL; }
+    size_t len = strlen(s);
+    if (len < 4 || len > 12) { return NULL; }
+    
+    int maxLen = 1024;
+    char** list = malloc(sizeof(char*) * maxLen);
+    memset(list, '\0', sizeof(char*) * maxLen);
+    
+    char* string = malloc(sizeof(char) * (len + 4));
+    memset(string, '\0', sizeof(char) * (len + 4));
+
+    dfs(s, returnSize, string, list, 0, 0);
+    
+    return list;
+}
+
+
+
+
+
+void dfs1111(char* s, int* returnSize, char* string, char** list, int idx, int start) {
+    if (start > 4) { return; }
+    if (s[0] == '\0' && start == 4) {
+        list[*returnSize] = malloc(sizeof(char) * (strlen(string) + 1));
+        strcpy(list[*returnSize], string);
+        (*returnSize)++;
+        return;
+    }
+    
+    if (start > 0 && start < 4) {
+        string[idx++] = '.';
+    }
+    for (int i = 1; i <= 3 && i <= strlen(s); i++) { // CARE!!!  && i <= strlen(s)
+        if (isValid(s, i)) {
+            for (int j = 0; j < i; j++) {
+                string[idx + j] = s[j];
+            }
+            dfs1111(s + i, returnSize, string, list, idx + i, start + 1);
+        }
+    }
+}
+
+char ** restoreIpAddresses1(char * s, int* returnSize) {
+    *returnSize = 0;
+    if (s == NULL) { return NULL; }
+    size_t len = strlen(s);
+    if (len < 4 || len > 12) { return NULL; }
+    
+    int maxLen = 1024;
+    char** list = malloc(sizeof(char*) * maxLen);
+    memset(list, '\0', sizeof(char*) * maxLen);
+    
+    char* string = malloc(sizeof(char) * (len + 4));
+    memset(string, '\0', sizeof(char) * (len + 4));
+
+    dfs(s, returnSize, string, list, 0, 0);
+    
+    return list;
 }
