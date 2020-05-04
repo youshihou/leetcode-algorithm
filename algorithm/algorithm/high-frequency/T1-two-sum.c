@@ -23,7 +23,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     *returnSize = 2;
     
     struct hash_table table;
-    hash_init(&table, 17);
+    hash_init(&table, 37); // magic number
     for (int i = 0; i < numsSize; i++) {
         int key = target - nums[i];
         struct hash_data* data = hash_find(table, key);

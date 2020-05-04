@@ -20,6 +20,7 @@
 		035D9F6D245FD9B800D22BB8 /* T283-move-zeroes.c in Sources */ = {isa = PBXBuildFile; fileRef = 035D9F6C245FD9B800D22BB8 /* T283-move-zeroes.c */; };
 		035D9F70245FE6E700D22BB8 /* T1-two-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 035D9F6F245FE6E700D22BB8 /* T1-two-sum.c */; };
 		035D9F73245FEADA00D22BB8 /* hash_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 035D9F72245FEADA00D22BB8 /* hash_table.c */; };
+		035D9F7624600D2B00D22BB8 /* T15-3sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 035D9F7524600D2B00D22BB8 /* T15-3sum.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -99,6 +100,8 @@
 		035D9F6F245FE6E700D22BB8 /* T1-two-sum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T1-two-sum.c"; sourceTree = "<group>"; };
 		035D9F71245FEADA00D22BB8 /* hash_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hash_table.h; sourceTree = "<group>"; };
 		035D9F72245FEADA00D22BB8 /* hash_table.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hash_table.c; sourceTree = "<group>"; };
+		035D9F7424600D2B00D22BB8 /* T15-3sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T15-3sum.h"; sourceTree = "<group>"; };
+		035D9F7524600D2B00D22BB8 /* T15-3sum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T15-3sum.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF1245BC0DC00AA6763 /* dynamic-programming-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dynamic-programming-common.h"; sourceTree = "<group>"; };
@@ -264,10 +267,12 @@
 				035D9F6A245FD91500D22BB8 /* high-frequency-common.h */,
 				035D9F6B245FD9B800D22BB8 /* T283-move-zeroes.h */,
 				035D9F6C245FD9B800D22BB8 /* T283-move-zeroes.c */,
-				035D9F6E245FE6E700D22BB8 /* T1-two-sum.h */,
-				035D9F6F245FE6E700D22BB8 /* T1-two-sum.c */,
 				035D9F71245FEADA00D22BB8 /* hash_table.h */,
 				035D9F72245FEADA00D22BB8 /* hash_table.c */,
+				035D9F6E245FE6E700D22BB8 /* T1-two-sum.h */,
+				035D9F6F245FE6E700D22BB8 /* T1-two-sum.c */,
+				035D9F7424600D2B00D22BB8 /* T15-3sum.h */,
+				035D9F7524600D2B00D22BB8 /* T15-3sum.c */,
 			);
 			path = "high-frequency";
 			sourceTree = "<group>";
@@ -439,6 +444,7 @@
 			files = (
 				035A4026244F330900CAFCCF /* T977-squares-of-a-sorted-array.c in Sources */,
 				039AD434245E950800A3935C /* T46-permutations.c in Sources */,
+				035D9F7624600D2B00D22BB8 /* T15-3sum.c in Sources */,
 				03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */,
 				034039A2244D302B00896919 /* T88-merge-sorted-array.c in Sources */,
 				039AD43A245EC55500A3935C /* T22-generate-parentheses.c in Sources */,
