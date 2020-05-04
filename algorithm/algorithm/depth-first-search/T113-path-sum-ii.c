@@ -27,7 +27,7 @@
  * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
  */
 
-void dfs(struct TreeNode* root, int sum, int* returnSize, int** returnColumnSizes, int* array, int** list, int idx) {
+void t113dfs(struct TreeNode* root, int sum, int* returnSize, int** returnColumnSizes, int* array, int** list, int idx) {
     if (root == NULL) { return; }
     sum -= root->val;
     array[idx++] = root->val;
@@ -42,8 +42,8 @@ void dfs(struct TreeNode* root, int sum, int* returnSize, int** returnColumnSize
         return;
     }
     
-    dfs(root->left, sum, returnSize, returnColumnSizes, array, list, idx);  // ERROR!!! idx + 1
-    dfs(root->right, sum, returnSize, returnColumnSizes, array, list, idx); // ERROR!!! idx + 1
+    t113dfs(root->left, sum, returnSize, returnColumnSizes, array, list, idx);  // ERROR!!! idx + 1
+    t113dfs(root->right, sum, returnSize, returnColumnSizes, array, list, idx); // ERROR!!! idx + 1
 }
 
 
@@ -60,7 +60,7 @@ int** pathSum(struct TreeNode* root, int sum, int* returnSize, int** returnColum
     int* array = malloc(sizeof(int) * len);
     memset(array, 0, sizeof(int) * len);
     
-    dfs(root, sum, returnSize, returnColumnSizes, array, list, 0);
+    t113dfs(root, sum, returnSize, returnColumnSizes, array, list, 0);
     
     return list;
 }

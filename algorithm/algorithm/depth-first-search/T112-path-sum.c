@@ -21,7 +21,7 @@
  */
 
 
-void dfs(struct TreeNode* root, int sum, bool *result) {
+void t112dfs(struct TreeNode* root, int sum, bool *result) {
     if (root == NULL) { return; }
     
     sum -= root->val;
@@ -35,12 +35,12 @@ void dfs(struct TreeNode* root, int sum, bool *result) {
         *result = true;
     }
     
-    dfs(root->left, sum, result);
-    dfs(root->right, sum, result);
+    t112dfs(root->left, sum, result);
+    t112dfs(root->right, sum, result);
 }
 
 bool hasPathSum(struct TreeNode* root, int sum) {
     bool result = false;
-    dfs(root, sum, &result);
+    t112dfs(root, sum, &result);
     return result;
 }

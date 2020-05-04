@@ -17,7 +17,7 @@
  * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
  */
 
-void dfs(int* candidates, int candidatesSize, int target, int* returnSize, int** returnColumnSizes, int* array, int** list, int idx, int start) {
+void t39dfs(int* candidates, int candidatesSize, int target, int* returnSize, int** returnColumnSizes, int* array, int** list, int idx, int start) {
     if (target == 0) {
         list[*returnSize] = malloc(sizeof(int) * idx);
         memcpy(list[*returnSize], array, sizeof(int) * idx);
@@ -30,7 +30,7 @@ void dfs(int* candidates, int candidatesSize, int target, int* returnSize, int**
         // if (target < candidates[i]) return; // ERROR!!!
        if (candidates[i] > target) continue;
         array[idx] = candidates[i];
-        dfs(candidates, candidatesSize, target - candidates[i], returnSize, returnColumnSizes, array, list, idx + 1, i); 
+        t39dfs(candidates, candidatesSize, target - candidates[i], returnSize, returnColumnSizes, array, list, idx + 1, i);
         array[idx] = 0; // CARE!!!
     }
 
@@ -49,7 +49,7 @@ int** combinationSum(int* candidates, int candidatesSize, int target, int* retur
     int* array = malloc(sizeof(int) * target);
     memset(array, 0, sizeof(int) * target);
         
-    dfs(candidates, candidatesSize, target, returnSize, returnColumnSizes, array, list, 0, 0);
+    t39dfs(candidates, candidatesSize, target, returnSize, returnColumnSizes, array, list, 0, 0);
     
     return list;
 }
