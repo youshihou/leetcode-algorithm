@@ -23,6 +23,7 @@
 		035D9F7624600D2B00D22BB8 /* T15-3sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 035D9F7524600D2B00D22BB8 /* T15-3sum.c */; };
 		035D9F792460292500D22BB8 /* T50-powx-n.c in Sources */ = {isa = PBXBuildFile; fileRef = 035D9F782460292500D22BB8 /* T50-powx-n.c */; };
 		035D9F7C2460597100D22BB8 /* T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 035D9F7B2460597100D22BB8 /* T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.c */; };
+		035D9F7F24606DA100D22BB8 /* T54-spiral-matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 035D9F7E24606DA100D22BB8 /* T54-spiral-matrix.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -108,6 +109,8 @@
 		035D9F782460292500D22BB8 /* T50-powx-n.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T50-powx-n.c"; sourceTree = "<group>"; };
 		035D9F7A2460597100D22BB8 /* T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.h"; sourceTree = "<group>"; };
 		035D9F7B2460597100D22BB8 /* T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.c"; sourceTree = "<group>"; };
+		035D9F7D24606DA100D22BB8 /* T54-spiral-matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T54-spiral-matrix.h"; sourceTree = "<group>"; };
+		035D9F7E24606DA100D22BB8 /* T54-spiral-matrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T54-spiral-matrix.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF1245BC0DC00AA6763 /* dynamic-programming-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dynamic-programming-common.h"; sourceTree = "<group>"; };
@@ -283,6 +286,8 @@
 				035D9F782460292500D22BB8 /* T50-powx-n.c */,
 				035D9F7A2460597100D22BB8 /* T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.h */,
 				035D9F7B2460597100D22BB8 /* T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.c */,
+				035D9F7D24606DA100D22BB8 /* T54-spiral-matrix.h */,
+				035D9F7E24606DA100D22BB8 /* T54-spiral-matrix.c */,
 			);
 			path = "high-frequency";
 			sourceTree = "<group>";
@@ -499,6 +504,7 @@
 				03965273245D83D4008049D8 /* T99-recover-binary-search-tree.c in Sources */,
 				03C8A6482454260D001D5584 /* stack.c in Sources */,
 				039AD437245EB65D00A3935C /* T47-permutations-ii.c in Sources */,
+				035D9F7F24606DA100D22BB8 /* T54-spiral-matrix.c in Sources */,
 				03C8A64F24546A3C001D5584 /* T01-09-string-rotation-lcci.c in Sources */,
 				03211BA4245721E400632DD8 /* T242-valid-anagram.c in Sources */,
 				038BDDFA245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.c in Sources */,
