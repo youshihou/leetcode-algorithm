@@ -27,7 +27,7 @@
 //}
 
 
-int reverse(int x) {
+int reverse1(int x) {
     long result = 0;
     while (x != 0) {
         result = result * 10 + x % 10;

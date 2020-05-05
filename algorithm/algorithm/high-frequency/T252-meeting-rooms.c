@@ -12,7 +12,7 @@
 #include "high-frequency-common.h"
 
 
-int compare(const void* a, const void* b) {
+int compare1(const void* a, const void* b) {
     int* aa = *(int**)a;
     int* bb = *(int**)b;
     
@@ -24,7 +24,7 @@ bool canAttendMeetings(int** intervals, int intervalsSize, int* intervalsColSize
 //    *intervalsColSize = 0; // ERROR!!!
     if (intervals == NULL || intervalsSize <= 1) { return true; }
 
-    qsort(intervals, intervalsSize, sizeof(intervals[0]), compare);
+    qsort(intervals, intervalsSize, sizeof(intervals[0]), compare1);
     
     for (int i = 1; i < intervalsSize; i++) {
         if (intervals[i][0] < intervals[i - 1][1]) { // CARE!!! [1]
