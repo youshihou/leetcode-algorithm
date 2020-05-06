@@ -62,6 +62,7 @@
 		03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64A24544401001D5584 /* T739-daily-temperatures.c */; };
 		03C8A64F24546A3C001D5584 /* T01-09-string-rotation-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64E24546A3C001D5584 /* T01-09-string-rotation-lcci.c */; };
 		03C8A653245474F3001D5584 /* T572-subtree-of-another-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A652245474F3001D5584 /* T572-subtree-of-another-tree.c */; };
+		03D56BFF2462DDAA0074214D /* T42-trapping-rain-water.c in Sources */ = {isa = PBXBuildFile; fileRef = 03D56BFE2462DDAA0074214D /* T42-trapping-rain-water.c */; };
 		03F438D12459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F438D02459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c */; };
 		03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F935862450732000FCF702 /* T2-add-two-numbers.c */; };
 		03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */; };
@@ -197,6 +198,8 @@
 		03C8A65024546DB5001D5584 /* string-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "string-common.h"; sourceTree = "<group>"; };
 		03C8A651245474F3001D5584 /* T572-subtree-of-another-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T572-subtree-of-another-tree.h"; sourceTree = "<group>"; };
 		03C8A652245474F3001D5584 /* T572-subtree-of-another-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T572-subtree-of-another-tree.c"; sourceTree = "<group>"; };
+		03D56BFD2462DDAA0074214D /* T42-trapping-rain-water.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T42-trapping-rain-water.h"; sourceTree = "<group>"; };
+		03D56BFE2462DDAA0074214D /* T42-trapping-rain-water.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T42-trapping-rain-water.c"; sourceTree = "<group>"; };
 		03F438CF2459BBC800E668AA /* T3-longest-substring-without-repeating-characters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T3-longest-substring-without-repeating-characters.h"; sourceTree = "<group>"; };
 		03F438D02459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T3-longest-substring-without-repeating-characters.c"; sourceTree = "<group>"; };
 		03F935852450732000FCF702 /* T2-add-two-numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T2-add-two-numbers.h"; sourceTree = "<group>"; };
@@ -313,6 +316,8 @@
 				035D9F8A2461916200D22BB8 /* T253-meeting-rooms-ii.c */,
 				035D9F8C2461A27900D22BB8 /* T11-container-with-most-water.h */,
 				035D9F8D2461A27900D22BB8 /* T11-container-with-most-water.c */,
+				03D56BFD2462DDAA0074214D /* T42-trapping-rain-water.h */,
+				03D56BFE2462DDAA0074214D /* T42-trapping-rain-water.c */,
 			);
 			path = "high-frequency";
 			sourceTree = "<group>";
@@ -497,6 +502,7 @@
 				03C8A64224532E5F001D5584 /* T239-sliding-window-maximum.c in Sources */,
 				03965276245DBDCC008049D8 /* T333-largest-bst-subtree.c in Sources */,
 				03C8A63924531081001D5584 /* T138-copy-list-with-random-pointer.c in Sources */,
+				03D56BFF2462DDAA0074214D /* T42-trapping-rain-water.c in Sources */,
 				03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */,
 				034039A0244D302A00896919 /* T75-sort-colors.c in Sources */,
 				038BDE09245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c in Sources */,
