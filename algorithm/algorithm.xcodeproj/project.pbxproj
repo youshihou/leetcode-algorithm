@@ -11,6 +11,7 @@
 		030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 030036512451D0CD0026657D /* T234-palindrome-linked-list.c */; };
 		031552EE2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 031552ED2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c */; };
 		031552F1246805B2001C70B1 /* T23-merge-k-sorted-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 031552F0246805B2001C70B1 /* T23-merge-k-sorted-lists.c */; };
+		031552F424684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c in Sources */ = {isa = PBXBuildFile; fileRef = 031552F324684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c */; };
 		03211BA4245721E400632DD8 /* T242-valid-anagram.c in Sources */ = {isa = PBXBuildFile; fileRef = 03211BA3245721E400632DD8 /* T242-valid-anagram.c */; };
 		03403993244D300E00896919 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 03403992244D300E00896919 /* main.c */; };
 		034039A0244D302A00896919 /* T75-sort-colors.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399C244D302A00896919 /* T75-sort-colors.c */; };
@@ -96,6 +97,8 @@
 		031552ED2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T21-merge-two-sorted-lists.c"; sourceTree = "<group>"; };
 		031552EF246805B2001C70B1 /* T23-merge-k-sorted-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T23-merge-k-sorted-lists.h"; sourceTree = "<group>"; };
 		031552F0246805B2001C70B1 /* T23-merge-k-sorted-lists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T23-merge-k-sorted-lists.c"; sourceTree = "<group>"; };
+		031552F224684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T150-evaluate-reverse-polish-notation.h"; sourceTree = "<group>"; };
+		031552F324684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T150-evaluate-reverse-polish-notation.c"; sourceTree = "<group>"; };
 		03211BA2245721E400632DD8 /* T242-valid-anagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T242-valid-anagram.h"; sourceTree = "<group>"; };
 		03211BA3245721E400632DD8 /* T242-valid-anagram.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T242-valid-anagram.c"; sourceTree = "<group>"; };
 		0340398F244D300E00896919 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -432,9 +435,9 @@
 		03C8A63A245312DB001D5584 /* stack-queue */ = {
 			isa = PBXGroup;
 			children = (
+				03C8A63E24531773001D5584 /* stack-queue-common.h */,
 				03C8A63B245312FC001D5584 /* T155-min-stack.h */,
 				03C8A63C245312FC001D5584 /* T155-min-stack.c */,
-				03C8A63E24531773001D5584 /* stack-queue-common.h */,
 				03C8A64024532E5F001D5584 /* T239-sliding-window-maximum.h */,
 				03C8A64124532E5F001D5584 /* T239-sliding-window-maximum.c */,
 				03C8A6432454182D001D5584 /* T654-maximum-binary-tree.h */,
@@ -443,6 +446,8 @@
 				03C8A6472454260D001D5584 /* stack.c */,
 				03C8A64924544401001D5584 /* T739-daily-temperatures.h */,
 				03C8A64A24544401001D5584 /* T739-daily-temperatures.c */,
+				031552F224684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.h */,
+				031552F324684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c */,
 			);
 			path = "stack-queue";
 			sourceTree = "<group>";
@@ -558,6 +563,7 @@
 				038BDE12245C1CB300AA6763 /* T5-longest-palindromic-substring.c in Sources */,
 				03C8A6452454182D001D5584 /* T654-maximum-binary-tree.c in Sources */,
 				03D56C0E2462F7900074214D /* T200-number-of-islands.c in Sources */,
+				031552F424684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c in Sources */,
 				0396526D245D7AAC008049D8 /* T236-lowest-common-ancestor-of-a-binary-tree.c in Sources */,
 				035D9F70245FE6E700D22BB8 /* T1-two-sum.c in Sources */,
 				03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */,
