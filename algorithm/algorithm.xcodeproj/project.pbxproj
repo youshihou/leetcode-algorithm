@@ -10,6 +10,7 @@
 		0300364F2451C7E80026657D /* T86-partition-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0300364E2451C7E80026657D /* T86-partition-list.c */; };
 		030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 030036512451D0CD0026657D /* T234-palindrome-linked-list.c */; };
 		031552EE2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 031552ED2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c */; };
+		031552F1246805B2001C70B1 /* T23-merge-k-sorted-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 031552F0246805B2001C70B1 /* T23-merge-k-sorted-lists.c */; };
 		03211BA4245721E400632DD8 /* T242-valid-anagram.c in Sources */ = {isa = PBXBuildFile; fileRef = 03211BA3245721E400632DD8 /* T242-valid-anagram.c */; };
 		03403993244D300E00896919 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 03403992244D300E00896919 /* main.c */; };
 		034039A0244D302A00896919 /* T75-sort-colors.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399C244D302A00896919 /* T75-sort-colors.c */; };
@@ -93,6 +94,8 @@
 		030036512451D0CD0026657D /* T234-palindrome-linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T234-palindrome-linked-list.c"; sourceTree = "<group>"; };
 		031552EC2467F9C4001C70B1 /* T21-merge-two-sorted-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T21-merge-two-sorted-lists.h"; sourceTree = "<group>"; };
 		031552ED2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T21-merge-two-sorted-lists.c"; sourceTree = "<group>"; };
+		031552EF246805B2001C70B1 /* T23-merge-k-sorted-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T23-merge-k-sorted-lists.h"; sourceTree = "<group>"; };
+		031552F0246805B2001C70B1 /* T23-merge-k-sorted-lists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T23-merge-k-sorted-lists.c"; sourceTree = "<group>"; };
 		03211BA2245721E400632DD8 /* T242-valid-anagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T242-valid-anagram.h"; sourceTree = "<group>"; };
 		03211BA3245721E400632DD8 /* T242-valid-anagram.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T242-valid-anagram.c"; sourceTree = "<group>"; };
 		0340398F244D300E00896919 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -304,6 +307,8 @@
 				03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */,
 				031552EC2467F9C4001C70B1 /* T21-merge-two-sorted-lists.h */,
 				031552ED2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c */,
+				031552EF246805B2001C70B1 /* T23-merge-k-sorted-lists.h */,
+				031552F0246805B2001C70B1 /* T23-merge-k-sorted-lists.c */,
 			);
 			path = "linked-list";
 			sourceTree = "<group>";
@@ -566,6 +571,7 @@
 				035D9F73245FEADA00D22BB8 /* hash_table.c in Sources */,
 				034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */,
 				038BDDFD245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.c in Sources */,
+				031552F1246805B2001C70B1 /* T23-merge-k-sorted-lists.c in Sources */,
 				03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */,
 				038BDE06245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.c in Sources */,
 				035D9F822461093E00D22BB8 /* T146-lru-cache.c in Sources */,
