@@ -46,8 +46,27 @@ struct ListNode* mergeTwoLists_(struct ListNode* head, struct ListNode* l1, stru
     return head->next;
 }
 
-
 struct ListNode* mergeKLists(struct ListNode** lists, int listsSize) {
+    if (lists == NULL || listsSize <= 0) { return NULL; }
+        
+    struct ListNode* head = malloc(sizeof(struct ListNode));
+    
+    int step = 1;
+    while (step < listsSize) {
+        int next = step << 1;
+        for (int i = 0; i + step < listsSize; i += next) {
+            lists[i] = mergeTwoLists_(head, lists[i], lists[i + step]);
+        }
+        step = next;
+    }
+    
+    return lists[0];
+}
+
+
+
+
+struct ListNode* mergeKLists4(struct ListNode** lists, int listsSize) {
     if (lists == NULL || listsSize <= 0) { return NULL; }
         
     struct ListNode* head = malloc(sizeof(struct ListNode));
