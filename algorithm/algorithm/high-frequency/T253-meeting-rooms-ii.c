@@ -11,7 +11,7 @@
 #include "T253-meeting-rooms-ii.h"
 #include "high-frequency-common.h"
 
-int compare(const void* a, const void* b) {
+int cmp(const void* a, const void* b) {
     return *(int*)a - *(int*)b;
 }
 
@@ -25,8 +25,8 @@ int minMeetingRooms(int** intervals, int intervalsSize, int* intervalsColSize) {
         ends[i] = intervals[i][1];
     }
     
-    qsort(begins, intervalsSize, sizeof(int), compare);
-    qsort(ends, intervalsSize, sizeof(int), compare);
+    qsort(begins, intervalsSize, sizeof(int), cmp);
+    qsort(ends, intervalsSize, sizeof(int), cmp);
     
     int room = 0;
     int endIdx = 0;
