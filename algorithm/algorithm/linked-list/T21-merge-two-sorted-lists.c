@@ -45,12 +45,12 @@ struct ListNode* mergeTwoLists2(struct ListNode* l1, struct ListNode* l2) {
     while (l1 != NULL && l2 != NULL) {
         if (l1->val < l2->val) {
             cur->next = l1;
-            cur = cur->next;
-            l1 = l1->next;
+            cur = cur->next; // CARE!!!
+            l1 = l1->next; // CARE!!!
         } else {
             cur->next = l2;
-            cur = cur->next;
-            l2 = l2->next;
+            cur = cur->next; // CARE!!!
+            l2 = l2->next; // CARE!!!
         }
     }
     
