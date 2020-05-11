@@ -21,6 +21,30 @@
  */
 
 
+
+bool isValidBST_(struct TreeNode* root, struct TreeNode** min, struct TreeNode** max) {
+    if (root == NULL) { return true; }
+    
+    if (*min && root->val <= (*min)->val) { return false; }
+    if (*max && root->val >= (*max)->val) { return false; }
+    
+    if (!isValidBST_(root->left, min, &root)) { return false; }
+    if (!isValidBST_(root->right, &root, max)) { return false; }
+    
+    return true;
+}
+
+bool isValidBST(struct TreeNode* root) {
+    struct TreeNode* min = NULL;
+    struct TreeNode* max = NULL;
+    return isValidBST_(root, &min, &max);
+}
+
+
+
+
+
+
 bool inorder(struct TreeNode* root, struct TreeNode** pre) { //CARE!!! **
     if (root == NULL) { return true; }
     
@@ -34,7 +58,7 @@ bool inorder(struct TreeNode* root, struct TreeNode** pre) { //CARE!!! **
     return true;
 }
 
-bool isValidBST(struct TreeNode* root) {
+bool isValidBST1(struct TreeNode* root) {
     struct TreeNode* pre = NULL;
     return inorder(root, &pre);
 }
