@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/add-two-numbers/
 
 #include "T2-add-two-numbers.h"
-#include "linked-list-common.h"
+#include "algorithm-common.h"
 
 
 /**

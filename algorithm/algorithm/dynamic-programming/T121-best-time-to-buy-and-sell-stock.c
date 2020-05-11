@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
 
 #include "T121-best-time-to-buy-and-sell-stock.h"
-#include "dynamic-programming-common.h"
+#include "algorithm-common.h"
 
 int maxProfit1(int* prices, int pricesSize) {
     if (prices == NULL || pricesSize == 0) { return 0; }

@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/string-rotation-lcci/
 
 #include "T01-09-string-rotation-lcci.h"
-#include "string-common.h"
+#include "algorithm-common.h"
 
 bool isFlipedString(char* s1, char* s2) {
     if (s1 == NULL || s2 == NULL) { return false; }

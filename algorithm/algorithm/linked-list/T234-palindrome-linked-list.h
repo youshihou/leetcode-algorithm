@@ -9,8 +9,7 @@
 #ifndef T234_palindrome_linked_list_h
 #define T234_palindrome_linked_list_h
 
-#include <stdio.h>
-#include "linked-list-common.h"
+#include "algorithm-common.h"
 
 bool isPalindrome(struct ListNode* head);
 

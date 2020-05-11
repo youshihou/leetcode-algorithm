@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/meeting-rooms/
 
 #include "T252-meeting-rooms.h"
-#include "high-frequency-common.h"
+#include "algorithm-common.h"
 
 
 int compare1(const void* a, const void* b) {

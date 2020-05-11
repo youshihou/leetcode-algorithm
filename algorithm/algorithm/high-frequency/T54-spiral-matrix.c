@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/spiral-matrix/
 
 #include "T54-spiral-matrix.h"
-#include "high-frequency-common.h"
+#include "algorithm-common.h"
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().

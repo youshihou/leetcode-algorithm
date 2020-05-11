@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/
 
 #include "T63-gu-piao-de-zui-da-li-run-lcof.h"
-#include "dynamic-programming-common.h"
+#include "algorithm-common.h"
 
 int maxProfit6(int* prices, int pricesSize) {
     if (prices == NULL || pricesSize == 0) { return 0; }

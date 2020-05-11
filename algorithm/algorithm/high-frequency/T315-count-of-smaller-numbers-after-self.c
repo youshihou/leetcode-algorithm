@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/
 
 #include "T315-count-of-smaller-numbers-after-self.h"
-#include "high-frequency-common.h"
+#include "algorithm-common.h"
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().

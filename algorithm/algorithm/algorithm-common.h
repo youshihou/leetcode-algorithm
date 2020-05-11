@@ -9,5 +9,34 @@
 #ifndef algorithm_common_h
 #define algorithm_common_h
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <string.h>
+#include <limits.h>
+#include <math.h>
+
+
+
+struct ListNode {
+    int val;
+    struct ListNode *next;
+};
+
+struct TreeNode {
+    int val;
+    struct TreeNode *left;
+    struct TreeNode *right;
+};
+
+
+#ifndef MAX
+#define MAX(a, b) (((a) > (b)) ? (a) : (b))
+#endif
+
+#ifndef MIN
+#define MIN(a, b) (((a) > (b)) ? (b) : (a))
+#endif
+
 
 #endif /* algorithm_common_h */

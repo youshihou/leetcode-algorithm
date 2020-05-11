@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/merge-k-sorted-lists/
 
 #include "T23-merge-k-sorted-lists.h"
-#include "linked-list-common.h"
+#include "algorithm-common.h"
 
 /**
  * Definition for singly-linked list.

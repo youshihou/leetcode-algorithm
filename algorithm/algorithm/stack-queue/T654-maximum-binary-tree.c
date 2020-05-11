@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/maximum-binary-tree/
 
 #include "T654-maximum-binary-tree.h"
-#include "stack-queue-common.h"
+#include "algorithm-common.h"
 
 /**
  * Definition for a binary tree node.

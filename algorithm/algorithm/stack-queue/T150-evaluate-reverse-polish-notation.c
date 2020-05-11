@@ -9,9 +9,8 @@
 // https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
 
 #include "T150-evaluate-reverse-polish-notation.h"
-#include "stack-queue-common.h"
+#include "algorithm-common.h"
 #include "stack.h"
-#include "string.h"
 
 
 int evalRPN(char ** tokens, int tokensSize) {

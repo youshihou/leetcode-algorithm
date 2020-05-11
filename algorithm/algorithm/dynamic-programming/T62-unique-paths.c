@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/unique-paths/
 
 #include "T62-unique-paths.h"
-#include "dynamic-programming-common.h"
+#include "algorithm-common.h"
 
 int uniquePaths(int m, int n) {
     if (m <= 0 || n <= 0) { return 0; }

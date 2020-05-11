@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
 
 #include "T215-kth-largest-element-in-an-array.h"
-#include "high-frequency-common.h"
+#include "algorithm-common.h"
 
 int t215compare(const void* a, const void* b) {
     return *(int*)a - *(int*)b;

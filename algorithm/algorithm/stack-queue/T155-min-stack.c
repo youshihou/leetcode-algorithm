@@ -9,8 +9,7 @@
 // https://leetcode-cn.com/problems/min-stack/
 
 #include "T155-min-stack.h"
-#include "stack-queue-common.h"
-#include <limits.h>
+#include "algorithm-common.h"
 
 /**
  * Your MinStack struct will be instantiated and called as such:

@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/path-sum-ii/
 
 #include "T113-path-sum-ii.h"
-#include "depth-first-search-common.h"
+#include "algorithm-common.h"
 
 /**
  * Definition for a binary tree node.

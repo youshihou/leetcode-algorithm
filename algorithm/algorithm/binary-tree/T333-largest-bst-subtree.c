@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/largest-bst-subtree/
 
 #include "T333-largest-bst-subtree.h"
-#include "binary-tree-common.h"
+#include "algorithm-common.h"
 
 
 /**

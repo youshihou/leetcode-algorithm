@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/permutations/
 
 #include "T46-permutations.h"
-#include "depth-first-search-common.h"
+#include "algorithm-common.h"
 
 /**
  * Return an array of arrays of size *returnSize.

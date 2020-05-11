@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/
 
 #include "T68-er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.h"
-#include "binary-tree-common.h"
+#include "algorithm-common.h"
 
 /**
  * Definition for a binary tree node.

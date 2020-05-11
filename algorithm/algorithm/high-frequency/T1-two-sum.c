@@ -10,7 +10,7 @@
 
 #include "T1-two-sum.h"
 #include "hash_table.h"
-#include "high-frequency-common.h"
+#include "algorithm-common.h"
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().

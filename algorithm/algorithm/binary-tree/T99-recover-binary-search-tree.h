@@ -9,8 +9,7 @@
 #ifndef T99_recover_binary_search_tree_h
 #define T99_recover_binary_search_tree_h
 
-#include <stdio.h>
-#include "binary-tree-common.h"
+#include "algorithm-common.h"
 
 void recoverTree1(struct TreeNode* root);
 

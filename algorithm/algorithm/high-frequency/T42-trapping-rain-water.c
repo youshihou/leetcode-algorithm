@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/trapping-rain-water/
 
 #include "T42-trapping-rain-water.h"
-#include "dynamic-programming-common.h"
+#include "algorithm-common.h"
 
 int trap(int* height, int heightSize) {
     if (height == NULL || heightSize <= 0) { return 0; }

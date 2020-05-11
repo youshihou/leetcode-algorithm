@@ -10,7 +10,7 @@
 
 
 #include "T160-intersection-of-two-linked-lists.h"
-#include "linked-list-common.h"
+#include "algorithm-common.h"
 
 /**
  * Definition for singly-linked list.

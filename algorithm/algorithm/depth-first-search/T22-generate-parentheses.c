@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/generate-parentheses/
 
 #include "T22-generate-parentheses.h"
-#include "depth-first-search-common.h"
+#include "algorithm-common.h"
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().

@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/powx-n/
 
 #include "T50-powx-n.h"
-#include "high-frequency-common.h"
+#include "algorithm-common.h"
 
 double myPow(double x, int n) {
     double result = 1.0;

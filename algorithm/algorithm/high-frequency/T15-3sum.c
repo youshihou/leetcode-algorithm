@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/3sum/
 
 #include "T15-3sum.h"
-#include "high-frequency-common.h"
+#include "algorithm-common.h"
 
 /**
  * Return an array of arrays of size *returnSize.

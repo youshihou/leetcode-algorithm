@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/sliding-window-maximum/
 
 #include "T239-sliding-window-maximum.h"
-#include "stack-queue-common.h"
+#include "algorithm-common.h"
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().

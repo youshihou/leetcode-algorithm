@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/reverse-words-in-a-string/
 
 #include "T151-reverse-words-in-a-string.h"
-#include "string-common.h"
+#include "algorithm-common.h"
 
 
 void reverse(char* s, int li, int ri) {

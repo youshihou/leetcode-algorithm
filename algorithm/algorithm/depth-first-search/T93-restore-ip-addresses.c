@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/restore-ip-addresses/
 
 #include "T93-restore-ip-addresses.h"
-#include "depth-first-search-common.h"
+#include "algorithm-common.h"
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().

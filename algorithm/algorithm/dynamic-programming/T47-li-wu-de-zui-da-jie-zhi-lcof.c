@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/
 
 #include "T47-li-wu-de-zui-da-jie-zhi-lcof.h"
-#include "dynamic-programming-common.h"
+#include "algorithm-common.h"
 
 
 int maxValue(int** grid, int gridSize, int* gridColSize) {

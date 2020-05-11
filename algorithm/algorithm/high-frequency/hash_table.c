@@ -7,7 +7,7 @@
 //
 
 #include "hash_table.h"
-#include "high-frequency-common.h"
+#include "algorithm-common.h"
 
 int hash_init(struct hash_table* table, int size) {
     if (size <= 0) { return -1; }

@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/partition-list/
 
 #include "T86-partition-list.h"
-#include "linked-list-common.h"
+#include "algorithm-common.h"
 
 /**
  * Definition for singly-linked list.

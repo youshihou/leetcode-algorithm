@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/minimum-path-sum/
 
 #include "T64-minimum-path-sum.h"
-#include "dynamic-programming-common.h"
+#include "algorithm-common.h"
 
 int minPathSum(int** grid, int gridSize, int* gridColSize) {
     if (grid == NULL) { return 0; }

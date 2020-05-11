@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/meeting-rooms-ii/
 
 #include "T253-meeting-rooms-ii.h"
-#include "high-frequency-common.h"
+#include "algorithm-common.h"
 
 int cmp(const void* a, const void* b) {
     return *(int*)a - *(int*)b;

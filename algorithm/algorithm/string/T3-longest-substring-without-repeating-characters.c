@@ -9,9 +9,7 @@
 // https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 
 #include "T3-longest-substring-without-repeating-characters.h"
-#include "string-common.h"
-#include <limits.h>
-#include <math.h>
+#include "algorithm-common.h"
 
 #ifndef MAX
 #define MAX(a, b) (((a) > (b)) ? (a) : (b))

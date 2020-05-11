@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/remove-linked-list-elements/
 
 #include "T203-remove-linked-list-elements.h"
-#include "linked-list-common.h"
+#include "algorithm-common.h"
 
 /**
  * Definition for singly-linked list.

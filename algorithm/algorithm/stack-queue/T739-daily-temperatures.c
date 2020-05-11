@@ -9,9 +9,8 @@
 // https://leetcode-cn.com/problems/daily-temperatures/
 
 #include "T739-daily-temperatures.h"
-#include "stack-queue-common.h"
+#include "algorithm-common.h"
 #include "stack.h"
-#include <string.h>
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().

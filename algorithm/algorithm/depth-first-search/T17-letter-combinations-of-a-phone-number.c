@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
 
 #include "T17-letter-combinations-of-a-phone-number.h"
-#include "depth-first-search-common.h"
+#include "algorithm-common.h"
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().

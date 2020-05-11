@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/valid-anagram/
 
 #include "T242-valid-anagram.h"
-#include "string-common.h"
+#include "algorithm-common.h"
 
 bool isAnagram(char * s, char * t) {
     if (s == NULL || t == NULL) { return false; }

@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/edit-distance/
 
 #include "T72-edit-distance.h"
-#include "dynamic-programming-common.h"
+#include "algorithm-common.h"
 
 int minDistance(char * word1, char * word2) {
     return 0;

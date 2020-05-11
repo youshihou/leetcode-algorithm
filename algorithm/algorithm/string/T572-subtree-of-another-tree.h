@@ -9,8 +9,7 @@
 #ifndef T572_subtree_of_another_tree_h
 #define T572_subtree_of_another_tree_h
 
-#include <stdio.h>
-#include "stack-queue-common.h"
+#include "algorithm-common.h"
 
 bool isSubtree(struct TreeNode* s, struct TreeNode* t);
 

@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/container-with-most-water/
 
 #include "T11-container-with-most-water.h"
-#include "dynamic-programming-common.h"
+#include "algorithm-common.h"
 
 int maxArea(int* height, int heightSize) {
     if (height == NULL || heightSize <= 0) { return 0; }

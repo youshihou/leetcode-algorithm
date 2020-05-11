@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/longest-palindromic-substring/
 
 #include "T5-longest-palindromic-substring.h"
-#include "dynamic-programming-common.h"
+#include "algorithm-common.h"
 
 char * preprocess(char * s) {
     size_t l = strlen(s);

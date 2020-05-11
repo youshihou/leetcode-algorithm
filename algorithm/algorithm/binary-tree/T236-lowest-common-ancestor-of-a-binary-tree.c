@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
 #include "T236-lowest-common-ancestor-of-a-binary-tree.h"
-#include "binary-tree-common.h"
+#include "algorithm-common.h"
 
 /**
  * Definition for a binary tree node.

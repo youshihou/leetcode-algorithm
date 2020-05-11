@@ -9,8 +9,7 @@
 // https://leetcode-cn.com/problems/lru-cache/
 
 #include "T146-lru-cache.h"
-#include "high-frequency-common.h"
-#include <limits.h>
+#include "algorithm-common.h"
 
 /**
  * Your LRUCache struct will be instantiated and called as such:

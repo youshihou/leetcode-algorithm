@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/subtree-of-another-tree/
 
 #include "T572-subtree-of-another-tree.h"
-#include "string-common.h"
+#include "algorithm-common.h"
 
 
 /**
