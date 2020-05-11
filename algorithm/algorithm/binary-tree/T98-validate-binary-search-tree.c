@@ -21,7 +21,20 @@
  */
 
 
-bool isValidBST(struct TreeNode* root) {
+bool inorder(struct TreeNode* root, struct TreeNode** pre) { //CARE!!! **
+    if (root == NULL) { return true; }
+    
+    if (!inorder(root->left, pre)) { return false; }
+    
+    if (*pre != NULL && root->val <= (*pre)->val) { return false; } // CARE!!!
+    *pre = root;
+    
+    if (!inorder(root->right, pre)) { return false; }
+    
+    return true;
+}
 
-    return false;
+bool isValidBST(struct TreeNode* root) {
+    struct TreeNode* pre = NULL;
+    return inorder(root, &pre);
 }
