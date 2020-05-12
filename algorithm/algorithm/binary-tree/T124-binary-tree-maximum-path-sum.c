@@ -21,7 +21,21 @@
  */
 
 
-int maxPathSum(struct TreeNode* root) {
+int value(struct TreeNode* node, int* sum) {
+    if (node == NULL) { return 0; }
+    
+    int lv = value(node->left, sum);
+    lv = MAX(lv, 0);
+    int rv = value(node->right, sum);
+    rv = MAX(rv, 0);
+    
+    *sum = MAX(*sum, node->val + lv + rv);
+    
+    return node->val + MAX(lv, rv);
+}
 
-    return 0;
+int maxPathSum(struct TreeNode* root) {
+    int sum = INT_MIN;
+    value(root, &sum);
+    return sum;
 }
