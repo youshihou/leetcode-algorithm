@@ -21,7 +21,70 @@
  */
 
 
+
+void flatten_(struct TreeNode* root, struct TreeNode** prev) {
+    if (root == NULL) { return; }
+    
+    flatten_(root->right, prev);
+    flatten_(root->left, prev);
+    
+    if (prev != NULL) {
+        root->right = *prev;
+        root->left = NULL;
+    }
+    
+    *prev = root;
+}
+
+
 void flatten(struct TreeNode* root) {
+    if (root == NULL) { return; }
+    
+    struct TreeNode* prev = NULL;
+    flatten_(root, &prev);
+}
+
+
+
+
+
+void flatten3(struct TreeNode* root) {
+    while (root != NULL) {
+        if (root->left != NULL) {
+            struct TreeNode* preRight = root->right;
+            root->right = root->left;
+            root->left = NULL;
+            struct TreeNode* lastRight = root;
+            while (lastRight->right != NULL) {
+                lastRight = lastRight->right;
+            }
+            lastRight->right = preRight;
+        }
+        
+        root = root->right;
+    }
+}
+
+
+
+
+void flatten2(struct TreeNode* root) {
+    while (root != NULL) {
+        struct TreeNode* preRight = root->right;
+        root->right = root->left;
+        root->left = NULL;
+        struct TreeNode* lastRight = root;
+        while (lastRight->right != NULL) {
+            lastRight = lastRight->right;
+        }
+        lastRight->right = preRight;
+        
+        root = root->right;
+    }
+}
+
+
+void flatten1(struct TreeNode* root) {
     if (root == NULL) { return; }
     
     struct TreeNode* preRight = root->right;
