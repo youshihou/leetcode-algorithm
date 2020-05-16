@@ -36,7 +36,7 @@ int* topKFrequent(int* nums, int numsSize, int k, int* returnSize) {
     int offset = 1024; // magic number
     for (int i = 0; i < numsSize; i++) {
         int value = nums[i];
-        int idx = (value + offset) % numsSize; // CARE!!! (value + offset), idx must > 0
+        int idx = (value + offset) % numsSize; // CARE!!! (value + offset), idx must >= 0
         list[idx].value = value;
         list[idx].count++;
     }
