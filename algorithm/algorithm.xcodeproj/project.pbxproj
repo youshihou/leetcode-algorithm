@@ -36,6 +36,7 @@
 		035D9F8E2461A27900D22BB8 /* T11-container-with-most-water.c in Sources */ = {isa = PBXBuildFile; fileRef = 035D9F8D2461A27900D22BB8 /* T11-container-with-most-water.c */; };
 		0365A33B246EC82800470862 /* T198-house-robber.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365A33A246EC82800470862 /* T198-house-robber.c */; };
 		0365A33F246EE12A00470862 /* T347-top-k-frequent-elements.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365A33E246EE12A00470862 /* T347-top-k-frequent-elements.c */; };
+		03742A032472D01500C7BFBF /* T210-course-schedule-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -154,6 +155,8 @@
 		0365A33A246EC82800470862 /* T198-house-robber.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T198-house-robber.c"; sourceTree = "<group>"; };
 		0365A33D246EE12A00470862 /* T347-top-k-frequent-elements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T347-top-k-frequent-elements.h"; sourceTree = "<group>"; };
 		0365A33E246EE12A00470862 /* T347-top-k-frequent-elements.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T347-top-k-frequent-elements.c"; sourceTree = "<group>"; };
+		03742A012472D01500C7BFBF /* T210-course-schedule-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T210-course-schedule-ii.h"; sourceTree = "<group>"; };
+		03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T210-course-schedule-ii.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF2245BC18900AA6763 /* T64-minimum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T64-minimum-path-sum.h"; sourceTree = "<group>"; };
@@ -275,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				032985282469664D00A7D5A8 /* algorithm-common.h */,
+				03742A002472CFE700C7BFBF /* task */,
 				0365A33C246EE11000470862 /* weekly */,
 				035D9F68245FD8BC00D22BB8 /* high-frequency */,
 				03965277245DCFDA008049D8 /* depth-first-search */,
@@ -391,6 +395,15 @@
 				035D21FB246FA6D20020BF33 /* T36-valid-sudoku.c */,
 			);
 			path = weekly;
+			sourceTree = "<group>";
+		};
+		03742A002472CFE700C7BFBF /* task */ = {
+			isa = PBXGroup;
+			children = (
+				03742A012472D01500C7BFBF /* T210-course-schedule-ii.h */,
+				03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */,
+			);
+			path = task;
 			sourceTree = "<group>";
 		};
 		038BDDED245BC04000AA6763 /* dynamic-programming */ = {
@@ -605,6 +618,7 @@
 				038BDE00245C079B00AA6763 /* T122-best-time-to-buy-and-sell-stock-ii.c in Sources */,
 				035D9F88246186DB00D22BB8 /* T252-meeting-rooms.c in Sources */,
 				035D9F73245FEADA00D22BB8 /* hash_table.c in Sources */,
+				03742A032472D01500C7BFBF /* T210-course-schedule-ii.c in Sources */,
 				03A94817246AE4370007C705 /* T124-binary-tree-maximum-path-sum.c in Sources */,
 				034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */,
 				038BDDFD245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.c in Sources */,
