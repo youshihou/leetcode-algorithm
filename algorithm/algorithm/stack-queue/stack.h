@@ -13,9 +13,9 @@
 #include <stdbool.h>
 
 
-typedef struct Node {
+typedef struct Node_ {
     int val;
-    struct Node* next;
+    struct Node_* next;
 } Stack;
 
 
