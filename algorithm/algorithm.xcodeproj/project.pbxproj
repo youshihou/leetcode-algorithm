@@ -81,6 +81,9 @@
 		03F438D12459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F438D02459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c */; };
 		03F4B5EF247900CE00072A3D /* T51-n-queens.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B5EE247900CE00072A3D /* T51-n-queens.c */; };
 		03F4B5F22479011900072A3D /* T52-n-queens-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B5F12479011900072A3D /* T52-n-queens-ii.c */; };
+		03F4B5F52479482C00072A3D /* T40-combination-sum-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B5F42479482C00072A3D /* T40-combination-sum-ii.c */; };
+		03F4B5F82479487100072A3D /* T78-subsets.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B5F72479487100072A3D /* T78-subsets.c */; };
+		03F4B5FB247948A500072A3D /* T90-subsets-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B5FA247948A500072A3D /* T90-subsets-ii.c */; };
 		03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F935862450732000FCF702 /* T2-add-two-numbers.c */; };
 		03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */; };
 /* End PBXBuildFile section */
@@ -247,6 +250,12 @@
 		03F4B5EE247900CE00072A3D /* T51-n-queens.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T51-n-queens.c"; sourceTree = "<group>"; };
 		03F4B5F02479011900072A3D /* T52-n-queens-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T52-n-queens-ii.h"; sourceTree = "<group>"; };
 		03F4B5F12479011900072A3D /* T52-n-queens-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T52-n-queens-ii.c"; sourceTree = "<group>"; };
+		03F4B5F32479482C00072A3D /* T40-combination-sum-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T40-combination-sum-ii.h"; sourceTree = "<group>"; };
+		03F4B5F42479482C00072A3D /* T40-combination-sum-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T40-combination-sum-ii.c"; sourceTree = "<group>"; };
+		03F4B5F62479487100072A3D /* T78-subsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T78-subsets.h"; sourceTree = "<group>"; };
+		03F4B5F72479487100072A3D /* T78-subsets.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T78-subsets.c"; sourceTree = "<group>"; };
+		03F4B5F9247948A500072A3D /* T90-subsets-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T90-subsets-ii.h"; sourceTree = "<group>"; };
+		03F4B5FA247948A500072A3D /* T90-subsets-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T90-subsets-ii.c"; sourceTree = "<group>"; };
 		03F935852450732000FCF702 /* T2-add-two-numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T2-add-two-numbers.h"; sourceTree = "<group>"; };
 		03F935862450732000FCF702 /* T2-add-two-numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T2-add-two-numbers.c"; sourceTree = "<group>"; };
 		03F9358824508A3E00FCF702 /* T160-intersection-of-two-linked-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T160-intersection-of-two-linked-lists.h"; sourceTree = "<group>"; };
@@ -412,6 +421,12 @@
 				03F4B5EE247900CE00072A3D /* T51-n-queens.c */,
 				03F4B5F02479011900072A3D /* T52-n-queens-ii.h */,
 				03F4B5F12479011900072A3D /* T52-n-queens-ii.c */,
+				03F4B5F32479482C00072A3D /* T40-combination-sum-ii.h */,
+				03F4B5F42479482C00072A3D /* T40-combination-sum-ii.c */,
+				03F4B5F62479487100072A3D /* T78-subsets.h */,
+				03F4B5F72479487100072A3D /* T78-subsets.c */,
+				03F4B5F9247948A500072A3D /* T90-subsets-ii.h */,
+				03F4B5FA247948A500072A3D /* T90-subsets-ii.c */,
 			);
 			path = task;
 			sourceTree = "<group>";
@@ -619,6 +634,7 @@
 				03D56C0E2462F7900074214D /* T200-number-of-islands.c in Sources */,
 				031552F424684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c in Sources */,
 				0396526D245D7AAC008049D8 /* T236-lowest-common-ancestor-of-a-binary-tree.c in Sources */,
+				03F4B5FB247948A500072A3D /* T90-subsets-ii.c in Sources */,
 				035D9F70245FE6E700D22BB8 /* T1-two-sum.c in Sources */,
 				03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */,
 				0345CF602458702700D8E5AE /* T151-reverse-words-in-a-string.c in Sources */,
@@ -636,6 +652,8 @@
 				031552F1246805B2001C70B1 /* T23-merge-k-sorted-lists.c in Sources */,
 				03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */,
 				038BDE06245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.c in Sources */,
+				03F4B5F52479482C00072A3D /* T40-combination-sum-ii.c in Sources */,
+				03F4B5F82479487100072A3D /* T78-subsets.c in Sources */,
 				035D9F822461093E00D22BB8 /* T146-lru-cache.c in Sources */,
 				0300364F2451C7E80026657D /* T86-partition-list.c in Sources */,
 				038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */,
