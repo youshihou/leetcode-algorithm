@@ -79,6 +79,8 @@
 		03D56C0E2462F7900074214D /* T200-number-of-islands.c in Sources */ = {isa = PBXBuildFile; fileRef = 03D56C0D2462F7900074214D /* T200-number-of-islands.c */; };
 		03DAEFAA246C231300BFEEAA /* T14-flatten-binary-tree-to-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DAEFA9246C231300BFEEAA /* T14-flatten-binary-tree-to-linked-list.c */; };
 		03F438D12459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F438D02459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c */; };
+		03F4B5EF247900CE00072A3D /* T51-n-queens.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B5EE247900CE00072A3D /* T51-n-queens.c */; };
+		03F4B5F22479011900072A3D /* T52-n-queens-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B5F12479011900072A3D /* T52-n-queens-ii.c */; };
 		03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F935862450732000FCF702 /* T2-add-two-numbers.c */; };
 		03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */; };
 /* End PBXBuildFile section */
@@ -241,6 +243,10 @@
 		03DAEFA9246C231300BFEEAA /* T14-flatten-binary-tree-to-linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T14-flatten-binary-tree-to-linked-list.c"; sourceTree = "<group>"; };
 		03F438CF2459BBC800E668AA /* T3-longest-substring-without-repeating-characters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T3-longest-substring-without-repeating-characters.h"; sourceTree = "<group>"; };
 		03F438D02459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T3-longest-substring-without-repeating-characters.c"; sourceTree = "<group>"; };
+		03F4B5ED247900CE00072A3D /* T51-n-queens.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T51-n-queens.h"; sourceTree = "<group>"; };
+		03F4B5EE247900CE00072A3D /* T51-n-queens.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T51-n-queens.c"; sourceTree = "<group>"; };
+		03F4B5F02479011900072A3D /* T52-n-queens-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T52-n-queens-ii.h"; sourceTree = "<group>"; };
+		03F4B5F12479011900072A3D /* T52-n-queens-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T52-n-queens-ii.c"; sourceTree = "<group>"; };
 		03F935852450732000FCF702 /* T2-add-two-numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T2-add-two-numbers.h"; sourceTree = "<group>"; };
 		03F935862450732000FCF702 /* T2-add-two-numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T2-add-two-numbers.c"; sourceTree = "<group>"; };
 		03F9358824508A3E00FCF702 /* T160-intersection-of-two-linked-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T160-intersection-of-two-linked-lists.h"; sourceTree = "<group>"; };
@@ -402,6 +408,10 @@
 			children = (
 				03742A012472D01500C7BFBF /* T210-course-schedule-ii.h */,
 				03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */,
+				03F4B5ED247900CE00072A3D /* T51-n-queens.h */,
+				03F4B5EE247900CE00072A3D /* T51-n-queens.c */,
+				03F4B5F02479011900072A3D /* T52-n-queens-ii.h */,
+				03F4B5F12479011900072A3D /* T52-n-queens-ii.c */,
 			);
 			path = task;
 			sourceTree = "<group>";
@@ -583,6 +593,7 @@
 				0365A33B246EC82800470862 /* T198-house-robber.c in Sources */,
 				03C8A64224532E5F001D5584 /* T239-sliding-window-maximum.c in Sources */,
 				03965276245DBDCC008049D8 /* T333-largest-bst-subtree.c in Sources */,
+				03F4B5F22479011900072A3D /* T52-n-queens-ii.c in Sources */,
 				031552EE2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c in Sources */,
 				03C8A63924531081001D5584 /* T138-copy-list-with-random-pointer.c in Sources */,
 				03D56BFF2462DDAA0074214D /* T42-trapping-rain-water.c in Sources */,
@@ -635,6 +646,7 @@
 				039AD437245EB65D00A3935C /* T47-permutations-ii.c in Sources */,
 				035D9F7F24606DA100D22BB8 /* T54-spiral-matrix.c in Sources */,
 				0365A33F246EE12A00470862 /* T347-top-k-frequent-elements.c in Sources */,
+				03F4B5EF247900CE00072A3D /* T51-n-queens.c in Sources */,
 				03C8A64F24546A3C001D5584 /* T01-09-string-rotation-lcci.c in Sources */,
 				03211BA4245721E400632DD8 /* T242-valid-anagram.c in Sources */,
 				038BDDFA245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.c in Sources */,
