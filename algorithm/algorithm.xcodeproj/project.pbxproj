@@ -84,6 +84,10 @@
 		03F4B5F52479482C00072A3D /* T40-combination-sum-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B5F42479482C00072A3D /* T40-combination-sum-ii.c */; };
 		03F4B5F82479487100072A3D /* T78-subsets.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B5F72479487100072A3D /* T78-subsets.c */; };
 		03F4B5FB247948A500072A3D /* T90-subsets-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B5FA247948A500072A3D /* T90-subsets-ii.c */; };
+		03F4B5FE24795D2300072A3D /* T455-assign-cookies.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B5FD24795D2300072A3D /* T455-assign-cookies.c */; };
+		03F4B60124795D7600072A3D /* T452-minimum-number-of-arrows-to-burst-balloons.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B60024795D7600072A3D /* T452-minimum-number-of-arrows-to-burst-balloons.c */; };
+		03F4B60424795DF200072A3D /* T605-can-place-flowers.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B60324795DF200072A3D /* T605-can-place-flowers.c */; };
+		03F4B60724795E3100072A3D /* T135-candy.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B60624795E3100072A3D /* T135-candy.c */; };
 		03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F935862450732000FCF702 /* T2-add-two-numbers.c */; };
 		03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */; };
 /* End PBXBuildFile section */
@@ -256,6 +260,14 @@
 		03F4B5F72479487100072A3D /* T78-subsets.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T78-subsets.c"; sourceTree = "<group>"; };
 		03F4B5F9247948A500072A3D /* T90-subsets-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T90-subsets-ii.h"; sourceTree = "<group>"; };
 		03F4B5FA247948A500072A3D /* T90-subsets-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T90-subsets-ii.c"; sourceTree = "<group>"; };
+		03F4B5FC24795D2300072A3D /* T455-assign-cookies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T455-assign-cookies.h"; sourceTree = "<group>"; };
+		03F4B5FD24795D2300072A3D /* T455-assign-cookies.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T455-assign-cookies.c"; sourceTree = "<group>"; };
+		03F4B5FF24795D7600072A3D /* T452-minimum-number-of-arrows-to-burst-balloons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T452-minimum-number-of-arrows-to-burst-balloons.h"; sourceTree = "<group>"; };
+		03F4B60024795D7600072A3D /* T452-minimum-number-of-arrows-to-burst-balloons.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T452-minimum-number-of-arrows-to-burst-balloons.c"; sourceTree = "<group>"; };
+		03F4B60224795DF200072A3D /* T605-can-place-flowers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T605-can-place-flowers.h"; sourceTree = "<group>"; };
+		03F4B60324795DF200072A3D /* T605-can-place-flowers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T605-can-place-flowers.c"; sourceTree = "<group>"; };
+		03F4B60524795E3100072A3D /* T135-candy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T135-candy.h"; sourceTree = "<group>"; };
+		03F4B60624795E3100072A3D /* T135-candy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T135-candy.c"; sourceTree = "<group>"; };
 		03F935852450732000FCF702 /* T2-add-two-numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T2-add-two-numbers.h"; sourceTree = "<group>"; };
 		03F935862450732000FCF702 /* T2-add-two-numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T2-add-two-numbers.c"; sourceTree = "<group>"; };
 		03F9358824508A3E00FCF702 /* T160-intersection-of-two-linked-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T160-intersection-of-two-linked-lists.h"; sourceTree = "<group>"; };
@@ -427,6 +439,14 @@
 				03F4B5F72479487100072A3D /* T78-subsets.c */,
 				03F4B5F9247948A500072A3D /* T90-subsets-ii.h */,
 				03F4B5FA247948A500072A3D /* T90-subsets-ii.c */,
+				03F4B5FC24795D2300072A3D /* T455-assign-cookies.h */,
+				03F4B5FD24795D2300072A3D /* T455-assign-cookies.c */,
+				03F4B5FF24795D7600072A3D /* T452-minimum-number-of-arrows-to-burst-balloons.h */,
+				03F4B60024795D7600072A3D /* T452-minimum-number-of-arrows-to-burst-balloons.c */,
+				03F4B60224795DF200072A3D /* T605-can-place-flowers.h */,
+				03F4B60324795DF200072A3D /* T605-can-place-flowers.c */,
+				03F4B60524795E3100072A3D /* T135-candy.h */,
+				03F4B60624795E3100072A3D /* T135-candy.c */,
 			);
 			path = task;
 			sourceTree = "<group>";
@@ -631,6 +651,7 @@
 				035A402A244F355000CAFCCF /* T203-remove-linked-list-elements.c in Sources */,
 				038BDE12245C1CB300AA6763 /* T5-longest-palindromic-substring.c in Sources */,
 				03C8A6452454182D001D5584 /* T654-maximum-binary-tree.c in Sources */,
+				03F4B60124795D7600072A3D /* T452-minimum-number-of-arrows-to-burst-balloons.c in Sources */,
 				03D56C0E2462F7900074214D /* T200-number-of-islands.c in Sources */,
 				031552F424684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c in Sources */,
 				0396526D245D7AAC008049D8 /* T236-lowest-common-ancestor-of-a-binary-tree.c in Sources */,
@@ -643,10 +664,12 @@
 				035D9F7C2460597100D22BB8 /* T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.c in Sources */,
 				039AD440245ED32A00A3935C /* T39-combination-sum.c in Sources */,
 				038BDE00245C079B00AA6763 /* T122-best-time-to-buy-and-sell-stock-ii.c in Sources */,
+				03F4B5FE24795D2300072A3D /* T455-assign-cookies.c in Sources */,
 				035D9F88246186DB00D22BB8 /* T252-meeting-rooms.c in Sources */,
 				035D9F73245FEADA00D22BB8 /* hash_table.c in Sources */,
 				03742A032472D01500C7BFBF /* T210-course-schedule-ii.c in Sources */,
 				03A94817246AE4370007C705 /* T124-binary-tree-maximum-path-sum.c in Sources */,
+				03F4B60424795DF200072A3D /* T605-can-place-flowers.c in Sources */,
 				034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */,
 				038BDDFD245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.c in Sources */,
 				031552F1246805B2001C70B1 /* T23-merge-k-sorted-lists.c in Sources */,
@@ -667,6 +690,7 @@
 				03F4B5EF247900CE00072A3D /* T51-n-queens.c in Sources */,
 				03C8A64F24546A3C001D5584 /* T01-09-string-rotation-lcci.c in Sources */,
 				03211BA4245721E400632DD8 /* T242-valid-anagram.c in Sources */,
+				03F4B60724795E3100072A3D /* T135-candy.c in Sources */,
 				038BDDFA245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.c in Sources */,
 				03F438D12459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c in Sources */,
 				030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */,
