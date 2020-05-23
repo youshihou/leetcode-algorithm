@@ -11,6 +11,48 @@
 #include "T52-n-queens-ii.h"
 #include "algorithm-common.h"
 
+void place8(int row, int* count, char cols, short leftTop, short rightTop) {
+    if (row == 8) {
+        (*count)++;
+        return;
+    }
+    
+    for (int col = 0; col < 8; col++) {
+        int cv = 1 << col;
+        if ((cols & cv) != 0) { continue; }
+        int lv = 1 << (row - col + 7);
+        if ((leftTop & lv) != 0) { continue; }
+        int rv = 1 << (row + col);
+        if ((rightTop & rv) != 0) { continue; }
+        
+        cols |= cv;
+        leftTop |= lv;
+        rightTop |= rv;
+        place8(row + 1, count, cols, leftTop, rightTop);
+        
+        // CARE!!! back tracking
+        cols &= ~cv;
+        leftTop &= ~lv;
+        rightTop &= ~rv;
+    }
+}
+
+int total8Queens() {
+    int count = 0;
+    char cols = '\0';
+    short leftTop = 0;
+    short rightTop = 0;
+        
+    place8(0, &count, cols, leftTop, rightTop);
+    
+    return count;
+}
+
+
+
+
+
+
 void place(int n, int row, int* count, bool* cols, bool* leftTop, bool* rightTop) {
     if (row == n) {
         (*count)++;
