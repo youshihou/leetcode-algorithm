@@ -13,6 +13,26 @@
 
 
 
+int maxSubArray(int* nums, int numsSize) {
+    if (nums == NULL || numsSize <= 0) { return 0; }
+
+    int dp[numsSize];
+    dp[0] = nums[0];
+    int max = dp[0];
+    for (int i = 1; i < numsSize; i++) {
+        if (dp[i - 1] <= 0) {
+            dp[i] = nums[i];
+        } else {
+            dp[i] = dp[i - 1] + nums[i];
+        }
+        max = MAX(max, dp[i]);
+    }
+    
+    return max;
+}
+
+
+
 int maxSubArray__(int* nums, int begin, int end) {
     if (end - begin < 2) { return nums[begin]; }
     
@@ -61,7 +81,7 @@ int maxSubArray_(int* nums, int begin, int end) {
     return MAX(leftMax + rightMax, max);
 }
 
-int maxSubArray(int* nums, int numsSize) {
+int maxSubArray3(int* nums, int numsSize) {
     if (nums == NULL || numsSize <= 0) { return 0; }
 
     return maxSubArray_(nums, 0, numsSize);
