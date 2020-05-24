@@ -12,8 +12,26 @@
 #include "algorithm-common.h"
 
 
-
 int maxSubArray(int* nums, int numsSize) {
+    if (nums == NULL || numsSize <= 0) { return 0; }
+
+    int dp = nums[0];
+    int max = dp;
+    for (int i = 1; i < numsSize; i++) {
+        if (dp <= 0) {
+            dp = nums[i];
+        } else {
+            dp += nums[i];
+        }
+        max = MAX(max, dp);
+    }
+    
+    return max;
+}
+
+
+
+int maxSubArray4(int* nums, int numsSize) {
     if (nums == NULL || numsSize <= 0) { return 0; }
 
     int dp[numsSize];
