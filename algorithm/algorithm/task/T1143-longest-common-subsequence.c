@@ -12,6 +12,7 @@
 #include "algorithm-common.h"
 
 
+
 int longestCommonSubsequence(char * text1, char * text2) {
     if (text1 == NULL || text2 == NULL) { return 0; }
     
@@ -21,18 +22,42 @@ int longestCommonSubsequence(char * text1, char * text2) {
     memset(dp, 0, sizeof(dp));
 
     for (int i = 1; i <= len1; i++) {
-        int row = i % 2;
-        int preRow = (i - 1) % 2;
+        int row = i & 1; // CARE!!!
+        int preRow = (i - 1) & 1; // CARE!!!
         for (int j = 1; j <= len2; j++) {
             if (text1[i - 1] == text2[j - 1]) {
-                dp[row][j] = dp[preRow][j - 1] + 1;
+                dp[row][j] = dp[preRow][j - 1] + 1; // CARE!!!
             } else {
-                dp[row][j] = MAX(dp[preRow][j], dp[row][j - 1]);
+                dp[row][j] = MAX(dp[preRow][j], dp[row][j - 1]); // CARE!!!
             }
         }
     }
     
-    return dp[len1 % 2][len2];
+    return dp[len1 & 1][len2]; // CARE!!!
+}
+
+
+int longestCommonSubsequence3(char * text1, char * text2) {
+    if (text1 == NULL || text2 == NULL) { return 0; }
+    
+    size_t len1 = strlen(text1);
+    size_t len2 = strlen(text2);
+    int dp[2][len2 + 1];
+    memset(dp, 0, sizeof(dp));
+
+    for (int i = 1; i <= len1; i++) {
+        int row = i % 2; // CARE!!!
+        int preRow = (i - 1) % 2; // CARE!!!
+        for (int j = 1; j <= len2; j++) {
+            if (text1[i - 1] == text2[j - 1]) {
+                dp[row][j] = dp[preRow][j - 1] + 1; // CARE!!!
+            } else {
+                dp[row][j] = MAX(dp[preRow][j], dp[row][j - 1]); // CARE!!!
+            }
+        }
+    }
+    
+    return dp[len1 % 2][len2]; // CARE!!!
 }
 
 
