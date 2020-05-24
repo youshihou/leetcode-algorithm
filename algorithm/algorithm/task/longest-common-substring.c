@@ -7,3 +7,14 @@
 //
 
 #include "longest-common-substring.h"
+#include "algorithm-common.h"
+
+
+int longestCommonSubstring(char * text1, char * text2) {
+    if (text1 == NULL || text2 == NULL) { return 0; }
+    
+    
+    
+    
+    return 0;
+}

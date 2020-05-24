@@ -66,6 +66,7 @@
 		03B262F4247A2F9A00BBD985 /* T322-coin-change.c in Sources */ = {isa = PBXBuildFile; fileRef = 03B262F3247A2F9A00BBD985 /* T322-coin-change.c */; };
 		03B262F7247A8E1E00BBD985 /* T300-longest-increasing-subsequence.c in Sources */ = {isa = PBXBuildFile; fileRef = 03B262F6247A8E1E00BBD985 /* T300-longest-increasing-subsequence.c */; };
 		03B262FA247A98FB00BBD985 /* T1143-longest-common-subsequence.c in Sources */ = {isa = PBXBuildFile; fileRef = 03B262F9247A98FB00BBD985 /* T1143-longest-common-subsequence.c */; };
+		03B262FD247AB3DF00BBD985 /* longest-common-substring.c in Sources */ = {isa = PBXBuildFile; fileRef = 03B262FC247AB3DF00BBD985 /* longest-common-substring.c */; };
 		03C8A63924531081001D5584 /* T138-copy-list-with-random-pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */; };
 		03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63C245312FC001D5584 /* T155-min-stack.c */; };
 		03C8A64224532E5F001D5584 /* T239-sliding-window-maximum.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64124532E5F001D5584 /* T239-sliding-window-maximum.c */; };
@@ -228,6 +229,8 @@
 		03B262F6247A8E1E00BBD985 /* T300-longest-increasing-subsequence.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T300-longest-increasing-subsequence.c"; sourceTree = "<group>"; };
 		03B262F8247A98FB00BBD985 /* T1143-longest-common-subsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T1143-longest-common-subsequence.h"; sourceTree = "<group>"; };
 		03B262F9247A98FB00BBD985 /* T1143-longest-common-subsequence.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T1143-longest-common-subsequence.c"; sourceTree = "<group>"; };
+		03B262FB247AB3DF00BBD985 /* longest-common-substring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "longest-common-substring.h"; sourceTree = "<group>"; };
+		03B262FC247AB3DF00BBD985 /* longest-common-substring.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "longest-common-substring.c"; sourceTree = "<group>"; };
 		03C8A63724531080001D5584 /* T138-copy-list-with-random-pointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T138-copy-list-with-random-pointer.h"; sourceTree = "<group>"; };
 		03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T138-copy-list-with-random-pointer.c"; sourceTree = "<group>"; };
 		03C8A63B245312FC001D5584 /* T155-min-stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T155-min-stack.h"; sourceTree = "<group>"; };
@@ -467,6 +470,8 @@
 				03B262F6247A8E1E00BBD985 /* T300-longest-increasing-subsequence.c */,
 				03B262F8247A98FB00BBD985 /* T1143-longest-common-subsequence.h */,
 				03B262F9247A98FB00BBD985 /* T1143-longest-common-subsequence.c */,
+				03B262FB247AB3DF00BBD985 /* longest-common-substring.h */,
+				03B262FC247AB3DF00BBD985 /* longest-common-substring.c */,
 			);
 			path = task;
 			sourceTree = "<group>";
@@ -666,6 +671,7 @@
 				03C8A653245474F3001D5584 /* T572-subtree-of-another-tree.c in Sources */,
 				03403993244D300E00896919 /* main.c in Sources */,
 				03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */,
+				03B262FD247AB3DF00BBD985 /* longest-common-substring.c in Sources */,
 				039AD43D245ED1C700A3935C /* T113-path-sum-ii.c in Sources */,
 				038BDE0F245C0B3C00AA6763 /* T72-edit-distance.c in Sources */,
 				035A402A244F355000CAFCCF /* T203-remove-linked-list-elements.c in Sources */,
