@@ -6,4 +6,12 @@
 //  Copyright © 2020 Ankui. All rights reserved.
 //
 
+// https://leetcode-cn.com/problems/longest-common-subsequence/
+
 #include "T1143-longest-common-subsequence.h"
+
+
+int longestCommonSubsequence(char * text1, char * text2) {
+
+    return 0;
+}

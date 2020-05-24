@@ -20,7 +20,7 @@ int lengthOfLIS(int* nums, int numsSize) {
     int max = dp[0];
     for (int i = 1; i < numsSize; i++) {
         dp[i] = 1; // CARE!!!
-        for (int j = 0; j < i; j++) {
+        for (int j = 0; j < i; j++) { // CARE!!! j < i
             if (nums[i] <= nums[j]) { continue; }
             dp[i] = MAX(dp[i], dp[j] + 1);
         }
