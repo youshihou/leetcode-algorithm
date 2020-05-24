@@ -12,7 +12,43 @@
 #include "algorithm-common.h"
 
 
+
+int maxSubArray_(int* nums, int begin, int end) {
+    if (end - begin < 2) { return nums[begin]; }
+    
+    int mid = (begin + end) >> 1;
+    int leftMax = INT_MIN; // CARE!!!
+    int leftSum = 0;
+    for (int i = mid - 1; i >= begin; i--) {
+        leftSum += nums[i];
+        leftMax = MAX(leftMax, leftSum);
+    }
+    
+    int rightMax = INT_MIN; // CARE!!!
+    int rightSum = 0;
+    for (int i = mid; i < end; i++) {
+        rightSum += nums[i];
+        rightMax = MAX(rightMax, rightSum);
+    }
+
+    int left = maxSubArray_(nums, begin, mid);
+    int right = maxSubArray_(nums, mid, end);
+    int max = MAX(left, right);
+    return MAX(leftMax + rightMax, max);
+}
+
+
+
 int maxSubArray(int* nums, int numsSize) {
+    if (nums == NULL || numsSize <= 0) { return 0; }
+
+    return maxSubArray_(nums, 0, numsSize);
+}
+
+
+
+
+int maxSubArray2(int* nums, int numsSize) {
     if (nums == NULL || numsSize <= 0) { return 0; }
     
     int max = INT_MIN;
