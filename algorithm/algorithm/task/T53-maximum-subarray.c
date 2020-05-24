@@ -17,16 +17,16 @@ int maxSubArray__(int* nums, int begin, int end) {
     if (end - begin < 2) { return nums[begin]; }
     
     int mid = (begin + end) >> 1;
-    int leftMax = nums[mid - 1];
-    int leftSum = nums[mid - 1];
-    for (int i = mid - 2; i >= begin; i--) {
+    int leftMax = nums[mid - 1]; // CARE!!!
+    int leftSum = nums[mid - 1]; // CARE!!!
+    for (int i = mid - 2; i >= begin; i--) { // CARE!!!
         leftSum += nums[i];
         leftMax = MAX(leftMax, leftSum);
     }
     
-    int rightMax = nums[mid];
-    int rightSum = nums[mid];
-    for (int i = mid + 1; i < end; i++) {
+    int rightMax = nums[mid]; // CARE!!!
+    int rightSum = nums[mid]; // CARE!!!
+    for (int i = mid + 1; i < end; i++) { // CARE!!!
         rightSum += nums[i];
         rightMax = MAX(rightMax, rightSum);
     }

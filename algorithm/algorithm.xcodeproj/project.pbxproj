@@ -63,6 +63,7 @@
 		039AD446245EE62E00A3935C /* T93-restore-ip-addresses.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD445245EE62E00A3935C /* T93-restore-ip-addresses.c */; };
 		03A94817246AE4370007C705 /* T124-binary-tree-maximum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A94816246AE4370007C705 /* T124-binary-tree-maximum-path-sum.c */; };
 		03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */ = {isa = PBXBuildFile; fileRef = 03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */; };
+		03B262F4247A2F9A00BBD985 /* T322-coin-change.c in Sources */ = {isa = PBXBuildFile; fileRef = 03B262F3247A2F9A00BBD985 /* T322-coin-change.c */; };
 		03C8A63924531081001D5584 /* T138-copy-list-with-random-pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */; };
 		03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63C245312FC001D5584 /* T155-min-stack.c */; };
 		03C8A64224532E5F001D5584 /* T239-sliding-window-maximum.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64124532E5F001D5584 /* T239-sliding-window-maximum.c */; };
@@ -219,6 +220,8 @@
 		03A94816246AE4370007C705 /* T124-binary-tree-maximum-path-sum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T124-binary-tree-maximum-path-sum.c"; sourceTree = "<group>"; };
 		03AA31D3244DF66D008B0B20 /* T164-maximum-gap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T164-maximum-gap.h"; sourceTree = "<group>"; };
 		03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T164-maximum-gap.c"; sourceTree = "<group>"; };
+		03B262F2247A2F9A00BBD985 /* T322-coin-change.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T322-coin-change.h"; sourceTree = "<group>"; };
+		03B262F3247A2F9A00BBD985 /* T322-coin-change.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T322-coin-change.c"; sourceTree = "<group>"; };
 		03C8A63724531080001D5584 /* T138-copy-list-with-random-pointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T138-copy-list-with-random-pointer.h"; sourceTree = "<group>"; };
 		03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T138-copy-list-with-random-pointer.c"; sourceTree = "<group>"; };
 		03C8A63B245312FC001D5584 /* T155-min-stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T155-min-stack.h"; sourceTree = "<group>"; };
@@ -452,6 +455,8 @@
 				03F4B60624795E3100072A3D /* T135-candy.c */,
 				03F4B6082479626600072A3D /* T53-maximum-subarray.h */,
 				03F4B6092479626600072A3D /* T53-maximum-subarray.c */,
+				03B262F2247A2F9A00BBD985 /* T322-coin-change.h */,
+				03B262F3247A2F9A00BBD985 /* T322-coin-change.c */,
 			);
 			path = task;
 			sourceTree = "<group>";
@@ -660,6 +665,7 @@
 				03D56C0E2462F7900074214D /* T200-number-of-islands.c in Sources */,
 				031552F424684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c in Sources */,
 				0396526D245D7AAC008049D8 /* T236-lowest-common-ancestor-of-a-binary-tree.c in Sources */,
+				03B262F4247A2F9A00BBD985 /* T322-coin-change.c in Sources */,
 				03F4B5FB247948A500072A3D /* T90-subsets-ii.c in Sources */,
 				035D9F70245FE6E700D22BB8 /* T1-two-sum.c in Sources */,
 				03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */,
