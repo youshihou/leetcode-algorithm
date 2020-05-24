@@ -9,8 +9,21 @@
 // https://leetcode-cn.com/problems/maximum-subarray/
 
 #include "T53-maximum-subarray.h"
+#include "algorithm-common.h"
 
 int maxSubArray(int* nums, int numsSize) {
-
-    return 0;
+    if (nums == NULL || numsSize <= 0) { return 0; }
+    
+    int max = INT_MIN;
+    for (int begin = 0; begin < numsSize; begin++) {
+        for (int end = begin; end < numsSize; end++) {
+            int sum = 0;
+            for (int i = begin; i <= end; i++) {
+                sum += nums[i];
+            }
+            max = MAX(max, sum);
+        }
+    }
+    
+    return max;
 }
