@@ -208,6 +208,8 @@ int main(int argc, const char * argv[]) {
         int capacity = 10;
         int result = knapsack_maxValue(values, weights, size, capacity);
         printf("%d\n", result);
+        result = knapsack_maxValue_exactly(values, weights, size, capacity);
+        printf("%d\n", result);
     }
     
     return 0;

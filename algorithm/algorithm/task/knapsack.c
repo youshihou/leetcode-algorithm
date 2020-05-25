@@ -10,6 +10,26 @@
 #include "algorithm-common.h"
 
 
+int knapsack_maxValue_exactly(int* values, int* weights, int size, int capacity) {
+    if (values == NULL || weights == NULL || size <= 0 || capacity <= 0) { return 0; }
+    
+    int dp[capacity + 1];
+    dp[0] = 0;
+    for (int j = 1; j <= capacity; j++) {
+        dp[j] = INT_MIN;
+    }
+    for (int i = 1; i <= size; i++) {
+        for (int j = capacity; j >= weights[i - 1]; j--) {
+            dp[j] = MAX(dp[j], values[i - 1] + dp[j - weights[i - 1]]);
+        }
+    }
+    
+    return dp[capacity] < 0 ? - 1 : dp[capacity];
+}
+
+
+
+
 int knapsack_maxValue(int* values, int* weights, int size, int capacity) {
     if (values == NULL || weights == NULL || size <= 0 || capacity <= 0) { return 0; }
     

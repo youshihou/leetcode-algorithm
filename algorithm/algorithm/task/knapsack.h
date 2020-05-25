@@ -12,5 +12,6 @@
 #include <stdio.h>
 
 int knapsack_maxValue(int*, int*, int, int);
+int knapsack_maxValue_exactly(int*, int*, int, int);
 
 #endif /* knapsack_h */
