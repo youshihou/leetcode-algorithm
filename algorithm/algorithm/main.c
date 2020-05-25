@@ -20,7 +20,7 @@
 #include "T72-edit-distance.h"
 #include "T5-longest-palindromic-substring.h"
 #include "T99-recover-binary-search-tree.h"
-
+#include "longest-common-substring.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -192,6 +192,11 @@ int main(int argc, const char * argv[]) {
 //        recoverTree1(root);
     }
     
+    
+    {
+        int count = longestCommonSubstring("ABCBA", "BABCA");
+        printf("count = %d\n", count);
+    }
     
     return 0;
 }

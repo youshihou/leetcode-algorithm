@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+int longestCommonSubstring(char *, char *);
+
 #endif /* longest_common_substring_h */
