@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+int knapsack_maxValue(int*, int*, int, int);
+
 #endif /* knapsack_h */

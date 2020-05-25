@@ -75,6 +75,7 @@
 		03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64A24544401001D5584 /* T739-daily-temperatures.c */; };
 		03C8A64F24546A3C001D5584 /* T01-09-string-rotation-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A64E24546A3C001D5584 /* T01-09-string-rotation-lcci.c */; };
 		03C8A653245474F3001D5584 /* T572-subtree-of-another-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A652245474F3001D5584 /* T572-subtree-of-another-tree.c */; };
+		03D36D67247C0744002C5B4D /* knapsack.c in Sources */ = {isa = PBXBuildFile; fileRef = 03D36D66247C0744002C5B4D /* knapsack.c */; };
 		03D56BFF2462DDAA0074214D /* T42-trapping-rain-water.c in Sources */ = {isa = PBXBuildFile; fileRef = 03D56BFE2462DDAA0074214D /* T42-trapping-rain-water.c */; };
 		03D56C022462F6B00074214D /* T215-kth-largest-element-in-an-array.c in Sources */ = {isa = PBXBuildFile; fileRef = 03D56C012462F6B00074214D /* T215-kth-largest-element-in-an-array.c */; };
 		03D56C052462F6E80074214D /* T315-count-of-smaller-numbers-after-self.c in Sources */ = {isa = PBXBuildFile; fileRef = 03D56C042462F6E80074214D /* T315-count-of-smaller-numbers-after-self.c */; };
@@ -247,6 +248,8 @@
 		03C8A64E24546A3C001D5584 /* T01-09-string-rotation-lcci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T01-09-string-rotation-lcci.c"; sourceTree = "<group>"; };
 		03C8A651245474F3001D5584 /* T572-subtree-of-another-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T572-subtree-of-another-tree.h"; sourceTree = "<group>"; };
 		03C8A652245474F3001D5584 /* T572-subtree-of-another-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T572-subtree-of-another-tree.c"; sourceTree = "<group>"; };
+		03D36D65247C0744002C5B4D /* knapsack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = knapsack.h; sourceTree = "<group>"; };
+		03D36D66247C0744002C5B4D /* knapsack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = knapsack.c; sourceTree = "<group>"; };
 		03D56BFD2462DDAA0074214D /* T42-trapping-rain-water.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T42-trapping-rain-water.h"; sourceTree = "<group>"; };
 		03D56BFE2462DDAA0074214D /* T42-trapping-rain-water.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T42-trapping-rain-water.c"; sourceTree = "<group>"; };
 		03D56C002462F6B00074214D /* T215-kth-largest-element-in-an-array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T215-kth-largest-element-in-an-array.h"; sourceTree = "<group>"; };
@@ -472,6 +475,8 @@
 				03B262F9247A98FB00BBD985 /* T1143-longest-common-subsequence.c */,
 				03B262FB247AB3DF00BBD985 /* longest-common-substring.h */,
 				03B262FC247AB3DF00BBD985 /* longest-common-substring.c */,
+				03D36D65247C0744002C5B4D /* knapsack.h */,
+				03D36D66247C0744002C5B4D /* knapsack.c */,
 			);
 			path = task;
 			sourceTree = "<group>";
@@ -704,6 +709,7 @@
 				03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */,
 				03B262FA247A98FB00BBD985 /* T1143-longest-common-subsequence.c in Sources */,
 				038BDE06245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.c in Sources */,
+				03D36D67247C0744002C5B4D /* knapsack.c in Sources */,
 				03F4B5F52479482C00072A3D /* T40-combination-sum-ii.c in Sources */,
 				03F4B5F82479487100072A3D /* T78-subsets.c in Sources */,
 				035D9F822461093E00D22BB8 /* T146-lru-cache.c in Sources */,

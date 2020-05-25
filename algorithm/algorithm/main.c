@@ -21,6 +21,7 @@
 #include "T5-longest-palindromic-substring.h"
 #include "T99-recover-binary-search-tree.h"
 #include "longest-common-substring.h"
+#include "knapsack.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -194,8 +195,19 @@ int main(int argc, const char * argv[]) {
     
     
     {
-        int count = longestCommonSubstring("ABCBA", "BABCA");
-        printf("count = %d\n", count);
+//        int count = longestCommonSubstring("ABCBA", "BABCA");
+//        printf("count = %d\n", count);
+    }
+    
+    
+    
+    {
+        int values[] = {6, 3, 5, 4, 6};
+        int weights[] = {2, 2, 6, 5, 4};
+        int size = 5;
+        int capacity = 10;
+        int result = knapsack_maxValue(values, weights, size, capacity);
+        printf("%d\n", result);
     }
     
     return 0;
