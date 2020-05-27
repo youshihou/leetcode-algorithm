@@ -15,6 +15,34 @@
 int lengthOfLIS(int* nums, int numsSize) {
     if (nums == NULL || numsSize <= 0) { return 0; }
     
+    int len = 0;
+    int top[numsSize];
+    memset(top, 0, sizeof(top));
+    
+    for (int i = 0; i < numsSize; i++) {
+        int j = 0;
+        while (j < len) { // CARE!!! j < len
+            if (top[j] >= nums[i]) {
+                top[j] = nums[i];
+                break;
+            }
+            j++;
+        }
+        if (j == len) {
+            top[j] = nums[i]; // CARE!!!
+            len++;
+        }
+    }
+    
+    return len;
+}
+
+
+
+
+int lengthOfLIS1(int* nums, int numsSize) {
+    if (nums == NULL || numsSize <= 0) { return 0; }
+    
     int dp[numsSize];
     dp[0] = 1;
     int max = dp[0];
