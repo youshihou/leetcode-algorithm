@@ -12,8 +12,40 @@
 #include "algorithm-common.h"
 
 
-
 int longestCommonSubsequence(char * text1, char * text2) {
+    if (text1 == NULL || text2 == NULL) { return 0; }
+    
+    char* rowsText = text1;
+    char* colsText = text2;
+    if (strlen(text1) < strlen(text2)) {
+        rowsText = text2;
+        colsText = text1;
+    }
+    
+    size_t rows = strlen(rowsText);
+    size_t cols = strlen(colsText);
+    
+    int dp[cols + 1];
+    memset(dp, 0, sizeof(dp));
+
+    for (int i = 1; i <= rows; i++) {
+        for (size_t j = cols; j >= 1; j--) {
+            if (rowsText[i - 1] == colsText[j - 1]) { // CARE!!! right --> left
+                dp[j] = dp[cols - 1] + 1; // CARE!!!
+            } else {
+                dp[j] = MAX(dp[j], dp[j - 1]);
+            }
+        }
+    }
+    
+    return dp[cols];
+}
+
+
+
+
+
+int longestCommonSubsequence6(char * text1, char * text2) {
     if (text1 == NULL || text2 == NULL) { return 0; }
     
     char* rowsText = text1;
