@@ -27,3 +27,23 @@ int fib_(int N) {
     
     return fib(N - 1) + fib(N - 2);
 }
+
+
+int fibonacci_(int n) {
+    if (n <= 1) { return n; }
+    
+    // 0  1  2  3  4  5  6  7 ...n
+    // 0, 1, 1, 2, 3, 5, 8, 13, ...
+    int first = 0;
+    int second = 1;
+    for (int i = 0; i < n - 1; i++) {
+        second = first + second;
+        first = second - first;
+        
+//        int sum = first + second;
+//        first = second;
+//        second = sum;
+    }
+    return second;
+}
+
