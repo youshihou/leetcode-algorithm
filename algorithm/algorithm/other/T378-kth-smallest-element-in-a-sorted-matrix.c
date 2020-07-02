@@ -11,13 +11,49 @@
 #include "T378-kth-smallest-element-in-a-sorted-matrix.h"
 #include "algorithm-common.h"
 
+int lower_count(int** matrix, int row, int col, int mid) {
+    int i = row - 1;
+    int j = 0;
+    int count = 0;
+    while (i >= 0 && j < col) {
+        if (matrix[i][j] <= mid) {
+            count = count + i + 1;
+            j++;
+        } else {
+            i--;
+        }
+    }
+    return count;
+}
+
+int kthSmallest(int** matrix, int matrixSize, int* matrixColSize, int k) {
+    if (matrix == NULL || matrixSize <= 0) { return -1; }
+    
+    int row = matrixSize;
+    int col = matrixColSize[0];
+    int left = matrix[0][0];
+    int right = matrix[row - 1][col - 1];
+    while (left < right) {
+        int mid = (left + right) >> 1;
+        if (lower_count(matrix, row, col, mid) < k) {
+            left = mid + 1;
+        } else {
+            right = mid;
+        }
+    }
+    
+    return left;
+}
+
+
+
 
 
 int t387cmp(const void * v1, const void * v2) {
     return *(int *)v1 - *(int *)v2;
 }
 
-int kthSmallest(int** matrix, int matrixSize, int* matrixColSize, int k) {
+int kthSmallest1(int** matrix, int matrixSize, int* matrixColSize, int k) {
     if (matrix == NULL || matrixColSize == NULL || matrixSize <= 0 || k <= 0) {
         return -1;
     }
