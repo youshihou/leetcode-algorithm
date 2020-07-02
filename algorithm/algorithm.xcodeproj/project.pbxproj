@@ -19,6 +19,7 @@
 		034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399D244D302A00896919 /* T16-sub-sort-lcci.c */; };
 		034039A2244D302B00896919 /* T88-merge-sorted-array.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399E244D302A00896919 /* T88-merge-sorted-array.c */; };
 		0345CF602458702700D8E5AE /* T151-reverse-words-in-a-string.c in Sources */ = {isa = PBXBuildFile; fileRef = 0345CF5F2458702700D8E5AE /* T151-reverse-words-in-a-string.c */; };
+		035021F724ADBA210024BD6A /* T378-kth-smallest-element-in-a-sorted-matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 035021F624ADBA210024BD6A /* T378-kth-smallest-element-in-a-sorted-matrix.c */; };
 		035A4026244F330900CAFCCF /* T977-squares-of-a-sorted-array.c in Sources */ = {isa = PBXBuildFile; fileRef = 035A4025244F330900CAFCCF /* T977-squares-of-a-sorted-array.c */; };
 		035A402A244F355000CAFCCF /* T203-remove-linked-list-elements.c in Sources */ = {isa = PBXBuildFile; fileRef = 035A4029244F355000CAFCCF /* T203-remove-linked-list-elements.c */; };
 		035D21FC246FA6D20020BF33 /* T36-valid-sudoku.c in Sources */ = {isa = PBXBuildFile; fileRef = 035D21FB246FA6D20020BF33 /* T36-valid-sudoku.c */; };
@@ -137,6 +138,8 @@
 		0340399F244D302A00896919 /* T75-sort-colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "T75-sort-colors.h"; sourceTree = "<group>"; };
 		0345CF5E2458702700D8E5AE /* T151-reverse-words-in-a-string.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T151-reverse-words-in-a-string.h"; sourceTree = "<group>"; };
 		0345CF5F2458702700D8E5AE /* T151-reverse-words-in-a-string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T151-reverse-words-in-a-string.c"; sourceTree = "<group>"; };
+		035021F524ADBA210024BD6A /* T378-kth-smallest-element-in-a-sorted-matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T378-kth-smallest-element-in-a-sorted-matrix.h"; sourceTree = "<group>"; };
+		035021F624ADBA210024BD6A /* T378-kth-smallest-element-in-a-sorted-matrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T378-kth-smallest-element-in-a-sorted-matrix.c"; sourceTree = "<group>"; };
 		035A4024244F330900CAFCCF /* T977-squares-of-a-sorted-array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T977-squares-of-a-sorted-array.h"; sourceTree = "<group>"; };
 		035A4025244F330900CAFCCF /* T977-squares-of-a-sorted-array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T977-squares-of-a-sorted-array.c"; sourceTree = "<group>"; };
 		035A4028244F355000CAFCCF /* T203-remove-linked-list-elements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T203-remove-linked-list-elements.h"; sourceTree = "<group>"; };
@@ -559,6 +562,8 @@
 			children = (
 				03A7606324ACC05C00940BC7 /* T509-fibonacci-number.h */,
 				03A7606424ACC05C00940BC7 /* T509-fibonacci-number.c */,
+				035021F524ADBA210024BD6A /* T378-kth-smallest-element-in-a-sorted-matrix.h */,
+				035021F624ADBA210024BD6A /* T378-kth-smallest-element-in-a-sorted-matrix.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -705,6 +710,7 @@
 				03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */,
 				0345CF602458702700D8E5AE /* T151-reverse-words-in-a-string.c in Sources */,
 				03D56C052462F6E80074214D /* T315-count-of-smaller-numbers-after-self.c in Sources */,
+				035021F724ADBA210024BD6A /* T378-kth-smallest-element-in-a-sorted-matrix.c in Sources */,
 				038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */,
 				035D9F7C2460597100D22BB8 /* T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.c in Sources */,
 				039AD440245ED32A00A3935C /* T39-combination-sum.c in Sources */,
