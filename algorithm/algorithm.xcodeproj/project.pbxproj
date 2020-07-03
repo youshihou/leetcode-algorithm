@@ -15,6 +15,7 @@
 		03211BA4245721E400632DD8 /* T242-valid-anagram.c in Sources */ = {isa = PBXBuildFile; fileRef = 03211BA3245721E400632DD8 /* T242-valid-anagram.c */; };
 		03298524246965D100A7D5A8 /* T98-validate-binary-search-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 03298523246965D100A7D5A8 /* T98-validate-binary-search-tree.c */; };
 		033637E024AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 033637DF24AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.c */; };
+		033637E324AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 033637E224AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.c */; };
 		03403993244D300E00896919 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 03403992244D300E00896919 /* main.c */; };
 		034039A0244D302A00896919 /* T75-sort-colors.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399C244D302A00896919 /* T75-sort-colors.c */; };
 		034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399D244D302A00896919 /* T16-sub-sort-lcci.c */; };
@@ -131,6 +132,8 @@
 		032985282469664D00A7D5A8 /* algorithm-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "algorithm-common.h"; sourceTree = "<group>"; };
 		033637DE24AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T108-convert-sorted-array-to-binary-search-tree.h"; sourceTree = "<group>"; };
 		033637DF24AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T108-convert-sorted-array-to-binary-search-tree.c"; sourceTree = "<group>"; };
+		033637E124AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T718-maximum-length-of-repeated-subarray.h"; sourceTree = "<group>"; };
+		033637E224AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T718-maximum-length-of-repeated-subarray.c"; sourceTree = "<group>"; };
 		0340398F244D300E00896919 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		03403992244D300E00896919 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0340399A244D302A00896919 /* T16-sub-sort-lcci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "T16-sub-sort-lcci.h"; sourceTree = "<group>"; };
@@ -331,8 +334,8 @@
 		03403991244D300E00896919 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				03A7606224ACBFF700940BC7 /* other */,
 				032985282469664D00A7D5A8 /* algorithm-common.h */,
+				03A7606224ACBFF700940BC7 /* other */,
 				03742A002472CFE700C7BFBF /* task */,
 				0365A33C246EE11000470862 /* weekly */,
 				035D9F68245FD8BC00D22BB8 /* high-frequency */,
@@ -569,6 +572,8 @@
 				035021F624ADBA210024BD6A /* T378-kth-smallest-element-in-a-sorted-matrix.c */,
 				033637DE24AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.h */,
 				033637DF24AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.c */,
+				033637E124AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.h */,
+				033637E224AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -706,6 +711,7 @@
 				035A402A244F355000CAFCCF /* T203-remove-linked-list-elements.c in Sources */,
 				038BDE12245C1CB300AA6763 /* T5-longest-palindromic-substring.c in Sources */,
 				03C8A6452454182D001D5584 /* T654-maximum-binary-tree.c in Sources */,
+				033637E324AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.c in Sources */,
 				03F4B60124795D7600072A3D /* T452-minimum-number-of-arrows-to-burst-balloons.c in Sources */,
 				03D56C0E2462F7900074214D /* T200-number-of-islands.c in Sources */,
 				031552F424684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c in Sources */,
