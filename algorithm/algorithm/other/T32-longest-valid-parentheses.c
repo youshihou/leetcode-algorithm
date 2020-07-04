@@ -17,6 +17,46 @@ int longestValidParentheses(char * s) {
     size_t len = strlen(s);
     if (len == 0) { return 0; }
     int maxlen = 0;
+    int left = 0, right = 0;
+    
+    for (int i = 0; i < len; i++) {
+        if (s[i] == '(') {
+            left++;
+        } else {
+            right++;
+        }
+        if (left == right) {
+            maxlen = fmax(maxlen, 2 * right);
+        } else if (right > left) {
+            left = right = 0;
+        }
+    }
+    left = right = 0;
+    for (int i = (int)(len - 1); i >= 0; i--) {
+        if (s[i] == '(') {
+            left++;
+        } else {
+            right++;
+        }
+        if (left == right) {
+            maxlen = fmax(maxlen, 2 * left);
+        } else if (left > right) {
+            left = right = 0;
+        }
+    }
+    
+    return maxlen;
+}
+
+
+
+
+
+int longestValidParentheses2(char * s) {
+    if (s == NULL) { return 0; }
+    size_t len = strlen(s);
+    if (len == 0) { return 0; }
+    int maxlen = 0;
     int stack[len + 1];
     int top = -1;
     stack[++top] = -1;
