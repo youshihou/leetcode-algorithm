@@ -64,6 +64,7 @@
 		039AD440245ED32A00A3935C /* T39-combination-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD43F245ED32A00A3935C /* T39-combination-sum.c */; };
 		039AD443245EE5DD00A3935C /* T112-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD442245EE5DD00A3935C /* T112-path-sum.c */; };
 		039AD446245EE62E00A3935C /* T93-restore-ip-addresses.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD445245EE62E00A3935C /* T93-restore-ip-addresses.c */; };
+		03A21E1B24B0B47A00E8055E /* T32-longest-valid-parentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A21E1A24B0B47A00E8055E /* T32-longest-valid-parentheses.c */; };
 		03A7606524ACC05C00940BC7 /* T509-fibonacci-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A7606424ACC05C00940BC7 /* T509-fibonacci-number.c */; };
 		03A94817246AE4370007C705 /* T124-binary-tree-maximum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A94816246AE4370007C705 /* T124-binary-tree-maximum-path-sum.c */; };
 		03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */ = {isa = PBXBuildFile; fileRef = 03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */; };
@@ -230,6 +231,8 @@
 		039AD442245EE5DD00A3935C /* T112-path-sum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T112-path-sum.c"; sourceTree = "<group>"; };
 		039AD444245EE62E00A3935C /* T93-restore-ip-addresses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T93-restore-ip-addresses.h"; sourceTree = "<group>"; };
 		039AD445245EE62E00A3935C /* T93-restore-ip-addresses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T93-restore-ip-addresses.c"; sourceTree = "<group>"; };
+		03A21E1924B0B47A00E8055E /* T32-longest-valid-parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T32-longest-valid-parentheses.h"; sourceTree = "<group>"; };
+		03A21E1A24B0B47A00E8055E /* T32-longest-valid-parentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T32-longest-valid-parentheses.c"; sourceTree = "<group>"; };
 		03A7606324ACC05C00940BC7 /* T509-fibonacci-number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T509-fibonacci-number.h"; sourceTree = "<group>"; };
 		03A7606424ACC05C00940BC7 /* T509-fibonacci-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T509-fibonacci-number.c"; sourceTree = "<group>"; };
 		03A94815246AE4370007C705 /* T124-binary-tree-maximum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T124-binary-tree-maximum-path-sum.h"; sourceTree = "<group>"; };
@@ -574,6 +577,8 @@
 				033637DF24AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.c */,
 				033637E124AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.h */,
 				033637E224AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.c */,
+				03A21E1924B0B47A00E8055E /* T32-longest-valid-parentheses.h */,
+				03A21E1A24B0B47A00E8055E /* T32-longest-valid-parentheses.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -721,6 +726,7 @@
 				035D9F70245FE6E700D22BB8 /* T1-two-sum.c in Sources */,
 				03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */,
 				0345CF602458702700D8E5AE /* T151-reverse-words-in-a-string.c in Sources */,
+				03A21E1B24B0B47A00E8055E /* T32-longest-valid-parentheses.c in Sources */,
 				03D56C052462F6E80074214D /* T315-count-of-smaller-numbers-after-self.c in Sources */,
 				035021F724ADBA210024BD6A /* T378-kth-smallest-element-in-a-sorted-matrix.c in Sources */,
 				038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */,
