@@ -65,6 +65,7 @@
 		039AD443245EE5DD00A3935C /* T112-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD442245EE5DD00A3935C /* T112-path-sum.c */; };
 		039AD446245EE62E00A3935C /* T93-restore-ip-addresses.c in Sources */ = {isa = PBXBuildFile; fileRef = 039AD445245EE62E00A3935C /* T93-restore-ip-addresses.c */; };
 		03A21E1B24B0B47A00E8055E /* T32-longest-valid-parentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A21E1A24B0B47A00E8055E /* T32-longest-valid-parentheses.c */; };
+		03A21E5A24B1A0E400E8055E /* T44-wildcard-matching.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A21E5924B1A0E400E8055E /* T44-wildcard-matching.c */; };
 		03A7606524ACC05C00940BC7 /* T509-fibonacci-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A7606424ACC05C00940BC7 /* T509-fibonacci-number.c */; };
 		03A94817246AE4370007C705 /* T124-binary-tree-maximum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A94816246AE4370007C705 /* T124-binary-tree-maximum-path-sum.c */; };
 		03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */ = {isa = PBXBuildFile; fileRef = 03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */; };
@@ -233,6 +234,8 @@
 		039AD445245EE62E00A3935C /* T93-restore-ip-addresses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T93-restore-ip-addresses.c"; sourceTree = "<group>"; };
 		03A21E1924B0B47A00E8055E /* T32-longest-valid-parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T32-longest-valid-parentheses.h"; sourceTree = "<group>"; };
 		03A21E1A24B0B47A00E8055E /* T32-longest-valid-parentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T32-longest-valid-parentheses.c"; sourceTree = "<group>"; };
+		03A21E5824B1A0E400E8055E /* T44-wildcard-matching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T44-wildcard-matching.h"; sourceTree = "<group>"; };
+		03A21E5924B1A0E400E8055E /* T44-wildcard-matching.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T44-wildcard-matching.c"; sourceTree = "<group>"; };
 		03A7606324ACC05C00940BC7 /* T509-fibonacci-number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T509-fibonacci-number.h"; sourceTree = "<group>"; };
 		03A7606424ACC05C00940BC7 /* T509-fibonacci-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T509-fibonacci-number.c"; sourceTree = "<group>"; };
 		03A94815246AE4370007C705 /* T124-binary-tree-maximum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T124-binary-tree-maximum-path-sum.h"; sourceTree = "<group>"; };
@@ -579,6 +582,8 @@
 				033637E224AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.c */,
 				03A21E1924B0B47A00E8055E /* T32-longest-valid-parentheses.h */,
 				03A21E1A24B0B47A00E8055E /* T32-longest-valid-parentheses.c */,
+				03A21E5824B1A0E400E8055E /* T44-wildcard-matching.h */,
+				03A21E5924B1A0E400E8055E /* T44-wildcard-matching.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -739,6 +744,7 @@
 				03742A032472D01500C7BFBF /* T210-course-schedule-ii.c in Sources */,
 				03A94817246AE4370007C705 /* T124-binary-tree-maximum-path-sum.c in Sources */,
 				03F4B60424795DF200072A3D /* T605-can-place-flowers.c in Sources */,
+				03A21E5A24B1A0E400E8055E /* T44-wildcard-matching.c in Sources */,
 				034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */,
 				03F4B60A2479626600072A3D /* T53-maximum-subarray.c in Sources */,
 				038BDDFD245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.c in Sources */,
