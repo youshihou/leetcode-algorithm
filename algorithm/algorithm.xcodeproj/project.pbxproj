@@ -16,6 +16,7 @@
 		03298524246965D100A7D5A8 /* T98-validate-binary-search-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 03298523246965D100A7D5A8 /* T98-validate-binary-search-tree.c */; };
 		033637E024AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 033637DF24AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.c */; };
 		033637E324AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 033637E224AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.c */; };
+		0340239F24B4001500294AF7 /* T112-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340239E24B4001500294AF7 /* T112-path-sum.c */; };
 		03403993244D300E00896919 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 03403992244D300E00896919 /* main.c */; };
 		034039A0244D302A00896919 /* T75-sort-colors.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399C244D302A00896919 /* T75-sort-colors.c */; };
 		034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399D244D302A00896919 /* T16-sub-sort-lcci.c */; };
@@ -137,6 +138,8 @@
 		033637DF24AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T108-convert-sorted-array-to-binary-search-tree.c"; sourceTree = "<group>"; };
 		033637E124AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T718-maximum-length-of-repeated-subarray.h"; sourceTree = "<group>"; };
 		033637E224AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T718-maximum-length-of-repeated-subarray.c"; sourceTree = "<group>"; };
+		0340239D24B4001500294AF7 /* T112-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T112-path-sum.h"; sourceTree = "<group>"; };
+		0340239E24B4001500294AF7 /* T112-path-sum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T112-path-sum.c"; sourceTree = "<group>"; };
 		0340398F244D300E00896919 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		03403992244D300E00896919 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0340399A244D302A00896919 /* T16-sub-sort-lcci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "T16-sub-sort-lcci.h"; sourceTree = "<group>"; };
@@ -589,6 +592,8 @@
 				03A21E5924B1A0E400E8055E /* T44-wildcard-matching.c */,
 				03652F1324B2FC63007D0458 /* T63-unique-paths-ii.h */,
 				03652F1424B2FC63007D0458 /* T63-unique-paths-ii.c */,
+				0340239D24B4001500294AF7 /* T112-path-sum.h */,
+				0340239E24B4001500294AF7 /* T112-path-sum.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -720,6 +725,7 @@
 				03C8A653245474F3001D5584 /* T572-subtree-of-another-tree.c in Sources */,
 				03403993244D300E00896919 /* main.c in Sources */,
 				03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */,
+				0340239F24B4001500294AF7 /* T112-path-sum.c in Sources */,
 				03B262FD247AB3DF00BBD985 /* longest-common-substring.c in Sources */,
 				039AD43D245ED1C700A3935C /* T113-path-sum-ii.c in Sources */,
 				038BDE0F245C0B3C00AA6763 /* T72-edit-distance.c in Sources */,
