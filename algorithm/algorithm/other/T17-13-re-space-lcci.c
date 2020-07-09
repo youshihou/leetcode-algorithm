@@ -8,8 +8,10 @@
 
 // https://leetcode-cn.com/problems/re-space-lcci/
 
+
 #include "T17-13-re-space-lcci.h"
 #include "algorithm-common.h"
+
 
 int str_cmp(const void* a, const void* b) {
     return strcmp(*(const char**)b, *(const char**)a);
