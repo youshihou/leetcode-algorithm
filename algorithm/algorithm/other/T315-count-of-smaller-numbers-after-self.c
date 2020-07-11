@@ -16,6 +16,58 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
 
+int lowbit(int m) {
+    return m & (-m);
+}
+
+int getsum(int* nums, int index) {
+    int sum = 0;
+    while (index > 0) {
+        sum += nums[index];
+        index -= lowbit(index);
+    }
+    return sum;
+}
+
+void updatesum(int* nums, int n, int value, int index) {
+    while (index < n) {
+        nums[index] += value;
+        index += lowbit(index);
+    }
+}
+
+int* countSmaller_(int* nums, int numsSize, int* returnSize) {
+    *returnSize = numsSize;
+    if (nums == NULL || numsSize <= 0) { return NULL; }
+    
+    int max = 10000;//INT_MAX;
+    int min = -10000;//INT_MIN;
+    for (int i = 0; i < numsSize; i++) {
+        max = fmax(max, nums[i]);
+    }
+    for (int i = 0; i < numsSize; i++) {
+        min = fmin(min, nums[i]);
+    }
+    
+    int len = max - min + 3;
+    int *sum = malloc(sizeof(int) * len);
+    memset(sum, 0, sizeof(int) * len);
+    int *result = malloc(sizeof(int) * numsSize);
+    memset(result, 0, sizeof(int) * numsSize);
+
+    for (int i = numsSize - 1; i >= 0; i--) {
+        result[i] = getsum(sum, nums[i] - min + 1);
+        updatesum(sum, len, 1, nums[i] - min + 2);
+    }
+    free(sum);
+    return result;
+}
+
+
+
+
+
+
 int low_bit(int x) {
     return x & (-x);
 }
@@ -49,13 +101,13 @@ int low_bound(int* a, int n, int x) {
     return l;
 }
 
-int cmp(const void* a, const void* b) {
+int cmp_t315(const void* a, const void* b) {
     return *(int*)a - *(int*)b;
 }
 
 int discretization(int* a, int* nums, int n) {
     memcpy(a, nums, sizeof(int) * n);
-    qsort(a, n, sizeof(int), cmp);
+    qsort(a, n, sizeof(int), cmp_t315);
     int m = 0;
     for (int i = 1; i < n; i++) {
         if (a[i] > a[m]) {
@@ -65,7 +117,7 @@ int discretization(int* a, int* nums, int n) {
     return m + 1;
 }
 
-int* countSmaller(int* nums, int numsSize, int* returnSize) {
+int* countSmaller2(int* nums, int numsSize, int* returnSize) {
     *returnSize = numsSize;
     if (nums == NULL || numsSize <= 0) { return NULL; }
     

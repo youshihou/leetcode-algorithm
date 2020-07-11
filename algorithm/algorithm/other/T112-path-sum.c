@@ -33,7 +33,7 @@ void dfs_t112(struct TreeNode* root, int sum, bool *result) {
     dfs_t112(root->right, sum, result);
 }
 
-bool hasPathSum(struct TreeNode* root, int sum) {
+bool hasPathSum_(struct TreeNode* root, int sum) {
     bool result = false;
     dfs_t112(root, sum, &result);
     return result;
