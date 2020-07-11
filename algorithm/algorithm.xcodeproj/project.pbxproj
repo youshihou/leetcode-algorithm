@@ -94,6 +94,7 @@
 		03D56C0B2462F75C0074214D /* T149-max-points-on-a-line.c in Sources */ = {isa = PBXBuildFile; fileRef = 03D56C0A2462F75C0074214D /* T149-max-points-on-a-line.c */; };
 		03D56C0E2462F7900074214D /* T200-number-of-islands.c in Sources */ = {isa = PBXBuildFile; fileRef = 03D56C0D2462F7900074214D /* T200-number-of-islands.c */; };
 		03DAEFAA246C231300BFEEAA /* T14-flatten-binary-tree-to-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DAEFA9246C231300BFEEAA /* T14-flatten-binary-tree-to-linked-list.c */; };
+		03EE619924B9CDE900909FC8 /* T315-count-of-smaller-numbers-after-self.c in Sources */ = {isa = PBXBuildFile; fileRef = 03EE619824B9CDE900909FC8 /* T315-count-of-smaller-numbers-after-self.c */; };
 		03F438D12459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F438D02459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c */; };
 		03F4B5EF247900CE00072A3D /* T51-n-queens.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B5EE247900CE00072A3D /* T51-n-queens.c */; };
 		03F4B5F22479011900072A3D /* T52-n-queens-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F4B5F12479011900072A3D /* T52-n-queens-ii.c */; };
@@ -297,6 +298,8 @@
 		03D56C0D2462F7900074214D /* T200-number-of-islands.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T200-number-of-islands.c"; sourceTree = "<group>"; };
 		03DAEFA8246C231300BFEEAA /* T14-flatten-binary-tree-to-linked-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T14-flatten-binary-tree-to-linked-list.h"; sourceTree = "<group>"; };
 		03DAEFA9246C231300BFEEAA /* T14-flatten-binary-tree-to-linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T14-flatten-binary-tree-to-linked-list.c"; sourceTree = "<group>"; };
+		03EE619724B9CDE900909FC8 /* T315-count-of-smaller-numbers-after-self.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T315-count-of-smaller-numbers-after-self.h"; sourceTree = "<group>"; };
+		03EE619824B9CDE900909FC8 /* T315-count-of-smaller-numbers-after-self.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T315-count-of-smaller-numbers-after-self.c"; sourceTree = "<group>"; };
 		03F438CF2459BBC800E668AA /* T3-longest-substring-without-repeating-characters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T3-longest-substring-without-repeating-characters.h"; sourceTree = "<group>"; };
 		03F438D02459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T3-longest-substring-without-repeating-characters.c"; sourceTree = "<group>"; };
 		03F4B5ED247900CE00072A3D /* T51-n-queens.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T51-n-queens.h"; sourceTree = "<group>"; };
@@ -609,6 +612,8 @@
 				03BD7E1624B71D6E00C55AA6 /* T17-13-re-space-lcci.c */,
 				0331BFB924B7FBD5001EC331 /* T309-best-time-to-buy-and-sell-stock-with-cooldown.h */,
 				0331BFBA24B7FBD5001EC331 /* T309-best-time-to-buy-and-sell-stock-with-cooldown.c */,
+				03EE619724B9CDE900909FC8 /* T315-count-of-smaller-numbers-after-self.h */,
+				03EE619824B9CDE900909FC8 /* T315-count-of-smaller-numbers-after-self.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -801,6 +806,7 @@
 				03C8A64F24546A3C001D5584 /* T01-09-string-rotation-lcci.c in Sources */,
 				03211BA4245721E400632DD8 /* T242-valid-anagram.c in Sources */,
 				03F4B60724795E3100072A3D /* T135-candy.c in Sources */,
+				03EE619924B9CDE900909FC8 /* T315-count-of-smaller-numbers-after-self.c in Sources */,
 				038BDDFA245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.c in Sources */,
 				03F438D12459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c in Sources */,
 				030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */,
