@@ -20,6 +20,28 @@
  */
 
 struct ListNode* removeElements(struct ListNode* head, int val) {
+    
+    struct ListNode* tmp = malloc(sizeof(struct ListNode));
+    tmp->next = head;
+    
+    struct ListNode* curr = head;
+    struct ListNode* prev = tmp;
+    while (curr != NULL) {
+        if (curr->val == val) {
+            prev->next = curr->next;
+        } else {
+            prev = curr;
+        }
+        curr = curr->next;
+    }
+    head = tmp->next;
+    free(tmp);
+    
+    return head;
+}
+
+
+struct ListNode* removeElements2(struct ListNode* head, int val) {
     if (head == NULL) { return head; }
     if (head->next == NULL && val == head->val) {
         return NULL;
