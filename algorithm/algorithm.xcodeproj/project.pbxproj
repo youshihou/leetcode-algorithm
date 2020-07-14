@@ -62,6 +62,7 @@
 		038BDE12245C1CB300AA6763 /* T5-longest-palindromic-substring.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDE11245C1CB300AA6763 /* T5-longest-palindromic-substring.c */; };
 		0391E72024BD97C1007EBA9B /* T120-triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 0391E71F24BD97C1007EBA9B /* T120-triangle.c */; };
 		0391E72324BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0391E72224BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.c */; };
+		0391E72624BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 0391E72524BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.c */; };
 		0396526D245D7AAC008049D8 /* T236-lowest-common-ancestor-of-a-binary-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 0396526C245D7AAC008049D8 /* T236-lowest-common-ancestor-of-a-binary-tree.c */; };
 		03965270245D7B46008049D8 /* T68-er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0396526F245D7B46008049D8 /* T68-er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.c */; };
 		03965273245D83D4008049D8 /* T99-recover-binary-search-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 03965272245D83D4008049D8 /* T99-recover-binary-search-tree.c */; };
@@ -241,6 +242,8 @@
 		0391E71F24BD97C1007EBA9B /* T120-triangle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T120-triangle.c"; sourceTree = "<group>"; };
 		0391E72124BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T83-remove-duplicates-from-sorted-list.h"; sourceTree = "<group>"; };
 		0391E72224BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T83-remove-duplicates-from-sorted-list.c"; sourceTree = "<group>"; };
+		0391E72424BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T82-remove-duplicates-from-sorted-list-ii.h"; sourceTree = "<group>"; };
+		0391E72524BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T82-remove-duplicates-from-sorted-list-ii.c"; sourceTree = "<group>"; };
 		0396526B245D7AAC008049D8 /* T236-lowest-common-ancestor-of-a-binary-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T236-lowest-common-ancestor-of-a-binary-tree.h"; sourceTree = "<group>"; };
 		0396526C245D7AAC008049D8 /* T236-lowest-common-ancestor-of-a-binary-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T236-lowest-common-ancestor-of-a-binary-tree.c"; sourceTree = "<group>"; };
 		0396526E245D7B46008049D8 /* T68-er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T68-er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.h"; sourceTree = "<group>"; };
@@ -436,6 +439,8 @@
 				0344428324BCB1A10030765D /* T141-linked-list-cycle.c */,
 				0391E72124BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.h */,
 				0391E72224BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.c */,
+				0391E72424BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.h */,
+				0391E72524BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.c */,
 			);
 			path = "linked-list";
 			sourceTree = "<group>";
@@ -785,6 +790,7 @@
 				03B262FD247AB3DF00BBD985 /* longest-common-substring.c in Sources */,
 				039AD43D245ED1C700A3935C /* T113-path-sum-ii.c in Sources */,
 				038BDE0F245C0B3C00AA6763 /* T72-edit-distance.c in Sources */,
+				0391E72624BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.c in Sources */,
 				035A402A244F355000CAFCCF /* T203-remove-linked-list-elements.c in Sources */,
 				038BDE12245C1CB300AA6763 /* T5-longest-palindromic-substring.c in Sources */,
 				03C8A6452454182D001D5584 /* T654-maximum-binary-tree.c in Sources */,
