@@ -24,6 +24,27 @@
 
 struct ListNode* deleteDuplicates(struct ListNode* head) {
     if (head == NULL || head->next == NULL) { return head; }
+ 
+    struct ListNode *dummy = malloc(sizeof(struct ListNode));
+    dummy->next = head;
+    struct ListNode* curr = dummy;
+    while (curr->next && curr->next->next) {
+        if (curr->next->val == curr->next->next->val) {
+            struct ListNode* tmp = curr->next;
+            while (tmp && tmp->next && tmp->val == tmp->next->val) {
+                tmp = tmp->next;
+            }
+            curr->next = tmp->next;
+        } else {
+            curr = curr->next;
+        }
+    }
+    return dummy->next;
+}
+
+
+struct ListNode* deleteDuplicates2(struct ListNode* head) {
+    if (head == NULL || head->next == NULL) { return head; }
     
     struct ListNode dummy;
     dummy.next = head;
