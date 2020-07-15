@@ -425,8 +425,6 @@
 		035A4027244F352300CAFCCF /* linked-list */ = {
 			isa = PBXGroup;
 			children = (
-				035A4028244F355000CAFCCF /* T203-remove-linked-list-elements.h */,
-				035A4029244F355000CAFCCF /* T203-remove-linked-list-elements.c */,
 				03F935852450732000FCF702 /* T2-add-two-numbers.h */,
 				03F935862450732000FCF702 /* T2-add-two-numbers.c */,
 				03F9358824508A3E00FCF702 /* T160-intersection-of-two-linked-lists.h */,
@@ -443,6 +441,8 @@
 				0344428024BCA7A20030765D /* T206-reverse-linked-list.c */,
 				0344428224BCB1A10030765D /* T141-linked-list-cycle.h */,
 				0344428324BCB1A10030765D /* T141-linked-list-cycle.c */,
+				035A4028244F355000CAFCCF /* T203-remove-linked-list-elements.h */,
+				035A4029244F355000CAFCCF /* T203-remove-linked-list-elements.c */,
 				0391E72124BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.h */,
 				0391E72224BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.c */,
 				0391E72424BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.h */,
