@@ -15,6 +15,7 @@
 		03211BA4245721E400632DD8 /* T242-valid-anagram.c in Sources */ = {isa = PBXBuildFile; fileRef = 03211BA3245721E400632DD8 /* T242-valid-anagram.c */; };
 		03298524246965D100A7D5A8 /* T98-validate-binary-search-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 03298523246965D100A7D5A8 /* T98-validate-binary-search-tree.c */; };
 		032C778824BE8B5D0067045D /* T96-unique-binary-search-trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 032C778724BE8B5D0067045D /* T96-unique-binary-search-trees.c */; };
+		032FB04624BFE1E800759049 /* T785-is-graph-bipartite.c in Sources */ = {isa = PBXBuildFile; fileRef = 032FB04524BFE1E800759049 /* T785-is-graph-bipartite.c */; };
 		0331BFBB24B7FBD5001EC331 /* T309-best-time-to-buy-and-sell-stock-with-cooldown.c in Sources */ = {isa = PBXBuildFile; fileRef = 0331BFBA24B7FBD5001EC331 /* T309-best-time-to-buy-and-sell-stock-with-cooldown.c */; };
 		033637E024AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 033637DF24AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.c */; };
 		033637E324AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 033637E224AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.c */; };
@@ -150,6 +151,8 @@
 		032985282469664D00A7D5A8 /* algorithm-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "algorithm-common.h"; sourceTree = "<group>"; };
 		032C778624BE8B5D0067045D /* T96-unique-binary-search-trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T96-unique-binary-search-trees.h"; sourceTree = "<group>"; };
 		032C778724BE8B5D0067045D /* T96-unique-binary-search-trees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T96-unique-binary-search-trees.c"; sourceTree = "<group>"; };
+		032FB04424BFE1E800759049 /* T785-is-graph-bipartite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T785-is-graph-bipartite.h"; sourceTree = "<group>"; };
+		032FB04524BFE1E800759049 /* T785-is-graph-bipartite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T785-is-graph-bipartite.c"; sourceTree = "<group>"; };
 		0331BFB924B7FBD5001EC331 /* T309-best-time-to-buy-and-sell-stock-with-cooldown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T309-best-time-to-buy-and-sell-stock-with-cooldown.h"; sourceTree = "<group>"; };
 		0331BFBA24B7FBD5001EC331 /* T309-best-time-to-buy-and-sell-stock-with-cooldown.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T309-best-time-to-buy-and-sell-stock-with-cooldown.c"; sourceTree = "<group>"; };
 		033637DE24AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T108-convert-sorted-array-to-binary-search-tree.h"; sourceTree = "<group>"; };
@@ -664,6 +667,8 @@
 				0391E71F24BD97C1007EBA9B /* T120-triangle.c */,
 				032C778624BE8B5D0067045D /* T96-unique-binary-search-trees.h */,
 				032C778724BE8B5D0067045D /* T96-unique-binary-search-trees.c */,
+				032FB04424BFE1E800759049 /* T785-is-graph-bipartite.h */,
+				032FB04524BFE1E800759049 /* T785-is-graph-bipartite.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -770,6 +775,7 @@
 				039AD43A245EC55500A3935C /* T22-generate-parentheses.c in Sources */,
 				038BDE0C245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.c in Sources */,
 				035D9F792460292500D22BB8 /* T50-powx-n.c in Sources */,
+				032FB04624BFE1E800759049 /* T785-is-graph-bipartite.c in Sources */,
 				035D9F6D245FD9B800D22BB8 /* T283-move-zeroes.c in Sources */,
 				035D9F8B2461916200D22BB8 /* T253-meeting-rooms-ii.c in Sources */,
 				03D56C0B2462F75C0074214D /* T149-max-points-on-a-line.c in Sources */,
