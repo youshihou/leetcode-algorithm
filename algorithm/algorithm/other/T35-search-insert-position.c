@@ -33,4 +33,22 @@ int searchInsert(int* nums, int numsSize, int target) {
 }
 
 
-
+int searchInsert1(int* nums, int numsSize, int target) {
+    if (nums == NULL || numsSize <= 0) { return 0; }
+    
+    int begin = 0;
+    int end = numsSize - 1; // CARE!!!
+    while (begin <= end) { // CARE!!!
+        int mid = (begin + end) >> 1;
+        int num = nums[mid];
+        if (num == target) {
+            return mid;
+        } else if (num > target) {
+            end = mid - 1; // CARE!!!
+        } else {
+            begin = mid + 1;
+        }
+    }
+    
+    return begin; // CARE!!!
+}
