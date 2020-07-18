@@ -12,12 +12,10 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-
 typedef struct stack {
     int val;
     struct stack* next;
 } Stack;
-
 
 Stack* create(void);
 bool isEmpty(Stack*);
