@@ -14,6 +14,16 @@
 bool isValid(char * s) {
     if (s == NULL) { return false; }
     size_t len = strlen(s);
+
+    
+    return false;
+}
+
+
+
+bool isValid1(char * s) {
+    if (s == NULL) { return false; }
+    size_t len = strlen(s);
     
     Stack* stack = create();
     

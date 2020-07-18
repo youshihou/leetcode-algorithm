@@ -64,6 +64,7 @@
 		038BDE0F245C0B3C00AA6763 /* T72-edit-distance.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDE0E245C0B3C00AA6763 /* T72-edit-distance.c */; };
 		038BDE12245C1CB300AA6763 /* T5-longest-palindromic-substring.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDE11245C1CB300AA6763 /* T5-longest-palindromic-substring.c */; };
 		038E9F9624C2FA43005DD7A2 /* T20-valid-parentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = 038E9F9524C2FA43005DD7A2 /* T20-valid-parentheses.c */; };
+		038E9F9924C3024D005DD7A2 /* T856-score-of-parentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = 038E9F9824C3024D005DD7A2 /* T856-score-of-parentheses.c */; };
 		0391E72024BD97C1007EBA9B /* T120-triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 0391E71F24BD97C1007EBA9B /* T120-triangle.c */; };
 		0391E72324BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0391E72224BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.c */; };
 		0391E72624BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 0391E72524BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.c */; };
@@ -251,6 +252,8 @@
 		038BDE11245C1CB300AA6763 /* T5-longest-palindromic-substring.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T5-longest-palindromic-substring.c"; sourceTree = "<group>"; };
 		038E9F9424C2FA43005DD7A2 /* T20-valid-parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T20-valid-parentheses.h"; sourceTree = "<group>"; };
 		038E9F9524C2FA43005DD7A2 /* T20-valid-parentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T20-valid-parentheses.c"; sourceTree = "<group>"; };
+		038E9F9724C3024D005DD7A2 /* T856-score-of-parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T856-score-of-parentheses.h"; sourceTree = "<group>"; };
+		038E9F9824C3024D005DD7A2 /* T856-score-of-parentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T856-score-of-parentheses.c"; sourceTree = "<group>"; };
 		0391E71E24BD97C1007EBA9B /* T120-triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T120-triangle.h"; sourceTree = "<group>"; };
 		0391E71F24BD97C1007EBA9B /* T120-triangle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T120-triangle.c"; sourceTree = "<group>"; };
 		0391E72124BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T83-remove-duplicates-from-sorted-list.h"; sourceTree = "<group>"; };
@@ -696,6 +699,8 @@
 				03C8A64A24544401001D5584 /* T739-daily-temperatures.c */,
 				038E9F9424C2FA43005DD7A2 /* T20-valid-parentheses.h */,
 				038E9F9524C2FA43005DD7A2 /* T20-valid-parentheses.c */,
+				038E9F9724C3024D005DD7A2 /* T856-score-of-parentheses.h */,
+				038E9F9824C3024D005DD7A2 /* T856-score-of-parentheses.c */,
 			);
 			path = "stack-queue";
 			sourceTree = "<group>";
@@ -864,6 +869,7 @@
 				03F4B5F82479487100072A3D /* T78-subsets.c in Sources */,
 				03A7606524ACC05C00940BC7 /* T509-fibonacci-number.c in Sources */,
 				035D9F822461093E00D22BB8 /* T146-lru-cache.c in Sources */,
+				038E9F9924C3024D005DD7A2 /* T856-score-of-parentheses.c in Sources */,
 				0300364F2451C7E80026657D /* T86-partition-list.c in Sources */,
 				038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */,
 				038E9F9624C2FA43005DD7A2 /* T20-valid-parentheses.c in Sources */,
