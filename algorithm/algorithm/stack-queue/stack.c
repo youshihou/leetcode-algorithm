@@ -8,24 +8,19 @@
 
 #include "stack.h"
 #include <stdlib.h>
+#include <assert.h>
 
 
 Stack* create(void) {
     Stack* s = malloc(sizeof(Stack));
-    if (s == NULL) {
-        printf("malloc failed\n");
-        return NULL;
-    }
+    assert(s);
     s->next = NULL;
     return s;
 }
 
 void push(Stack* s, int x) {
     Stack* n = malloc(sizeof(Stack));
-    if (n == NULL) {
-        printf("malloc failed\n");
-        return;
-    }
+    assert(n);
     n->val = x;
     n->next = s->next;
     s->next = n;    
