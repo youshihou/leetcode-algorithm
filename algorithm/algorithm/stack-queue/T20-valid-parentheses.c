@@ -12,11 +12,25 @@
 #include "algorithm-common.h"
 
 bool isValid(char * s) {
-    if (s == NULL) { return false; }
+    if (*s == 0) { return true; }
     size_t len = strlen(s);
-
+    if (len & 1) { return false; }
+    int size = (int)(len >> 1);
+    char stack[size + 1];
+    for (int i = 0, top = -1; i < len && top < size; i++) {
+        char c = s[i];
+        if (c == '{' || c == '[' || c == '(') {
+            stack[++top] = c;
+        } else if (top == -1) {
+            return false;
+        } else if (c == stack[top] + 1 || c == stack[top] + 2) {
+            stack[top--] = 0;
+        } else {
+            return false;
+        }
+    }
     
-    return false;
+    return !stack[0];
 }
 
 
