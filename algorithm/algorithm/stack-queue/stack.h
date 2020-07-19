@@ -9,12 +9,11 @@
 #ifndef stack_h
 #define stack_h
 
-#include <stdio.h>
-#include <stdbool.h>
+#include "algorithm-common.h"
 
-typedef struct stack {
+typedef struct stack_ {
     int val;
-    struct stack* next;
+    struct stack_* next;
 } Stack;
 
 Stack* create(void);
@@ -23,5 +22,19 @@ void push(Stack*, int);
 int pop(Stack*);
 int top(Stack*);
 void stack_free(Stack*);
+
+
+struct stack {
+    struct node* head;
+};
+
+struct stack* stack_create(void);
+bool stack_isEmpty(struct stack*);
+void stack_push(struct stack*, int);
+int stack_pop(struct stack*);
+int stack_top(struct stack*);
+void stack_destroy(struct stack*);
+int stack_size(struct stack*);
+
 
 #endif /* stack_h */

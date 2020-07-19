@@ -9,13 +9,7 @@
 #ifndef queue_h
 #define queue_h
 
-#include <stdio.h>
-#include <stdbool.h>
-
-struct node {
-    int value;
-    struct node* next;
-};
+#include "algorithm-common.h"
 
 typedef struct queue {
     struct node* head;

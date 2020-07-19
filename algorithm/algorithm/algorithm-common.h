@@ -18,6 +18,11 @@
 #include "stack.h"
 #include "queue.h"
 
+struct node {
+    int value;
+    struct node* next;
+};
+
 
 struct ListNode {
     int val;

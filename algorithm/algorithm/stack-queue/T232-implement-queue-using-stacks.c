@@ -69,9 +69,9 @@ bool myQueueEmpty(MyQueue* obj) {
 
 void myQueueFree(MyQueue* obj) {
     while (!myQueueEmpty(obj)) {
-//        myQueuePop(obj);
-        stack_free(obj->inStack);
-        stack_free(obj->outStack);
+        myQueuePop(obj);
+//        stack_free(obj->inStack); // ERROR!!!!!!
+//        stack_free(obj->outStack); // ERROR!!!!!!
     }
 }
 
