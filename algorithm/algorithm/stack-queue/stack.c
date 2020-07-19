@@ -10,7 +10,6 @@
 #include <stdlib.h>
 #include <assert.h>
 
-
 Stack* create(void) {
     Stack* s = malloc(sizeof(Stack));
     assert(s);

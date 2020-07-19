@@ -20,7 +20,7 @@
  */
 
 
-struct ListNode* middleNode(struct ListNode* head) {
+struct ListNode* middleNode_(struct ListNode* head) {
     if (head == NULL || head->next == NULL) { return head; }
     
     struct ListNode* fast = head;
@@ -48,7 +48,7 @@ bool isPalindrome(struct ListNode* head) {
     if (head == NULL || head->next == NULL) { return true; }
     if (head->next->next == NULL) { return head->val == head->next->val; }
     
-    struct ListNode* middle = middleNode(head);
+    struct ListNode* middle = middleNode_(head);
     struct ListNode* rHead = reverseList(middle->next); // CARE!!!
     struct ListNode* lhead = head;
     struct ListNode* rOldHead = rHead;
@@ -73,7 +73,7 @@ bool isPalindrome1(struct ListNode* head) {
     if (head == NULL || head->next == NULL) { return true; }
     if (head->next->next == NULL) { return head->val == head->next->val; }
     
-    struct ListNode* middle = middleNode(head);
+    struct ListNode* middle = middleNode_(head);
     struct ListNode* rHead = reverseList(middle->next); // CARE!!!
     struct ListNode* lhead = head;
     

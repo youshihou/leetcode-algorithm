@@ -21,7 +21,7 @@
  */
 
 
-struct ListNode* deleteDuplicates(struct ListNode* head) {
+struct ListNode* deleteDuplicates3(struct ListNode* head) {
     if (head == NULL || head->next == NULL) { return head; }
     
     struct ListNode* curr = head;

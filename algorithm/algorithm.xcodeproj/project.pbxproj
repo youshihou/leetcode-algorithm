@@ -68,6 +68,8 @@
 		038E9F9C24C302EC005DD7A2 /* T224-basic-calculator.c in Sources */ = {isa = PBXBuildFile; fileRef = 038E9F9B24C302EC005DD7A2 /* T224-basic-calculator.c */; };
 		038E9F9F24C30A4E005DD7A2 /* T97-interleaving-string.c in Sources */ = {isa = PBXBuildFile; fileRef = 038E9F9E24C30A4E005DD7A2 /* T97-interleaving-string.c */; };
 		038E9FA624C34EF7005DD7A2 /* T232-implement-queue-using-stacks.c in Sources */ = {isa = PBXBuildFile; fileRef = 038E9FA524C34EF7005DD7A2 /* T232-implement-queue-using-stacks.c */; };
+		038E9FB624C41C62005DD7A2 /* T225-implement-stack-using-queues.c in Sources */ = {isa = PBXBuildFile; fileRef = 038E9FB524C41C62005DD7A2 /* T225-implement-stack-using-queues.c */; };
+		038E9FB924C41C95005DD7A2 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 038E9FB824C41C95005DD7A2 /* queue.c */; };
 		0391E72024BD97C1007EBA9B /* T120-triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 0391E71F24BD97C1007EBA9B /* T120-triangle.c */; };
 		0391E72324BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0391E72224BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.c */; };
 		0391E72624BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 0391E72524BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.c */; };
@@ -263,6 +265,10 @@
 		038E9F9E24C30A4E005DD7A2 /* T97-interleaving-string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T97-interleaving-string.c"; sourceTree = "<group>"; };
 		038E9FA424C34EF7005DD7A2 /* T232-implement-queue-using-stacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T232-implement-queue-using-stacks.h"; sourceTree = "<group>"; };
 		038E9FA524C34EF7005DD7A2 /* T232-implement-queue-using-stacks.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T232-implement-queue-using-stacks.c"; sourceTree = "<group>"; };
+		038E9FB424C41C62005DD7A2 /* T225-implement-stack-using-queues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T225-implement-stack-using-queues.h"; sourceTree = "<group>"; };
+		038E9FB524C41C62005DD7A2 /* T225-implement-stack-using-queues.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T225-implement-stack-using-queues.c"; sourceTree = "<group>"; };
+		038E9FB724C41C95005DD7A2 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		038E9FB824C41C95005DD7A2 /* queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
 		0391E71E24BD97C1007EBA9B /* T120-triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T120-triangle.h"; sourceTree = "<group>"; };
 		0391E71F24BD97C1007EBA9B /* T120-triangle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T120-triangle.c"; sourceTree = "<group>"; };
 		0391E72124BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T83-remove-duplicates-from-sorted-list.h"; sourceTree = "<group>"; };
@@ -706,6 +712,8 @@
 				03C8A6442454182D001D5584 /* T654-maximum-binary-tree.c */,
 				03C8A6462454260D001D5584 /* stack.h */,
 				03C8A6472454260D001D5584 /* stack.c */,
+				038E9FB724C41C95005DD7A2 /* queue.h */,
+				038E9FB824C41C95005DD7A2 /* queue.c */,
 				03C8A64924544401001D5584 /* T739-daily-temperatures.h */,
 				03C8A64A24544401001D5584 /* T739-daily-temperatures.c */,
 				038E9F9424C2FA43005DD7A2 /* T20-valid-parentheses.h */,
@@ -716,6 +724,8 @@
 				038E9F9B24C302EC005DD7A2 /* T224-basic-calculator.c */,
 				038E9FA424C34EF7005DD7A2 /* T232-implement-queue-using-stacks.h */,
 				038E9FA524C34EF7005DD7A2 /* T232-implement-queue-using-stacks.c */,
+				038E9FB424C41C62005DD7A2 /* T225-implement-stack-using-queues.h */,
+				038E9FB524C41C62005DD7A2 /* T225-implement-stack-using-queues.c */,
 			);
 			path = "stack-queue";
 			sourceTree = "<group>";
@@ -889,6 +899,7 @@
 				035D9F822461093E00D22BB8 /* T146-lru-cache.c in Sources */,
 				038E9F9924C3024D005DD7A2 /* T856-score-of-parentheses.c in Sources */,
 				0300364F2451C7E80026657D /* T86-partition-list.c in Sources */,
+				038E9FB624C41C62005DD7A2 /* T225-implement-stack-using-queues.c in Sources */,
 				038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */,
 				038E9F9624C2FA43005DD7A2 /* T20-valid-parentheses.c in Sources */,
 				03D56C022462F6B00074214D /* T215-kth-largest-element-in-an-array.c in Sources */,
@@ -910,6 +921,7 @@
 				0344428424BCB1A10030765D /* T141-linked-list-cycle.c in Sources */,
 				03EE619924B9CDE900909FC8 /* T315-count-of-smaller-numbers-after-self.c in Sources */,
 				038BDDFA245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.c in Sources */,
+				038E9FB924C41C95005DD7A2 /* queue.c in Sources */,
 				03F438D12459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c in Sources */,
 				030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */,
 			);

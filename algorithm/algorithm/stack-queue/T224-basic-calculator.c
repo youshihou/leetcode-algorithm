@@ -13,7 +13,7 @@
 #include "algorithm-common.h"
 
 
-int calculate(char * s) {
+int calculate1(char * s) {
 
     return 0;
 }

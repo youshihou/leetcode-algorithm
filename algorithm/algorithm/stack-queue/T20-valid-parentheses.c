@@ -11,7 +11,7 @@
 #include "T20-valid-parentheses.h"
 #include "algorithm-common.h"
 
-bool isValid(char * s) {
+bool isValid2(char * s) {
     if (*s == 0) { return true; }
     size_t len = strlen(s);
     if (len & 1) { return false; }

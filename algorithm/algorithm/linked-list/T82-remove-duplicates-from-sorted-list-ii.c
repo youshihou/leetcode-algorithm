@@ -22,7 +22,7 @@
  */
 
 
-struct ListNode* deleteDuplicates(struct ListNode* head) {
+struct ListNode* deleteDuplicates4(struct ListNode* head) {
     if (head == NULL || head->next == NULL) { return head; }
  
     struct ListNode *dummy = malloc(sizeof(struct ListNode));
