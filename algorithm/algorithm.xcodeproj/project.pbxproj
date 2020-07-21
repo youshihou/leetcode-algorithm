@@ -114,6 +114,7 @@
 		03D56C0B2462F75C0074214D /* T149-max-points-on-a-line.c in Sources */ = {isa = PBXBuildFile; fileRef = 03D56C0A2462F75C0074214D /* T149-max-points-on-a-line.c */; };
 		03D56C0E2462F7900074214D /* T200-number-of-islands.c in Sources */ = {isa = PBXBuildFile; fileRef = 03D56C0D2462F7900074214D /* T200-number-of-islands.c */; };
 		03DAEFAA246C231300BFEEAA /* T14-flatten-binary-tree-to-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DAEFA9246C231300BFEEAA /* T14-flatten-binary-tree-to-linked-list.c */; };
+		03DE719024C674F1000762F1 /* T95-unique-binary-search-trees-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DE718F24C674F1000762F1 /* T95-unique-binary-search-trees-ii.c */; };
 		03EE619924B9CDE900909FC8 /* T315-count-of-smaller-numbers-after-self.c in Sources */ = {isa = PBXBuildFile; fileRef = 03EE619824B9CDE900909FC8 /* T315-count-of-smaller-numbers-after-self.c */; };
 		03EE619C24BACF6100909FC8 /* T174-dungeon-game.c in Sources */ = {isa = PBXBuildFile; fileRef = 03EE619B24BACF6100909FC8 /* T174-dungeon-game.c */; };
 		03F438D12459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F438D02459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c */; };
@@ -359,6 +360,8 @@
 		03D56C0D2462F7900074214D /* T200-number-of-islands.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T200-number-of-islands.c"; sourceTree = "<group>"; };
 		03DAEFA8246C231300BFEEAA /* T14-flatten-binary-tree-to-linked-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T14-flatten-binary-tree-to-linked-list.h"; sourceTree = "<group>"; };
 		03DAEFA9246C231300BFEEAA /* T14-flatten-binary-tree-to-linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T14-flatten-binary-tree-to-linked-list.c"; sourceTree = "<group>"; };
+		03DE718E24C674F1000762F1 /* T95-unique-binary-search-trees-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T95-unique-binary-search-trees-ii.h"; sourceTree = "<group>"; };
+		03DE718F24C674F1000762F1 /* T95-unique-binary-search-trees-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T95-unique-binary-search-trees-ii.c"; sourceTree = "<group>"; };
 		03EE619724B9CDE900909FC8 /* T315-count-of-smaller-numbers-after-self.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T315-count-of-smaller-numbers-after-self.h"; sourceTree = "<group>"; };
 		03EE619824B9CDE900909FC8 /* T315-count-of-smaller-numbers-after-self.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T315-count-of-smaller-numbers-after-self.c"; sourceTree = "<group>"; };
 		03EE619A24BACF6100909FC8 /* T174-dungeon-game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T174-dungeon-game.h"; sourceTree = "<group>"; };
@@ -707,6 +710,8 @@
 				038E9FBB24C439A9005DD7A2 /* T312-burst-balloons.c */,
 				03B72FE524C526810061BD4C /* T167-two-sum-ii-input-array-is-sorted.h */,
 				03B72FE624C526810061BD4C /* T167-two-sum-ii-input-array-is-sorted.c */,
+				03DE718E24C674F1000762F1 /* T95-unique-binary-search-trees-ii.h */,
+				03DE718F24C674F1000762F1 /* T95-unique-binary-search-trees-ii.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -907,6 +912,7 @@
 				038E9F9F24C30A4E005DD7A2 /* T97-interleaving-string.c in Sources */,
 				03F4B5F52479482C00072A3D /* T40-combination-sum-ii.c in Sources */,
 				03F4B5F82479487100072A3D /* T78-subsets.c in Sources */,
+				03DE719024C674F1000762F1 /* T95-unique-binary-search-trees-ii.c in Sources */,
 				03A7606524ACC05C00940BC7 /* T509-fibonacci-number.c in Sources */,
 				035D9F822461093E00D22BB8 /* T146-lru-cache.c in Sources */,
 				038E9F9924C3024D005DD7A2 /* T856-score-of-parentheses.c in Sources */,
