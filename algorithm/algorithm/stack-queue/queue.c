@@ -64,3 +64,73 @@ int queue_size(Queue* q) {
     }
     return size;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ObjectQueue* object_queue_create(void) {
+    ObjectQueue *q = malloc(sizeof(ObjectQueue));
+    assert(q);
+    q->head = q->tail = NULL;
+    return q;
+}
+
+bool object_queue_isEmpty(ObjectQueue* q) {
+    return q->head == NULL;
+}
+
+void object_queue_enqueue(ObjectQueue* q, void* v) {
+    ObjectNode* n = malloc(sizeof(ObjectNode));
+    assert(n);
+    n->value = v;
+    n->next = NULL;
+    if (q->head) {
+        q->tail->next = n;
+    } else {
+        q->head = n;
+    }
+    q->tail = n;
+}
+
+void* object_queue_dequeue(ObjectQueue* q) {
+    assert(!object_queue_isEmpty(q));
+    ObjectNode* n = q->head;
+    void* ret = n->value;
+    q->head = q->head->next;
+    free(n);
+    return ret;
+}
+
+void* object_queue_front(ObjectQueue* q) {
+    assert(!object_queue_isEmpty(q));
+    return q->head->value;
+}
+
+int object_queue_size(ObjectQueue* q) {
+    int size = 0;
+    ObjectNode* n = q->head;
+    while (n) {
+        size++;
+        n = n->next;
+    }
+    return size;
+}
+
+void object_queue_destroy(ObjectQueue* q) {
+    while (!object_queue_isEmpty(q)) {
+        object_queue_dequeue(q);
+    }
+    free(q);
+}
+
+
+

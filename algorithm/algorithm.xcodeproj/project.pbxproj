@@ -53,6 +53,7 @@
 		0365C3E324C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C3E224C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.c */; };
 		0365C3E924C7CA7D00858658 /* T153-find-minimum-in-rotated-sorted-array.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C3E824C7CA7D00858658 /* T153-find-minimum-in-rotated-sorted-array.c */; };
 		0365C3EC24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C3EB24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.c */; };
+		0365C40524C867F900858658 /* T226-invert-binary-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C40424C867F900858658 /* T226-invert-binary-tree.c */; };
 		03742A032472D01500C7BFBF /* T210-course-schedule-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
@@ -241,6 +242,8 @@
 		0365C3E824C7CA7D00858658 /* T153-find-minimum-in-rotated-sorted-array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T153-find-minimum-in-rotated-sorted-array.c"; sourceTree = "<group>"; };
 		0365C3EA24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T154-find-minimum-in-rotated-sorted-array-ii.h"; sourceTree = "<group>"; };
 		0365C3EB24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T154-find-minimum-in-rotated-sorted-array-ii.c"; sourceTree = "<group>"; };
+		0365C40324C867F900858658 /* T226-invert-binary-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T226-invert-binary-tree.h"; sourceTree = "<group>"; };
+		0365C40424C867F900858658 /* T226-invert-binary-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T226-invert-binary-tree.c"; sourceTree = "<group>"; };
 		03742A012472D01500C7BFBF /* T210-course-schedule-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T210-course-schedule-ii.h"; sourceTree = "<group>"; };
 		03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T210-course-schedule-ii.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
@@ -727,6 +730,8 @@
 				0365C3E824C7CA7D00858658 /* T153-find-minimum-in-rotated-sorted-array.c */,
 				0365C3EA24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.h */,
 				0365C3EB24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.c */,
+				0365C40324C867F900858658 /* T226-invert-binary-tree.h */,
+				0365C40424C867F900858658 /* T226-invert-binary-tree.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -872,6 +877,7 @@
 				038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */,
 				0396527B245DD04E008049D8 /* T17-letter-combinations-of-a-phone-number.c in Sources */,
 				035D9F852461806700D22BB8 /* T7-reverse-integer.c in Sources */,
+				0365C40524C867F900858658 /* T226-invert-binary-tree.c in Sources */,
 				03C8A653245474F3001D5584 /* T572-subtree-of-another-tree.c in Sources */,
 				03403993244D300E00896919 /* main.c in Sources */,
 				03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */,
