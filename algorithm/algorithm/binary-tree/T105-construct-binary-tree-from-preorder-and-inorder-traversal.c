@@ -6,4 +6,24 @@
 //  Copyright © 2020 Ankui. All rights reserved.
 //
 
+// https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+
+
 #include "T105-construct-binary-tree-from-preorder-and-inorder-traversal.h"
+#include "algorithm-common.h"
+
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     struct TreeNode *left;
+ *     struct TreeNode *right;
+ * };
+ */
+
+
+struct TreeNode* buildTree(int* preorder, int preorderSize, int* inorder, int inorderSize) {
+
+    return NULL;
+}

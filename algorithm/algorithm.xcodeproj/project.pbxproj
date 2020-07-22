@@ -66,6 +66,7 @@
 		0365C42324C87A5200858658 /* T590-n-ary-tree-postorder-traversal.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C42224C87A5200858658 /* T590-n-ary-tree-postorder-traversal.c */; };
 		0365C42624C87AAB00858658 /* T559-maximum-depth-of-n-ary-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C42524C87AAB00858658 /* T559-maximum-depth-of-n-ary-tree.c */; };
 		0365C42924C87C3300858658 /* T106-construct-binary-tree-from-inorder-and-postorder-traversal.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C42824C87C3300858658 /* T106-construct-binary-tree-from-inorder-and-postorder-traversal.c */; };
+		0365C42C24C87EB600858658 /* T105-construct-binary-tree-from-preorder-and-inorder-traversal.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C42B24C87EB600858658 /* T105-construct-binary-tree-from-preorder-and-inorder-traversal.c */; };
 		03742A032472D01500C7BFBF /* T210-course-schedule-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
@@ -280,6 +281,8 @@
 		0365C42524C87AAB00858658 /* T559-maximum-depth-of-n-ary-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T559-maximum-depth-of-n-ary-tree.c"; sourceTree = "<group>"; };
 		0365C42724C87C3300858658 /* T106-construct-binary-tree-from-inorder-and-postorder-traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T106-construct-binary-tree-from-inorder-and-postorder-traversal.h"; sourceTree = "<group>"; };
 		0365C42824C87C3300858658 /* T106-construct-binary-tree-from-inorder-and-postorder-traversal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T106-construct-binary-tree-from-inorder-and-postorder-traversal.c"; sourceTree = "<group>"; };
+		0365C42A24C87EB600858658 /* T105-construct-binary-tree-from-preorder-and-inorder-traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T105-construct-binary-tree-from-preorder-and-inorder-traversal.h"; sourceTree = "<group>"; };
+		0365C42B24C87EB600858658 /* T105-construct-binary-tree-from-preorder-and-inorder-traversal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T105-construct-binary-tree-from-preorder-and-inorder-traversal.c"; sourceTree = "<group>"; };
 		03742A012472D01500C7BFBF /* T210-course-schedule-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T210-course-schedule-ii.h"; sourceTree = "<group>"; };
 		03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T210-course-schedule-ii.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
@@ -710,6 +713,8 @@
 				0365C42524C87AAB00858658 /* T559-maximum-depth-of-n-ary-tree.c */,
 				0365C42724C87C3300858658 /* T106-construct-binary-tree-from-inorder-and-postorder-traversal.h */,
 				0365C42824C87C3300858658 /* T106-construct-binary-tree-from-inorder-and-postorder-traversal.c */,
+				0365C42A24C87EB600858658 /* T105-construct-binary-tree-from-preorder-and-inorder-traversal.h */,
+				0365C42B24C87EB600858658 /* T105-construct-binary-tree-from-preorder-and-inorder-traversal.c */,
 			);
 			path = "binary-tree";
 			sourceTree = "<group>";
@@ -919,6 +924,7 @@
 				03D56C0B2462F75C0074214D /* T149-max-points-on-a-line.c in Sources */,
 				038BDE03245C07DD00AA6763 /* T123-best-time-to-buy-and-sell-stock-iii.c in Sources */,
 				0365A33B246EC82800470862 /* T198-house-robber.c in Sources */,
+				0365C42C24C87EB600858658 /* T105-construct-binary-tree-from-preorder-and-inorder-traversal.c in Sources */,
 				03C8A64224532E5F001D5584 /* T239-sliding-window-maximum.c in Sources */,
 				03965276245DBDCC008049D8 /* T333-largest-bst-subtree.c in Sources */,
 				03F4B5F22479011900072A3D /* T52-n-queens-ii.c in Sources */,
