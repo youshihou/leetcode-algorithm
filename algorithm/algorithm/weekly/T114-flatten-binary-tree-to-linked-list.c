@@ -1,5 +1,5 @@
 //
-//  T14-flatten-binary-tree-to-linked-list.c
+//  T114-flatten-binary-tree-to-linked-list.c
 //  algorithm
 //
 //  Created by Ankui on 5/13/20.
@@ -8,7 +8,7 @@
 
 // https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/
 
-#include "T14-flatten-binary-tree-to-linked-list.h"
+#include "T114-flatten-binary-tree-to-linked-list.h"
 #include "algorithm-common.h"
 
 /**
