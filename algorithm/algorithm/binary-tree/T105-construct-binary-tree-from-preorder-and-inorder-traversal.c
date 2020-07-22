@@ -23,7 +23,7 @@
  */
 
 
-struct TreeNode* buildTree(int* preorder, int preorderSize, int* inorder, int inorderSize) {
+struct TreeNode* t105_buildTree(int* preorder, int preorderSize, int* inorder, int inorderSize) {
 
     return NULL;
 }

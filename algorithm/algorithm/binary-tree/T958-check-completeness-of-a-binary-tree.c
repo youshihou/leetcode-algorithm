@@ -24,6 +24,29 @@
 
 
 bool isCompleteTree(struct TreeNode* root) {
-
+    if (root == NULL) { return root; }
+    
+    bool leaf = false;
+    ObjectQueue *q = object_queue_create();
+    object_queue_enqueue(q, root);
+    while (!object_queue_isEmpty(q)) {
+        struct TreeNode* node = object_queue_dequeue(q);
+        bool is_leaf = node->left == NULL && node->right == NULL;
+        if (leaf && !is_leaf) { return false; }
+        
+        if (node->left) {
+            object_queue_enqueue(q, node->left);
+        } else if (node->right) {
+            return false;
+        }
+        
+        if (node->right) {
+            object_queue_enqueue(q, node->right);
+        } else {
+            leaf = true;
+        }
+    }
+    object_queue_destroy(q);
+    
     return true;
 }

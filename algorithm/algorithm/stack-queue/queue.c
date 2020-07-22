@@ -71,11 +71,15 @@ int queue_size(Queue* q) {
 
 
 
+typedef struct object_node {
+    int* value;
+    struct object_node* next;
+} ObjectNode;
 
-
-
-
-
+struct object_queue {
+    ObjectNode* head;
+    ObjectNode* tail;
+};
 
 ObjectQueue* object_queue_create(void) {
     ObjectQueue *q = malloc(sizeof(ObjectQueue));
@@ -110,6 +114,13 @@ void* object_queue_dequeue(ObjectQueue* q) {
     return ret;
 }
 
+void object_queue_destroy(ObjectQueue* q) {
+    while (!object_queue_isEmpty(q)) {
+        object_queue_dequeue(q);
+    }
+    free(q);
+}
+
 void* object_queue_front(ObjectQueue* q) {
     assert(!object_queue_isEmpty(q));
     return q->head->value;
@@ -124,13 +135,5 @@ int object_queue_size(ObjectQueue* q) {
     }
     return size;
 }
-
-void object_queue_destroy(ObjectQueue* q) {
-    while (!object_queue_isEmpty(q)) {
-        object_queue_dequeue(q);
-    }
-    free(q);
-}
-
 
 
