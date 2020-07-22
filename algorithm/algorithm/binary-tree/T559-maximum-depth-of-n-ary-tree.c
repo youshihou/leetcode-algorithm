@@ -22,6 +22,6 @@
  * };
  */
 
-int* maxDepth(struct Node* root) {
+int* maxDepth_t559(struct Node* root) {
     return NULL;
 }
