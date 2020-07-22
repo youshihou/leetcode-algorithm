@@ -34,8 +34,8 @@ bool object_queue_isEmpty(ObjectQueue*);
 void object_queue_enqueue(ObjectQueue*, void*);
 void* object_queue_dequeue(ObjectQueue*);
 void object_queue_destroy(ObjectQueue*);
-void* object_queue_front(ObjectQueue*);
 int object_queue_size(ObjectQueue*);
+void* object_queue_front(ObjectQueue*);
 
 
 #endif /* queue_h */

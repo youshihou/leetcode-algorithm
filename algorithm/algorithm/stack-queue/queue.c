@@ -121,11 +121,6 @@ void object_queue_destroy(ObjectQueue* q) {
     free(q);
 }
 
-void* object_queue_front(ObjectQueue* q) {
-    assert(!object_queue_isEmpty(q));
-    return q->head->value;
-}
-
 int object_queue_size(ObjectQueue* q) {
     int size = 0;
     ObjectNode* n = q->head;
@@ -134,6 +129,11 @@ int object_queue_size(ObjectQueue* q) {
         n = n->next;
     }
     return size;
+}
+
+void* object_queue_front(ObjectQueue* q) {
+    assert(!object_queue_isEmpty(q));
+    return q->head->value;
 }
 
 
