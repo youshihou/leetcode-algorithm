@@ -50,6 +50,9 @@
 		03652F1524B2FC63007D0458 /* T63-unique-paths-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03652F1424B2FC63007D0458 /* T63-unique-paths-ii.c */; };
 		0365A33B246EC82800470862 /* T198-house-robber.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365A33A246EC82800470862 /* T198-house-robber.c */; };
 		0365A33F246EE12A00470862 /* T347-top-k-frequent-elements.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365A33E246EE12A00470862 /* T347-top-k-frequent-elements.c */; };
+		0365C3E324C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C3E224C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.c */; };
+		0365C3E924C7CA7D00858658 /* T153-find-minimum-in-rotated-sorted-array.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C3E824C7CA7D00858658 /* T153-find-minimum-in-rotated-sorted-array.c */; };
+		0365C3EC24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C3EB24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.c */; };
 		03742A032472D01500C7BFBF /* T210-course-schedule-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
@@ -232,6 +235,12 @@
 		0365A33A246EC82800470862 /* T198-house-robber.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T198-house-robber.c"; sourceTree = "<group>"; };
 		0365A33D246EE12A00470862 /* T347-top-k-frequent-elements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T347-top-k-frequent-elements.h"; sourceTree = "<group>"; };
 		0365A33E246EE12A00470862 /* T347-top-k-frequent-elements.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T347-top-k-frequent-elements.c"; sourceTree = "<group>"; };
+		0365C3E124C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.h"; sourceTree = "<group>"; };
+		0365C3E224C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.c"; sourceTree = "<group>"; };
+		0365C3E724C7CA7D00858658 /* T153-find-minimum-in-rotated-sorted-array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T153-find-minimum-in-rotated-sorted-array.h"; sourceTree = "<group>"; };
+		0365C3E824C7CA7D00858658 /* T153-find-minimum-in-rotated-sorted-array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T153-find-minimum-in-rotated-sorted-array.c"; sourceTree = "<group>"; };
+		0365C3EA24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T154-find-minimum-in-rotated-sorted-array-ii.h"; sourceTree = "<group>"; };
+		0365C3EB24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T154-find-minimum-in-rotated-sorted-array-ii.c"; sourceTree = "<group>"; };
 		03742A012472D01500C7BFBF /* T210-course-schedule-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T210-course-schedule-ii.h"; sourceTree = "<group>"; };
 		03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T210-course-schedule-ii.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
@@ -712,6 +721,12 @@
 				03B72FE624C526810061BD4C /* T167-two-sum-ii-input-array-is-sorted.c */,
 				03DE718E24C674F1000762F1 /* T95-unique-binary-search-trees-ii.h */,
 				03DE718F24C674F1000762F1 /* T95-unique-binary-search-trees-ii.c */,
+				0365C3E124C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.h */,
+				0365C3E224C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.c */,
+				0365C3E724C7CA7D00858658 /* T153-find-minimum-in-rotated-sorted-array.h */,
+				0365C3E824C7CA7D00858658 /* T153-find-minimum-in-rotated-sorted-array.c */,
+				0365C3EA24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.h */,
+				0365C3EB24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -833,6 +848,7 @@
 				035D9F792460292500D22BB8 /* T50-powx-n.c in Sources */,
 				032FB04624BFE1E800759049 /* T785-is-graph-bipartite.c in Sources */,
 				035D9F6D245FD9B800D22BB8 /* T283-move-zeroes.c in Sources */,
+				0365C3E324C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.c in Sources */,
 				035D9F8B2461916200D22BB8 /* T253-meeting-rooms-ii.c in Sources */,
 				03D56C0B2462F75C0074214D /* T149-max-points-on-a-line.c in Sources */,
 				038BDE03245C07DD00AA6763 /* T123-best-time-to-buy-and-sell-stock-iii.c in Sources */,
@@ -890,6 +906,7 @@
 				038BDE00245C079B00AA6763 /* T122-best-time-to-buy-and-sell-stock-ii.c in Sources */,
 				03F4B5FE24795D2300072A3D /* T455-assign-cookies.c in Sources */,
 				035D9F88246186DB00D22BB8 /* T252-meeting-rooms.c in Sources */,
+				0365C3E924C7CA7D00858658 /* T153-find-minimum-in-rotated-sorted-array.c in Sources */,
 				0344426824BBEB840030765D /* T350-intersection-of-two-arrays-ii.c in Sources */,
 				035F22AA24C12F92003B3C1A /* T35-search-insert-position.c in Sources */,
 				035D9F73245FEADA00D22BB8 /* hash_table.c in Sources */,
@@ -902,6 +919,7 @@
 				03F4B60A2479626600072A3D /* T53-maximum-subarray.c in Sources */,
 				038BDDFD245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.c in Sources */,
 				03B72FE724C526810061BD4C /* T167-two-sum-ii-input-array-is-sorted.c in Sources */,
+				0365C3EC24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.c in Sources */,
 				031552F1246805B2001C70B1 /* T23-merge-k-sorted-lists.c in Sources */,
 				03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */,
 				03B262FA247A98FB00BBD985 /* T1143-longest-common-subsequence.c in Sources */,
