@@ -19,7 +19,8 @@ int minArray(int* numbers, int numbersSize) {
     int end = numbersSize - 1;
     
     while (begin < end) {
-        int mid = (begin + end) >> 1;
+//        int mid = (begin + end) >> 1;
+        int mid = begin + ((end - begin) >> 1);
         if (numbers[mid] < numbers[end]) {
             end = mid;
         } else if (numbers[mid] > numbers[end]) {
