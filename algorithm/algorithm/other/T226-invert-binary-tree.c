@@ -64,11 +64,6 @@ struct TreeNode* invertTree2(struct TreeNode* root) {
 
 
 
-
-
-
-
-
 struct TreeNode* invertTree3(struct TreeNode* root) {
     if (root == NULL) { return root; }
     
