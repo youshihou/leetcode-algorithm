@@ -67,6 +67,7 @@
 		0365C42624C87AAB00858658 /* T559-maximum-depth-of-n-ary-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C42524C87AAB00858658 /* T559-maximum-depth-of-n-ary-tree.c */; };
 		0365C42924C87C3300858658 /* T106-construct-binary-tree-from-inorder-and-postorder-traversal.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C42824C87C3300858658 /* T106-construct-binary-tree-from-inorder-and-postorder-traversal.c */; };
 		0365C42C24C87EB600858658 /* T105-construct-binary-tree-from-preorder-and-inorder-traversal.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C42B24C87EB600858658 /* T105-construct-binary-tree-from-preorder-and-inorder-traversal.c */; };
+		0365C42F24C87F3400858658 /* T889-construct-binary-tree-from-preorder-and-postorder-traversal.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365C42E24C87F3400858658 /* T889-construct-binary-tree-from-preorder-and-postorder-traversal.c */; };
 		03742A032472D01500C7BFBF /* T210-course-schedule-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
@@ -283,6 +284,8 @@
 		0365C42824C87C3300858658 /* T106-construct-binary-tree-from-inorder-and-postorder-traversal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T106-construct-binary-tree-from-inorder-and-postorder-traversal.c"; sourceTree = "<group>"; };
 		0365C42A24C87EB600858658 /* T105-construct-binary-tree-from-preorder-and-inorder-traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T105-construct-binary-tree-from-preorder-and-inorder-traversal.h"; sourceTree = "<group>"; };
 		0365C42B24C87EB600858658 /* T105-construct-binary-tree-from-preorder-and-inorder-traversal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T105-construct-binary-tree-from-preorder-and-inorder-traversal.c"; sourceTree = "<group>"; };
+		0365C42D24C87F3400858658 /* T889-construct-binary-tree-from-preorder-and-postorder-traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T889-construct-binary-tree-from-preorder-and-postorder-traversal.h"; sourceTree = "<group>"; };
+		0365C42E24C87F3400858658 /* T889-construct-binary-tree-from-preorder-and-postorder-traversal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T889-construct-binary-tree-from-preorder-and-postorder-traversal.c"; sourceTree = "<group>"; };
 		03742A012472D01500C7BFBF /* T210-course-schedule-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T210-course-schedule-ii.h"; sourceTree = "<group>"; };
 		03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T210-course-schedule-ii.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
@@ -715,6 +718,8 @@
 				0365C42824C87C3300858658 /* T106-construct-binary-tree-from-inorder-and-postorder-traversal.c */,
 				0365C42A24C87EB600858658 /* T105-construct-binary-tree-from-preorder-and-inorder-traversal.h */,
 				0365C42B24C87EB600858658 /* T105-construct-binary-tree-from-preorder-and-inorder-traversal.c */,
+				0365C42D24C87F3400858658 /* T889-construct-binary-tree-from-preorder-and-postorder-traversal.h */,
+				0365C42E24C87F3400858658 /* T889-construct-binary-tree-from-preorder-and-postorder-traversal.c */,
 			);
 			path = "binary-tree";
 			sourceTree = "<group>";
@@ -972,6 +977,7 @@
 				03F4B5FB247948A500072A3D /* T90-subsets-ii.c in Sources */,
 				035D9F70245FE6E700D22BB8 /* T1-two-sum.c in Sources */,
 				03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */,
+				0365C42F24C87F3400858658 /* T889-construct-binary-tree-from-preorder-and-postorder-traversal.c in Sources */,
 				038E9FBC24C439A9005DD7A2 /* T312-burst-balloons.c in Sources */,
 				0345CF602458702700D8E5AE /* T151-reverse-words-in-a-string.c in Sources */,
 				03A21E1B24B0B47A00E8055E /* T32-longest-valid-parentheses.c in Sources */,
