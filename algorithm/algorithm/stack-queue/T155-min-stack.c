@@ -25,10 +25,10 @@
  * minStackFree(obj);
 */
 
-typedef struct Node {
+typedef struct Node_ {
     int val;
     int min;
-    struct Node* next;
+    struct Node_* next;
 } MinStack;
 
 /** initialize your data structure here. */

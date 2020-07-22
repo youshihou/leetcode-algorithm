@@ -23,6 +23,11 @@ struct node {
     struct node* next;
 };
 
+struct Node {
+    int val;
+    int numChildren;
+    struct Node** children;
+};
 
 struct ListNode {
     int val;
