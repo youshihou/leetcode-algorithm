@@ -1,5 +1,5 @@
 //
-//  T04-maximum-depth-of-binary-tree.c
+//  T104-maximum-depth-of-binary-tree.c
 //  algorithm
 //
 //  Created by Ankui on 7/22/20.
@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
 
 
-#include "T04-maximum-depth-of-binary-tree.h"
+#include "T104-maximum-depth-of-binary-tree.h"
 #include "algorithm-common.h"
 
 /**
@@ -23,6 +23,7 @@
 
 
 int maxDepth(struct TreeNode* root) {
-
-    return 0;
+    if (root == NULL) { return 0; }
+    
+    return 1 + fmax(maxDepth(root->left), maxDepth(root->right));
 }
