@@ -16,7 +16,7 @@
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
-int* twoSum(int* numbers, int numbersSize, int target, int* returnSize) {
+int* t167_twoSum(int* numbers, int numbersSize, int target, int* returnSize) {
     if (numbers == NULL || numbersSize <= 0) { return NULL; }
     *returnSize = 2;
 

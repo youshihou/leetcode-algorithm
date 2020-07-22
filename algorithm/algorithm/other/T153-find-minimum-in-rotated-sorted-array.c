@@ -12,7 +12,7 @@
 #include "T153-find-minimum-in-rotated-sorted-array.h"
 #include "algorithm-common.h"
 
-int findMin(int* nums, int numsSize) {
+int t153_findMin(int* nums, int numsSize) {
     if (nums == NULL || numsSize <= 0) { return -1; }
     
     int left = 0;
