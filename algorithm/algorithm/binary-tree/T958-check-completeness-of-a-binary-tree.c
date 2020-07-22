@@ -26,6 +26,36 @@
 bool isCompleteTree(struct TreeNode* root) {
     if (root == NULL) { return root; }
     
+    struct TreeNode* queue[200];
+    memset(queue, 0, sizeof(queue));
+    
+    int front = 0;
+    int rear = 0;
+    queue[rear] = root;
+    rear++;
+    
+    struct TreeNode* prev = root;
+    struct TreeNode* curr;
+    while (front != rear) {
+        curr = queue[front];
+        front++;
+        
+        if (prev == NULL && curr != NULL) { return false; }
+        
+        if (curr != NULL) {
+            queue[rear++] = curr->left;
+            queue[rear++] = curr->right;
+        }
+        
+        prev = curr;
+    }
+    return true;
+}
+
+
+bool isCompleteTree1(struct TreeNode* root) {
+    if (root == NULL) { return root; }
+    
     bool leaf = false;
     ObjectQueue *q = object_queue_create();
     object_queue_enqueue(q, root);
