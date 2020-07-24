@@ -23,7 +23,7 @@
  */
 
 
-int kthSmallest(struct TreeNode* root, int k) {
+int t230_kthSmallest(struct TreeNode* root, int k) {
 
     return 0;
 }

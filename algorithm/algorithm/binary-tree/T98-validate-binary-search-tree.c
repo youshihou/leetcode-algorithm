@@ -22,6 +22,6 @@
  */
 
 
-bool isValidBST(struct TreeNode* root) {
+bool t98_isValidBST(struct TreeNode* root) {
     return false;
 }

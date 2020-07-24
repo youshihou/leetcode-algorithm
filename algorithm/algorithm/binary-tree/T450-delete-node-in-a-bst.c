@@ -22,7 +22,3 @@
  */
 
 
-struct TreeNode* deleteNode(struct TreeNode* root, int key) {
-
-    return NULL;
-}
