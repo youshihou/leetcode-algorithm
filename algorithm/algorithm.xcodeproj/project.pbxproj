@@ -76,6 +76,7 @@
 		036FA20C24CAF79B0007FFBA /* T98-validate-binary-search-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 036FA20B24CAF79B0007FFBA /* T98-validate-binary-search-tree.c */; };
 		036FA20F24CAF7EF0007FFBA /* T783-minimum-distance-between-bst-nodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 036FA20E24CAF7EF0007FFBA /* T783-minimum-distance-between-bst-nodes.c */; };
 		036FA21224CAF8DA0007FFBA /* T530-minimum-absolute-difference-in-bst.c in Sources */ = {isa = PBXBuildFile; fileRef = 036FA21124CAF8DA0007FFBA /* T530-minimum-absolute-difference-in-bst.c */; };
+		036FA21824CAFA500007FFBA /* T938-range-sum-of-bst.c in Sources */ = {isa = PBXBuildFile; fileRef = 036FA21724CAFA500007FFBA /* T938-range-sum-of-bst.c */; };
 		03742A032472D01500C7BFBF /* T210-course-schedule-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
@@ -310,6 +311,8 @@
 		036FA20E24CAF7EF0007FFBA /* T783-minimum-distance-between-bst-nodes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T783-minimum-distance-between-bst-nodes.c"; sourceTree = "<group>"; };
 		036FA21024CAF8DA0007FFBA /* T530-minimum-absolute-difference-in-bst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T530-minimum-absolute-difference-in-bst.h"; sourceTree = "<group>"; };
 		036FA21124CAF8DA0007FFBA /* T530-minimum-absolute-difference-in-bst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T530-minimum-absolute-difference-in-bst.c"; sourceTree = "<group>"; };
+		036FA21624CAFA500007FFBA /* T938-range-sum-of-bst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T938-range-sum-of-bst.h"; sourceTree = "<group>"; };
+		036FA21724CAFA500007FFBA /* T938-range-sum-of-bst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T938-range-sum-of-bst.c"; sourceTree = "<group>"; };
 		03742A012472D01500C7BFBF /* T210-course-schedule-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T210-course-schedule-ii.h"; sourceTree = "<group>"; };
 		03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T210-course-schedule-ii.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
@@ -758,6 +761,8 @@
 				036FA20E24CAF7EF0007FFBA /* T783-minimum-distance-between-bst-nodes.c */,
 				036FA21024CAF8DA0007FFBA /* T530-minimum-absolute-difference-in-bst.h */,
 				036FA21124CAF8DA0007FFBA /* T530-minimum-absolute-difference-in-bst.c */,
+				036FA21624CAFA500007FFBA /* T938-range-sum-of-bst.h */,
+				036FA21724CAFA500007FFBA /* T938-range-sum-of-bst.c */,
 			);
 			path = "binary-tree";
 			sourceTree = "<group>";
@@ -1081,6 +1086,7 @@
 				0391E72324BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.c in Sources */,
 				03965273245D83D4008049D8 /* T99-recover-binary-search-tree.c in Sources */,
 				03652F1524B2FC63007D0458 /* T63-unique-paths-ii.c in Sources */,
+				036FA21824CAFA500007FFBA /* T938-range-sum-of-bst.c in Sources */,
 				03C8A6482454260D001D5584 /* stack.c in Sources */,
 				039AD437245EB65D00A3935C /* T47-permutations-ii.c in Sources */,
 				03B262F7247A8E1E00BBD985 /* T300-longest-increasing-subsequence.c in Sources */,
