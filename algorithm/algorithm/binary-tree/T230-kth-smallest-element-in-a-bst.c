@@ -6,4 +6,24 @@
 //  Copyright © 2020 Ankui. All rights reserved.
 //
 
+// https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/
+
+
 #include "T230-kth-smallest-element-in-a-bst.h"
+#include "algorithm-common.h"
+
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     struct TreeNode *left;
+ *     struct TreeNode *right;
+ * };
+ */
+
+
+int kthSmallest(struct TreeNode* root, int k) {
+
+    return 0;
+}
