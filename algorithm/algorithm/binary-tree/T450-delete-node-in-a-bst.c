@@ -6,4 +6,23 @@
 //  Copyright © 2020 Ankui. All rights reserved.
 //
 
+// https://leetcode-cn.com/problems/delete-node-in-a-bst/
+
+
 #include "T450-delete-node-in-a-bst.h"
+#include "algorithm-common.h"
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     struct TreeNode *left;
+ *     struct TreeNode *right;
+ * };
+ */
+
+
+struct TreeNode* deleteNode(struct TreeNode* root, int key) {
+
+    return NULL;
+}
