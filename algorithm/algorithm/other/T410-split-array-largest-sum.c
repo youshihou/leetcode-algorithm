@@ -12,8 +12,41 @@
 #include "T410-split-array-largest-sum.h"
 #include "algorithm-common.h"
 
+bool split(int* nums, int numsSize, int m, int limit) {
+    long long sum = 0;
+    int count = 1;
+    for (int i = 0; i < numsSize; i++) {
+        if (sum + nums[i] > limit) {
+            sum = 0;
+            count++;
+        }
+        sum += nums[i];
+    }
+    return count <= m;
+}
 
 int splitArray(int* nums, int numsSize, int m) {
+    long long left = 0;
+    long long right = 0;
+    for (int i = 0; i < numsSize; i++) {
+        left = left >= nums[i] ? left : nums[i];
+        right += nums[i];
+    }
+    
+    while (left <= right) {
+        int mid = (int)(left + ((right - left) >> 1));
+        if (split(nums, numsSize, m, mid)) {
+            right = mid -1;
+        } else {
+            left = mid + 1;
+        }
+    }
+    return (int)left;
+}
+
+
+
+int splitArray1(int* nums, int numsSize, int m) {
     if (nums == NULL || numsSize <= 0) { return 0; }
     
     long long dp[numsSize + 1][m + 1];
