@@ -23,7 +23,7 @@
  */
 
 
-bool isBalanced(struct TreeNode* root) {
+bool t55_isBalanced(struct TreeNode* root) {
 
     return false;
 }
