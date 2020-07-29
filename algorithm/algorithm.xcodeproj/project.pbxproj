@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0300364F2451C7E80026657D /* T86-partition-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0300364E2451C7E80026657D /* T86-partition-list.c */; };
 		030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 030036512451D0CD0026657D /* T234-palindrome-linked-list.c */; };
+		030900BC24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */; };
 		031552EE2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 031552ED2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c */; };
 		031552F1246805B2001C70B1 /* T23-merge-k-sorted-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 031552F0246805B2001C70B1 /* T23-merge-k-sorted-lists.c */; };
 		031552F424684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c in Sources */ = {isa = PBXBuildFile; fileRef = 031552F324684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c */; };
@@ -183,6 +184,8 @@
 		0300364E2451C7E80026657D /* T86-partition-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T86-partition-list.c"; sourceTree = "<group>"; };
 		030036502451D0CD0026657D /* T234-palindrome-linked-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T234-palindrome-linked-list.h"; sourceTree = "<group>"; };
 		030036512451D0CD0026657D /* T234-palindrome-linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T234-palindrome-linked-list.c"; sourceTree = "<group>"; };
+		030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T349-intersection-of-two-arrays.cpp"; sourceTree = "<group>"; };
+		030900BB24D1AD76009C3DEE /* T349-intersection-of-two-arrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "T349-intersection-of-two-arrays.hpp"; sourceTree = "<group>"; };
 		031552EC2467F9C4001C70B1 /* T21-merge-two-sorted-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T21-merge-two-sorted-lists.h"; sourceTree = "<group>"; };
 		031552ED2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T21-merge-two-sorted-lists.c"; sourceTree = "<group>"; };
 		031552EF246805B2001C70B1 /* T23-merge-k-sorted-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T23-merge-k-sorted-lists.h"; sourceTree = "<group>"; };
@@ -882,6 +885,8 @@
 				03C54A3D24CD222000D90BA4 /* T329-longest-increasing-path-in-a-matrix.hpp */,
 				0386E60E24CEEEF00033B08F /* T392-is-subsequence.cpp */,
 				0386E60F24CEEEF00033B08F /* T392-is-subsequence.hpp */,
+				030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */,
+				030900BB24D1AD76009C3DEE /* T349-intersection-of-two-arrays.hpp */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1129,6 +1134,7 @@
 				03652F1524B2FC63007D0458 /* T63-unique-paths-ii.c in Sources */,
 				036FA21824CAFA500007FFBA /* T938-range-sum-of-bst.c in Sources */,
 				03C8A6482454260D001D5584 /* stack.c in Sources */,
+				030900BC24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp in Sources */,
 				039AD437245EB65D00A3935C /* T47-permutations-ii.c in Sources */,
 				03B262F7247A8E1E00BBD985 /* T300-longest-increasing-subsequence.c in Sources */,
 				033A4F1F24B5552100B00186 /* T16-11-diving-board-lcci.c in Sources */,
