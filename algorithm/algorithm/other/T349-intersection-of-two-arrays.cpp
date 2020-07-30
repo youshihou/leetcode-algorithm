@@ -6,16 +6,11 @@
 //  Copyright © 2020 Ankui. All rights reserved.
 //
 
+// https://leetcode-cn.com/problems/intersection-of-two-arrays/
+
+
 #include "T349-intersection-of-two-arrays.hpp"
-
-#include <iostream>
-//#include <string>
-//#include <sstream>
-#include <vector>
-#include <unordered_set>
-
-using namespace std;
-
+#include "cplulplus-common.h"
 
 class Solution {
 public:

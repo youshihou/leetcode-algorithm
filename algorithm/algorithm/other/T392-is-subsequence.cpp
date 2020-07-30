@@ -10,10 +10,7 @@
 
 
 #include "T392-is-subsequence.hpp"
-
-#include <iostream>
-
-using namespace std;
+#include "cplulplus-common.h"
 
 class Solution {
 public:

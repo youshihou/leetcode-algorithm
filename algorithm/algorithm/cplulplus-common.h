@@ -9,5 +9,11 @@
 #ifndef cplulplus_common_h
 #define cplulplus_common_h
 
+#include <iostream>
+#include <vector>
+#include <unordered_set>
+
+
+using namespace std;
 
 #endif /* cplulplus_common_h */

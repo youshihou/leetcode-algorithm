@@ -84,6 +84,7 @@
 		036FA23024CC32A70007FFBA /* T55-ping-heng-er-cha-shu-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 036FA22F24CC32A70007FFBA /* T55-ping-heng-er-cha-shu-lcof.c */; };
 		036FA23324CC331B0007FFBA /* T410-split-array-largest-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 036FA23224CC331B0007FFBA /* T410-split-array-largest-sum.c */; };
 		03742A032472D01500C7BFBF /* T210-course-schedule-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */; };
+		0380AB7E24D24F6D00ABADCD /* T343-integer-break.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0380AB7C24D24F6D00ABADCD /* T343-integer-break.cpp */; };
 		0386E61024CEEEF00033B08F /* T392-is-subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0386E60E24CEEEF00033B08F /* T392-is-subsequence.cpp */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
@@ -335,6 +336,9 @@
 		036FA23224CC331B0007FFBA /* T410-split-array-largest-sum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T410-split-array-largest-sum.c"; sourceTree = "<group>"; };
 		03742A012472D01500C7BFBF /* T210-course-schedule-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T210-course-schedule-ii.h"; sourceTree = "<group>"; };
 		03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T210-course-schedule-ii.c"; sourceTree = "<group>"; };
+		0380AB7C24D24F6D00ABADCD /* T343-integer-break.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T343-integer-break.cpp"; sourceTree = "<group>"; };
+		0380AB7D24D24F6D00ABADCD /* T343-integer-break.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "T343-integer-break.hpp"; sourceTree = "<group>"; };
+		0380AB7F24D24FDF00ABADCD /* cplulplus-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cplulplus-common.h"; sourceTree = "<group>"; };
 		0386E60E24CEEEF00033B08F /* T392-is-subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T392-is-subsequence.cpp"; sourceTree = "<group>"; };
 		0386E60F24CEEEF00033B08F /* T392-is-subsequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "T392-is-subsequence.hpp"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
@@ -529,6 +533,7 @@
 		03403991244D300E00896919 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				0380AB7F24D24FDF00ABADCD /* cplulplus-common.h */,
 				032985282469664D00A7D5A8 /* algorithm-common.h */,
 				03A7606224ACBFF700940BC7 /* other */,
 				03742A002472CFE700C7BFBF /* task */,
@@ -887,6 +892,8 @@
 				0386E60F24CEEEF00033B08F /* T392-is-subsequence.hpp */,
 				030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */,
 				030900BB24D1AD76009C3DEE /* T349-intersection-of-two-arrays.hpp */,
+				0380AB7C24D24F6D00ABADCD /* T343-integer-break.cpp */,
+				0380AB7D24D24F6D00ABADCD /* T343-integer-break.hpp */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1042,6 +1049,7 @@
 				0386E61024CEEEF00033B08F /* T392-is-subsequence.cpp in Sources */,
 				036FA20024CAF3E60007FFBA /* T1025-divisor-game.c in Sources */,
 				03403993244D300E00896919 /* main.c in Sources */,
+				0380AB7E24D24F6D00ABADCD /* T343-integer-break.cpp in Sources */,
 				03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */,
 				0340239F24B4001500294AF7 /* T112-path-sum.c in Sources */,
 				03B262FD247AB3DF00BBD985 /* longest-common-substring.c in Sources */,
