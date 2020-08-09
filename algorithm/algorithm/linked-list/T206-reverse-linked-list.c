@@ -38,7 +38,7 @@ struct ListNode* reverseList_(struct ListNode* head) {
 struct ListNode* reverseList1(struct ListNode* head) {
     if (head == NULL || head->next == NULL) { return head; }
     
-    struct ListNode* newHead = reverseList_(head->next);
+    struct ListNode* newHead = reverseList1(head->next);
     head->next->next = head;
     head->next = NULL;
     
