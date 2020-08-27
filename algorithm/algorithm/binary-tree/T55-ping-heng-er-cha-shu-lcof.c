@@ -22,8 +22,13 @@
  * };
  */
 
+int height(struct TreeNode* root) {
+    if (root == NULL) { return 0; }
+    return 1 + fmax(height(root->left), height(root->right));
+}
 
 bool t55_isBalanced(struct TreeNode* root) {
-
-    return false;
+    if (root == NULL) { return true; }
+    
+    return abs(height(root->left) - height(root->right)) <= 1 && t55_isBalanced(root->left) && t55_isBalanced(root->right);
 }
