@@ -11,6 +11,9 @@
 		030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 030036512451D0CD0026657D /* T234-palindrome-linked-list.c */; };
 		030900BC24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */; };
 		0310560124F901170096744D /* T92-reverse-linked-list-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 031055FF24F901170096744D /* T92-reverse-linked-list-ii.cpp */; };
+		0312670724FE1D7600EEC72F /* T460-lfu-cache.c in Sources */ = {isa = PBXBuildFile; fileRef = 0312670624FE1D7600EEC72F /* T460-lfu-cache.c */; };
+		0312670A24FE24E600EEC72F /* T460-lfu-cache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0312670824FE24E600EEC72F /* T460-lfu-cache.cpp */; };
+		0312670D24FE3F9300EEC72F /* T146-lru-cache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0312670B24FE3F9300EEC72F /* T146-lru-cache.cpp */; };
 		031552EE2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 031552ED2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c */; };
 		031552F1246805B2001C70B1 /* T23-merge-k-sorted-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 031552F0246805B2001C70B1 /* T23-merge-k-sorted-lists.c */; };
 		031552F424684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c in Sources */ = {isa = PBXBuildFile; fileRef = 031552F324684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c */; };
@@ -192,6 +195,12 @@
 		030900BB24D1AD76009C3DEE /* T349-intersection-of-two-arrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "T349-intersection-of-two-arrays.hpp"; sourceTree = "<group>"; };
 		031055FF24F901170096744D /* T92-reverse-linked-list-ii.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T92-reverse-linked-list-ii.cpp"; sourceTree = "<group>"; };
 		0310560024F901170096744D /* T92-reverse-linked-list-ii.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "T92-reverse-linked-list-ii.hpp"; sourceTree = "<group>"; };
+		0312670524FE1D7600EEC72F /* T460-lfu-cache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T460-lfu-cache.h"; sourceTree = "<group>"; };
+		0312670624FE1D7600EEC72F /* T460-lfu-cache.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T460-lfu-cache.c"; sourceTree = "<group>"; };
+		0312670824FE24E600EEC72F /* T460-lfu-cache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T460-lfu-cache.cpp"; sourceTree = "<group>"; };
+		0312670924FE24E600EEC72F /* T460-lfu-cache.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "T460-lfu-cache.hpp"; sourceTree = "<group>"; };
+		0312670B24FE3F9300EEC72F /* T146-lru-cache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T146-lru-cache.cpp"; sourceTree = "<group>"; };
+		0312670C24FE3F9300EEC72F /* T146-lru-cache.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "T146-lru-cache.hpp"; sourceTree = "<group>"; };
 		031552EC2467F9C4001C70B1 /* T21-merge-two-sorted-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T21-merge-two-sorted-lists.h"; sourceTree = "<group>"; };
 		031552ED2467F9C4001C70B1 /* T21-merge-two-sorted-lists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T21-merge-two-sorted-lists.c"; sourceTree = "<group>"; };
 		031552EF246805B2001C70B1 /* T23-merge-k-sorted-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T23-merge-k-sorted-lists.h"; sourceTree = "<group>"; };
@@ -629,6 +638,12 @@
 				035D9F7E24606DA100D22BB8 /* T54-spiral-matrix.c */,
 				035D9F802461093E00D22BB8 /* T146-lru-cache.h */,
 				035D9F812461093E00D22BB8 /* T146-lru-cache.c */,
+				0312670B24FE3F9300EEC72F /* T146-lru-cache.cpp */,
+				0312670C24FE3F9300EEC72F /* T146-lru-cache.hpp */,
+				0312670524FE1D7600EEC72F /* T460-lfu-cache.h */,
+				0312670624FE1D7600EEC72F /* T460-lfu-cache.c */,
+				0312670824FE24E600EEC72F /* T460-lfu-cache.cpp */,
+				0312670924FE24E600EEC72F /* T460-lfu-cache.hpp */,
 				035D9F832461806700D22BB8 /* T7-reverse-integer.h */,
 				035D9F842461806700D22BB8 /* T7-reverse-integer.c */,
 				035D9F86246186DB00D22BB8 /* T252-meeting-rooms.h */,
@@ -1030,6 +1045,7 @@
 				038BDE0C245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.c in Sources */,
 				035D9F792460292500D22BB8 /* T50-powx-n.c in Sources */,
 				0365C41124C875BD00858658 /* T102-binary-tree-level-order-traversal.c in Sources */,
+				0312670724FE1D7600EEC72F /* T460-lfu-cache.c in Sources */,
 				032FB04624BFE1E800759049 /* T785-is-graph-bipartite.c in Sources */,
 				035D9F6D245FD9B800D22BB8 /* T283-move-zeroes.c in Sources */,
 				0365C3E324C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.c in Sources */,
@@ -1121,6 +1137,7 @@
 				03A21E5A24B1A0E400E8055E /* T44-wildcard-matching.c in Sources */,
 				03BD7E1724B71D6E00C55AA6 /* T17-13-re-space-lcci.c in Sources */,
 				034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */,
+				0312670D24FE3F9300EEC72F /* T146-lru-cache.cpp in Sources */,
 				036FA23324CC331B0007FFBA /* T410-split-array-largest-sum.c in Sources */,
 				0365C41424C876F600858658 /* T958-check-completeness-of-a-binary-tree.c in Sources */,
 				03F4B60A2479626600072A3D /* T53-maximum-subarray.c in Sources */,
@@ -1161,6 +1178,7 @@
 				036FA21824CAFA500007FFBA /* T938-range-sum-of-bst.c in Sources */,
 				03C8A6482454260D001D5584 /* stack.c in Sources */,
 				030900BC24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp in Sources */,
+				0312670A24FE24E600EEC72F /* T460-lfu-cache.cpp in Sources */,
 				039AD437245EB65D00A3935C /* T47-permutations-ii.c in Sources */,
 				03B262F7247A8E1E00BBD985 /* T300-longest-increasing-subsequence.c in Sources */,
 				033A4F1F24B5552100B00186 /* T16-11-diving-board-lcci.c in Sources */,
