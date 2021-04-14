@@ -137,6 +137,7 @@
 		03B262FD247AB3DF00BBD985 /* longest-common-substring.c in Sources */ = {isa = PBXBuildFile; fileRef = 03B262FC247AB3DF00BBD985 /* longest-common-substring.c */; };
 		03B72FE724C526810061BD4C /* T167-two-sum-ii-input-array-is-sorted.c in Sources */ = {isa = PBXBuildFile; fileRef = 03B72FE624C526810061BD4C /* T167-two-sum-ii-input-array-is-sorted.c */; };
 		03BD7E1724B71D6E00C55AA6 /* T17-13-re-space-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BD7E1624B71D6E00C55AA6 /* T17-13-re-space-lcci.c */; };
+		03C062C524FFE3300003EA1D /* T210-course-schedule-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C062C324FFE3300003EA1D /* T210-course-schedule-ii.cpp */; };
 		03C54A3E24CD222000D90BA4 /* T329-longest-increasing-path-in-a-matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03C54A3C24CD222000D90BA4 /* T329-longest-increasing-path-in-a-matrix.cpp */; };
 		03C8A63924531081001D5584 /* T138-copy-list-with-random-pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */; };
 		03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C8A63C245312FC001D5584 /* T155-min-stack.c */; };
@@ -449,6 +450,8 @@
 		03B72FE624C526810061BD4C /* T167-two-sum-ii-input-array-is-sorted.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T167-two-sum-ii-input-array-is-sorted.c"; sourceTree = "<group>"; };
 		03BD7E1524B71D6E00C55AA6 /* T17-13-re-space-lcci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T17-13-re-space-lcci.h"; sourceTree = "<group>"; };
 		03BD7E1624B71D6E00C55AA6 /* T17-13-re-space-lcci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T17-13-re-space-lcci.c"; sourceTree = "<group>"; };
+		03C062C324FFE3300003EA1D /* T210-course-schedule-ii.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T210-course-schedule-ii.cpp"; sourceTree = "<group>"; };
+		03C062C424FFE3300003EA1D /* T210-course-schedule-ii.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "T210-course-schedule-ii.hpp"; sourceTree = "<group>"; };
 		03C54A3C24CD222000D90BA4 /* T329-longest-increasing-path-in-a-matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T329-longest-increasing-path-in-a-matrix.cpp"; sourceTree = "<group>"; };
 		03C54A3D24CD222000D90BA4 /* T329-longest-increasing-path-in-a-matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "T329-longest-increasing-path-in-a-matrix.hpp"; sourceTree = "<group>"; };
 		03C8A63724531080001D5584 /* T138-copy-list-with-random-pointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T138-copy-list-with-random-pointer.h"; sourceTree = "<group>"; };
@@ -578,10 +581,10 @@
 				0340399E244D302A00896919 /* T88-merge-sorted-array.c */,
 				0340399F244D302A00896919 /* T75-sort-colors.h */,
 				0340399C244D302A00896919 /* T75-sort-colors.c */,
-				03AA31D3244DF66D008B0B20 /* T164-maximum-gap.h */,
-				03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */,
 				035A4024244F330900CAFCCF /* T977-squares-of-a-sorted-array.h */,
 				035A4025244F330900CAFCCF /* T977-squares-of-a-sorted-array.c */,
+				03AA31D3244DF66D008B0B20 /* T164-maximum-gap.h */,
+				03AA31D4244DF66D008B0B20 /* T164-maximum-gap.c */,
 			);
 			path = "array-sort";
 			sourceTree = "<group>";
@@ -924,6 +927,8 @@
 				03E1904C24D3A45800DBFEC8 /* T0803-magic-index-lcci.hpp */,
 				03E1906324D5BB0C00DBFEC8 /* T632-smallest-range-covering-elements-from-k-lists.cpp */,
 				03E1906424D5BB0C00DBFEC8 /* T632-smallest-range-covering-elements-from-k-lists.hpp */,
+				03C062C324FFE3300003EA1D /* T210-course-schedule-ii.cpp */,
+				03C062C424FFE3300003EA1D /* T210-course-schedule-ii.hpp */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1037,6 +1042,7 @@
 				035D9F7624600D2B00D22BB8 /* T15-3sum.c in Sources */,
 				032C778824BE8B5D0067045D /* T96-unique-binary-search-trees.c in Sources */,
 				03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */,
+				03C062C524FFE3300003EA1D /* T210-course-schedule-ii.cpp in Sources */,
 				036FA20624CAF6B50007FFBA /* T700-search-in-a-binary-search-tree.c in Sources */,
 				034039A2244D302B00896919 /* T88-merge-sorted-array.c in Sources */,
 				035D9F8E2461A27900D22BB8 /* T11-container-with-most-water.c in Sources */,
