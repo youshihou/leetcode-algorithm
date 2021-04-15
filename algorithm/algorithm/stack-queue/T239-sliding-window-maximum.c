@@ -15,7 +15,7 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
 int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize) {
-    if (nums == NULL || numsSize == 0 || k < 1) { return (int* )malloc(sizeof(int)); }
+    if (nums == NULL || numsSize == 0 || k < 1) { return NULL; }
     *returnSize = numsSize - (k - 1);
     if (k == 1) { return nums; }
     
