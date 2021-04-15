@@ -10,7 +10,7 @@
 		0300364F2451C7E80026657D /* T86-partition-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0300364E2451C7E80026657D /* T86-partition-list.c */; };
 		030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 030036512451D0CD0026657D /* T234-palindrome-linked-list.c */; };
 		030900BC24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */; };
-		0310560124F901170096744D /* T92-reverse-linked-list-ii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 031055FF24F901170096744D /* T92-reverse-linked-list-ii.cpp */; };
+		0310560124F901170096744D /* T92-reverse-linked-list-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 031055FF24F901170096744D /* T92-reverse-linked-list-ii.c */; };
 		0312670724FE1D7600EEC72F /* T460-lfu-cache.c in Sources */ = {isa = PBXBuildFile; fileRef = 0312670624FE1D7600EEC72F /* T460-lfu-cache.c */; };
 		0312670A24FE24E600EEC72F /* T460-lfu-cache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0312670824FE24E600EEC72F /* T460-lfu-cache.cpp */; };
 		0312670D24FE3F9300EEC72F /* T146-lru-cache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0312670B24FE3F9300EEC72F /* T146-lru-cache.cpp */; };
@@ -194,8 +194,8 @@
 		030036512451D0CD0026657D /* T234-palindrome-linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T234-palindrome-linked-list.c"; sourceTree = "<group>"; };
 		030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T349-intersection-of-two-arrays.cpp"; sourceTree = "<group>"; };
 		030900BB24D1AD76009C3DEE /* T349-intersection-of-two-arrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "T349-intersection-of-two-arrays.hpp"; sourceTree = "<group>"; };
-		031055FF24F901170096744D /* T92-reverse-linked-list-ii.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T92-reverse-linked-list-ii.cpp"; sourceTree = "<group>"; };
-		0310560024F901170096744D /* T92-reverse-linked-list-ii.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "T92-reverse-linked-list-ii.hpp"; sourceTree = "<group>"; };
+		031055FF24F901170096744D /* T92-reverse-linked-list-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T92-reverse-linked-list-ii.c"; sourceTree = "<group>"; };
+		0310560024F901170096744D /* T92-reverse-linked-list-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T92-reverse-linked-list-ii.h"; sourceTree = "<group>"; };
 		0312670524FE1D7600EEC72F /* T460-lfu-cache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T460-lfu-cache.h"; sourceTree = "<group>"; };
 		0312670624FE1D7600EEC72F /* T460-lfu-cache.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T460-lfu-cache.c"; sourceTree = "<group>"; };
 		0312670824FE24E600EEC72F /* T460-lfu-cache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T460-lfu-cache.cpp"; sourceTree = "<group>"; };
@@ -592,6 +592,8 @@
 		035A4027244F352300CAFCCF /* linked-list */ = {
 			isa = PBXGroup;
 			children = (
+				035A4028244F355000CAFCCF /* T203-remove-linked-list-elements.h */,
+				035A4029244F355000CAFCCF /* T203-remove-linked-list-elements.c */,
 				03F935852450732000FCF702 /* T2-add-two-numbers.h */,
 				03F935862450732000FCF702 /* T2-add-two-numbers.c */,
 				03F9358824508A3E00FCF702 /* T160-intersection-of-two-linked-lists.h */,
@@ -600,24 +602,22 @@
 				0300364E2451C7E80026657D /* T86-partition-list.c */,
 				030036502451D0CD0026657D /* T234-palindrome-linked-list.h */,
 				030036512451D0CD0026657D /* T234-palindrome-linked-list.c */,
-				03C8A63724531080001D5584 /* T138-copy-list-with-random-pointer.h */,
-				03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */,
 				0344427C24BCA3450030765D /* T237-delete-node-in-a-linked-list.h */,
 				0344427D24BCA3450030765D /* T237-delete-node-in-a-linked-list.c */,
 				0344427F24BCA7A20030765D /* T206-reverse-linked-list.h */,
 				0344428024BCA7A20030765D /* T206-reverse-linked-list.c */,
 				0344428224BCB1A10030765D /* T141-linked-list-cycle.h */,
 				0344428324BCB1A10030765D /* T141-linked-list-cycle.c */,
-				035A4028244F355000CAFCCF /* T203-remove-linked-list-elements.h */,
-				035A4029244F355000CAFCCF /* T203-remove-linked-list-elements.c */,
 				0391E72124BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.h */,
 				0391E72224BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.c */,
 				0391E72424BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.h */,
 				0391E72524BDE248007EBA9B /* T82-remove-duplicates-from-sorted-list-ii.c */,
 				0391E72724BDE80F007EBA9B /* T876-middle-of-the-linked-list.h */,
 				0391E72824BDE80F007EBA9B /* T876-middle-of-the-linked-list.c */,
-				031055FF24F901170096744D /* T92-reverse-linked-list-ii.cpp */,
-				0310560024F901170096744D /* T92-reverse-linked-list-ii.hpp */,
+				0310560024F901170096744D /* T92-reverse-linked-list-ii.h */,
+				031055FF24F901170096744D /* T92-reverse-linked-list-ii.c */,
+				03C8A63724531080001D5584 /* T138-copy-list-with-random-pointer.h */,
+				03C8A63824531080001D5584 /* T138-copy-list-with-random-pointer.c */,
 			);
 			path = "linked-list";
 			sourceTree = "<group>";
@@ -1174,7 +1174,7 @@
 				0300364F2451C7E80026657D /* T86-partition-list.c in Sources */,
 				038E9FB624C41C62005DD7A2 /* T225-implement-stack-using-queues.c in Sources */,
 				038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */,
-				0310560124F901170096744D /* T92-reverse-linked-list-ii.cpp in Sources */,
+				0310560124F901170096744D /* T92-reverse-linked-list-ii.c in Sources */,
 				038E9F9624C2FA43005DD7A2 /* T20-valid-parentheses.c in Sources */,
 				03D56C022462F6B00074214D /* T215-kth-largest-element-in-an-array.c in Sources */,
 				039AD446245EE62E00A3935C /* T93-restore-ip-addresses.c in Sources */,
