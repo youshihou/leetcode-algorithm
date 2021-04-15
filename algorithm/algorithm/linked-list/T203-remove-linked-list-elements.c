@@ -24,15 +24,15 @@ struct ListNode* removeElements(struct ListNode* head, int val) {
     struct ListNode* tmp = malloc(sizeof(struct ListNode));
     tmp->next = head;
     
-    struct ListNode* curr = head;
+    struct ListNode* cur = head;
     struct ListNode* prev = tmp;
-    while (curr != NULL) {
-        if (curr->val == val) {
-            prev->next = curr->next;
+    while (cur != NULL) {
+        if (cur->val == val) {
+            prev->next = cur->next;
         } else {
-            prev = curr;
+            prev = cur;
         }
-        curr = curr->next;
+        cur = cur->next;
     }
     head = tmp->next;
     free(tmp);
