@@ -88,9 +88,13 @@ struct ListNode* removeElements1(struct ListNode* head, int val) {
         head = head->next;
     }
     
-    if (newTail == NULL) {
-        return NULL;
-    } else {
+//    if (newTail == NULL) {
+//        return NULL;
+//    } else {
+//        newTail->next = NULL;
+//    }
+    
+    if (newTail) {
         newTail->next = NULL;
     }
     
