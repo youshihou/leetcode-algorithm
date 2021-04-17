@@ -14,7 +14,7 @@
 
 
 char* replaceSpace(char* s) {
-    int size = sizeof(char) * strlen(s) * 3 + 1;
+    int size = sizeof(char) * (int)strlen(s) * 3 + 1;
     char* result = malloc(size);
     memset(result, '\0', size);
     int i = 0;
