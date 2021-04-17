@@ -90,6 +90,7 @@
 		03742A032472D01500C7BFBF /* T210-course-schedule-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03742A022472D01500C7BFBF /* T210-course-schedule-ii.c */; };
 		0380AB7E24D24F6D00ABADCD /* T343-integer-break.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0380AB7C24D24F6D00ABADCD /* T343-integer-break.cpp */; };
 		0386E61024CEEEF00033B08F /* T392-is-subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0386E60E24CEEEF00033B08F /* T392-is-subsequence.cpp */; };
+		0388BF8A262B1AD900929F55 /* T03_shu-zu-zhong-zhong-fu-de-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BF89262B1AD900929F55 /* T03_shu-zu-zhong-zhong-fu-de-shu-zi-lcof.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -356,6 +357,8 @@
 		0380AB7F24D24FDF00ABADCD /* cplulplus-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cplulplus-common.h"; sourceTree = "<group>"; };
 		0386E60E24CEEEF00033B08F /* T392-is-subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T392-is-subsequence.cpp"; sourceTree = "<group>"; };
 		0386E60F24CEEEF00033B08F /* T392-is-subsequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "T392-is-subsequence.hpp"; sourceTree = "<group>"; };
+		0388BF88262B1AD800929F55 /* T03_shu-zu-zhong-zhong-fu-de-shu-zi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T03_shu-zu-zhong-zhong-fu-de-shu-zi-lcof.h"; sourceTree = "<group>"; };
+		0388BF89262B1AD900929F55 /* T03_shu-zu-zhong-zhong-fu-de-shu-zi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T03_shu-zu-zhong-zhong-fu-de-shu-zi-lcof.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF2245BC18900AA6763 /* T64-minimum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T64-minimum-path-sum.h"; sourceTree = "<group>"; };
@@ -556,6 +559,7 @@
 			children = (
 				0380AB7F24D24FDF00ABADCD /* cplulplus-common.h */,
 				032985282469664D00A7D5A8 /* algorithm-common.h */,
+				0388BF87262B1A9A00929F55 /* offer */,
 				03A7606224ACBFF700940BC7 /* other */,
 				03742A002472CFE700C7BFBF /* task */,
 				0365A33C246EE11000470862 /* weekly */,
@@ -735,6 +739,15 @@
 			path = task;
 			sourceTree = "<group>";
 		};
+		0388BF87262B1A9A00929F55 /* offer */ = {
+			isa = PBXGroup;
+			children = (
+				0388BF88262B1AD800929F55 /* T03_shu-zu-zhong-zhong-fu-de-shu-zi-lcof.h */,
+				0388BF89262B1AD900929F55 /* T03_shu-zu-zhong-zhong-fu-de-shu-zi-lcof.c */,
+			);
+			path = offer;
+			sourceTree = "<group>";
+		};
 		038BDDED245BC04000AA6763 /* dynamic-programming */ = {
 			isa = PBXGroup;
 			children = (
@@ -769,14 +782,14 @@
 		03965269245D7A30008049D8 /* binary-tree */ = {
 			isa = PBXGroup;
 			children = (
-				0396526E245D7B46008049D8 /* T68-er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.h */,
-				0396526F245D7B46008049D8 /* T68-er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.c */,
 				0396526B245D7AAC008049D8 /* T236-lowest-common-ancestor-of-a-binary-tree.h */,
 				0396526C245D7AAC008049D8 /* T236-lowest-common-ancestor-of-a-binary-tree.c */,
 				03965271245D83D4008049D8 /* T99-recover-binary-search-tree.h */,
 				03965272245D83D4008049D8 /* T99-recover-binary-search-tree.c */,
 				03965274245DBDCC008049D8 /* T333-largest-bst-subtree.h */,
 				03965275245DBDCC008049D8 /* T333-largest-bst-subtree.c */,
+				0396526E245D7B46008049D8 /* T68-er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.h */,
+				0396526F245D7B46008049D8 /* T68-er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.c */,
 				0365C40624C872F600858658 /* T144-binary-tree-preorder-traversal.h */,
 				0365C40724C872F600858658 /* T144-binary-tree-preorder-traversal.c */,
 				0365C40924C874F600858658 /* T94-binary-tree-inorder-traversal.h */,
@@ -1179,6 +1192,7 @@
 				03D56C022462F6B00074214D /* T215-kth-largest-element-in-an-array.c in Sources */,
 				039AD446245EE62E00A3935C /* T93-restore-ip-addresses.c in Sources */,
 				0391E72324BDE03C007EBA9B /* T83-remove-duplicates-from-sorted-list.c in Sources */,
+				0388BF8A262B1AD900929F55 /* T03_shu-zu-zhong-zhong-fu-de-shu-zi-lcof.c in Sources */,
 				03965273245D83D4008049D8 /* T99-recover-binary-search-tree.c in Sources */,
 				03652F1524B2FC63007D0458 /* T63-unique-paths-ii.c in Sources */,
 				036FA21824CAFA500007FFBA /* T938-range-sum-of-bst.c in Sources */,
