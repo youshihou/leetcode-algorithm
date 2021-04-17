@@ -744,8 +744,6 @@
 				038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */,
 				038BDDF5245BC1D100AA6763 /* T62-unique-paths.h */,
 				038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */,
-				038BDE0A245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.h */,
-				038BDE0B245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.c */,
 				038BDDF8245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.h */,
 				038BDDF9245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.c */,
 				038BDDFE245C079B00AA6763 /* T122-best-time-to-buy-and-sell-stock-ii.h */,
@@ -762,6 +760,8 @@
 				038BDE0E245C0B3C00AA6763 /* T72-edit-distance.c */,
 				038BDE10245C1CB300AA6763 /* T5-longest-palindromic-substring.h */,
 				038BDE11245C1CB300AA6763 /* T5-longest-palindromic-substring.c */,
+				038BDE0A245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.h */,
+				038BDE0B245C08EB00AA6763 /* T674-longest-continuous-increasing-subsequence.c */,
 			);
 			path = "dynamic-programming";
 			sourceTree = "<group>";
