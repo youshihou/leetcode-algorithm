@@ -9,6 +9,7 @@
 // https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 
 #include "T714-best-time-to-buy-and-sell-stock-with-transaction-fee.h"
+#include "algorithm-common.h"
 
 int maxProfit5(int* prices, int pricesSize, int fee) {
 
