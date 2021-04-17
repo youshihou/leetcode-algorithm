@@ -12,6 +12,16 @@
 #include "algorithm-common.h"
 
 int maxProfit5(int* prices, int pricesSize, int fee) {
-
-    return 0;
+    if (prices == NULL || pricesSize == 0) { return 0; }
+    int buy = prices[0] + fee;
+    int maxProfit = 0;
+    for (int i = 1; i < pricesSize; i++) {
+        if (prices[i] + fee < buy) {
+            buy = prices[i] + fee;
+        } else if (prices[i] > buy) {
+            maxProfit += prices[i] - buy;
+            buy = prices[i];
+        }
+    }
+    return maxProfit;
 }
