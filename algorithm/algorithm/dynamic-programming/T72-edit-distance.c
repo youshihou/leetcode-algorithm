@@ -45,7 +45,7 @@ int minDistance(char * word1, char * word2) {
 //    return dp[cols];
 }
 
-int minDistance1(char * word1, char * word2) {
+int minDistance2(char * word1, char * word2) {
     if (word1 == NULL || word2 == NULL) { return 0; }
     size_t len1 = strlen(word1);
     size_t len2 = strlen(word2);
@@ -74,5 +74,34 @@ int minDistance1(char * word1, char * word2) {
         }
     }
     
+    return dp[len1][len2];
+}
+
+
+int minDistance1(char * word1, char * word2){
+    if (word1 == NULL || word2 == NULL) { return 0; }
+    int len1 = (int)strlen(word1);
+    int len2 = (int)strlen(word2);
+    int dp[len1 + 1][len2 + 1];
+    dp[0][0] = 0;
+    for (int row = 1; row <= len1; row++) {
+        dp[row][0] = row;
+    }
+    for (int col = 1; col <= len2; col++) {
+        dp[0][col] = col;
+    }
+
+    for (int row = 1; row <= len1; row++) {
+        for (int col = 1; col <= len2; col++) {
+            int top = dp[row - 1][col] + 1;
+            int left = dp[row][col - 1] + 1;
+            int leftTop = dp[row - 1][col - 1];
+            if (word1[row - 1] != word2[col - 1]) {
+                leftTop++;
+            }
+            dp[row][col] = fmin(fmin(top, left), leftTop);
+        }
+    }
+
     return dp[len1][len2];
 }
