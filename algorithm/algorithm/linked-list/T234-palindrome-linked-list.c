@@ -33,7 +33,7 @@ struct ListNode* middleNode_(struct ListNode* head) {
     return slow;
 }
 
-struct ListNode* reverseList(struct ListNode* head) {
+struct ListNode* t234_reverseList(struct ListNode* head) {
     struct ListNode* newHead = NULL;
     while (head != NULL) {
         struct ListNode* temp = head->next;
@@ -49,7 +49,7 @@ bool isPalindrome(struct ListNode* head) {
     if (head->next->next == NULL) { return head->val == head->next->val; }
     
     struct ListNode* middle = middleNode_(head);
-    struct ListNode* rHead = reverseList(middle->next); // CARE!!!
+    struct ListNode* rHead = t234_reverseList(middle->next); // CARE!!!
     struct ListNode* lhead = head;
     struct ListNode* rOldHead = rHead;
     
@@ -64,7 +64,7 @@ bool isPalindrome(struct ListNode* head) {
     }
     
     // restore list
-    reverseList(rOldHead);
+    t234_reverseList(rOldHead);
     
     return result;
 }
@@ -74,7 +74,7 @@ bool isPalindrome1(struct ListNode* head) {
     if (head->next->next == NULL) { return head->val == head->next->val; }
     
     struct ListNode* middle = middleNode_(head);
-    struct ListNode* rHead = reverseList(middle->next); // CARE!!!
+    struct ListNode* rHead = t234_reverseList(middle->next); // CARE!!!
     struct ListNode* lhead = head;
     
     while (rHead != NULL) {

@@ -38,7 +38,7 @@ int fib1(int n) {
 }
 
 
-int fib(int n) {
+int __fib(int n) {
     if (n <= 1) { return n; }
-    return fib(n - 2) + fib(n - 1);
+    return __fib(n - 2) + __fib(n - 1);
 }

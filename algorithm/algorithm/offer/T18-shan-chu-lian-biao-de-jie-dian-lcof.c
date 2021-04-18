@@ -21,7 +21,7 @@
  * };
  */
 
-struct ListNode* deleteNode(struct ListNode* head, int val) {
+struct ListNode* __deleteNode(struct ListNode* head, int val) {
     if (head == NULL) { return head; }
     if (head->val == val) { return head->next; }
         

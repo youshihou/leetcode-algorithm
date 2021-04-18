@@ -23,13 +23,13 @@
  */
 
 
-int height(struct TreeNode * root) {
+int __height(struct TreeNode * root) {
     if (root == NULL) { return 0; }
-    return 1 + fmax(height(root->left), height(root->right));
+    return 1 + fmax(__height(root->left), __height(root->right));
 }
 
 bool isBalanced(struct TreeNode* root) {
     if (root == NULL) { return true; }
     
-    return abs(height(root->left) - height(root->right)) <= 1 && isBalanced(root->left) && isBalanced(root->right);
+    return abs(__height(root->left) - __height(root->right)) <= 1 && isBalanced(root->left) && isBalanced(root->right);
 }
