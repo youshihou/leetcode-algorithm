@@ -95,6 +95,7 @@
 		0388BF93262B29ED00929F55 /* T05_ti-huan-kong-ge-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BF92262B29ED00929F55 /* T05_ti-huan-kong-ge-lcof.c */; };
 		0388BF97262C073C00929F55 /* T06_cong-wei-dao-tou-da-yin-lian-biao-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BF96262C073C00929F55 /* T06_cong-wei-dao-tou-da-yin-lian-biao-lcof.c */; };
 		0388BF9B262C0BDB00929F55 /* T10-I_fei-bo-na-qi-shu-lie-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BF9A262C0BDB00929F55 /* T10-I_fei-bo-na-qi-shu-lie-lcof.c */; };
+		0388BF9F262C169B00929F55 /* T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BF9E262C169B00929F55 /* T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -371,6 +372,8 @@
 		0388BF96262C073C00929F55 /* T06_cong-wei-dao-tou-da-yin-lian-biao-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T06_cong-wei-dao-tou-da-yin-lian-biao-lcof.c"; sourceTree = "<group>"; };
 		0388BF99262C0BDB00929F55 /* T10-I_fei-bo-na-qi-shu-lie-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T10-I_fei-bo-na-qi-shu-lie-lcof.h"; sourceTree = "<group>"; };
 		0388BF9A262C0BDB00929F55 /* T10-I_fei-bo-na-qi-shu-lie-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T10-I_fei-bo-na-qi-shu-lie-lcof.c"; sourceTree = "<group>"; };
+		0388BF9D262C169B00929F55 /* T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.h"; sourceTree = "<group>"; };
+		0388BF9E262C169B00929F55 /* T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF2245BC18900AA6763 /* T64-minimum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T64-minimum-path-sum.h"; sourceTree = "<group>"; };
@@ -764,6 +767,8 @@
 				0388BF96262C073C00929F55 /* T06_cong-wei-dao-tou-da-yin-lian-biao-lcof.c */,
 				0388BF99262C0BDB00929F55 /* T10-I_fei-bo-na-qi-shu-lie-lcof.h */,
 				0388BF9A262C0BDB00929F55 /* T10-I_fei-bo-na-qi-shu-lie-lcof.c */,
+				0388BF9D262C169B00929F55 /* T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.h */,
+				0388BF9E262C169B00929F55 /* T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.c */,
 			);
 			path = offer;
 			sourceTree = "<group>";
@@ -1206,6 +1211,7 @@
 				035D9F822461093E00D22BB8 /* T146-lru-cache.c in Sources */,
 				036FA20F24CAF7EF0007FFBA /* T783-minimum-distance-between-bst-nodes.c in Sources */,
 				038E9F9924C3024D005DD7A2 /* T856-score-of-parentheses.c in Sources */,
+				0388BF9F262C169B00929F55 /* T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.c in Sources */,
 				0300364F2451C7E80026657D /* T86-partition-list.c in Sources */,
 				038E9FB624C41C62005DD7A2 /* T225-implement-stack-using-queues.c in Sources */,
 				038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */,
