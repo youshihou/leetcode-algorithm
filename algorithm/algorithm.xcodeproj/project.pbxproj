@@ -99,6 +99,7 @@
 		0388BFA3262C278500929F55 /* T15_er-jin-zhi-zhong-1de-ge-shu-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFA2262C278500929F55 /* T15_er-jin-zhi-zhong-1de-ge-shu-lcof.c */; };
 		0388BFA8262C31A100929F55 /* T17_da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFA7262C31A100929F55 /* T17_da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.c */; };
 		0388BFAC262C352000929F55 /* T18_shan-chu-lian-biao-de-jie-dian-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFAB262C352000929F55 /* T18_shan-chu-lian-biao-de-jie-dian-lcof.c */; };
+		0388BFB0262C41C200929F55 /* T21_diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFAF262C41C200929F55 /* T21_diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -383,6 +384,8 @@
 		0388BFA7262C31A100929F55 /* T17_da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T17_da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.c"; sourceTree = "<group>"; };
 		0388BFAA262C352000929F55 /* T18_shan-chu-lian-biao-de-jie-dian-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T18_shan-chu-lian-biao-de-jie-dian-lcof.h"; sourceTree = "<group>"; };
 		0388BFAB262C352000929F55 /* T18_shan-chu-lian-biao-de-jie-dian-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T18_shan-chu-lian-biao-de-jie-dian-lcof.c"; sourceTree = "<group>"; };
+		0388BFAE262C41C200929F55 /* T21_diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T21_diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.h"; sourceTree = "<group>"; };
+		0388BFAF262C41C200929F55 /* T21_diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T21_diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF2245BC18900AA6763 /* T64-minimum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T64-minimum-path-sum.h"; sourceTree = "<group>"; };
@@ -786,6 +789,8 @@
 				0388BFA7262C31A100929F55 /* T17_da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.c */,
 				0388BFAA262C352000929F55 /* T18_shan-chu-lian-biao-de-jie-dian-lcof.h */,
 				0388BFAB262C352000929F55 /* T18_shan-chu-lian-biao-de-jie-dian-lcof.c */,
+				0388BFAE262C41C200929F55 /* T21_diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.h */,
+				0388BFAF262C41C200929F55 /* T21_diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.c */,
 			);
 			path = offer;
 			sourceTree = "<group>";
@@ -1212,6 +1217,7 @@
 				036FA21E24CAFAF80007FFBA /* T230-kth-smallest-element-in-a-bst.c in Sources */,
 				031552F1246805B2001C70B1 /* T23-merge-k-sorted-lists.c in Sources */,
 				03C8A63D245312FC001D5584 /* T155-min-stack.c in Sources */,
+				0388BFB0262C41C200929F55 /* T21_diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.c in Sources */,
 				03B262FA247A98FB00BBD985 /* T1143-longest-common-subsequence.c in Sources */,
 				0331BFBB24B7FBD5001EC331 /* T309-best-time-to-buy-and-sell-stock-with-cooldown.c in Sources */,
 				038BDE06245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.c in Sources */,
