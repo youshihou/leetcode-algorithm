@@ -769,6 +769,8 @@
 				0388BF9A262C0BDB00929F55 /* T10-I_fei-bo-na-qi-shu-lie-lcof.c */,
 				0388BF9D262C169B00929F55 /* T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.h */,
 				0388BF9E262C169B00929F55 /* T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.c */,
+				0365C3E124C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.h */,
+				0365C3E224C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.c */,
 			);
 			path = offer;
 			sourceTree = "<group>";
@@ -941,8 +943,6 @@
 				03B72FE624C526810061BD4C /* T167-two-sum-ii-input-array-is-sorted.c */,
 				03DE718E24C674F1000762F1 /* T95-unique-binary-search-trees-ii.h */,
 				03DE718F24C674F1000762F1 /* T95-unique-binary-search-trees-ii.c */,
-				0365C3E124C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.h */,
-				0365C3E224C7C8A700858658 /* T11-xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.c */,
 				0365C3E724C7CA7D00858658 /* T153-find-minimum-in-rotated-sorted-array.h */,
 				0365C3E824C7CA7D00858658 /* T153-find-minimum-in-rotated-sorted-array.c */,
 				0365C3EA24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.h */,
