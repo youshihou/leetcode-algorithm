@@ -1,5 +1,5 @@
 //
-//  T17_da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.c
+//  T17-da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.c
 //  algorithm
 //
 //  Created by Ankui on 4/18/21.
@@ -8,7 +8,7 @@
 
 // https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/
 
-#include "T17_da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.h"
+#include "T17-da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.h"
 #include "algorithm-common.h"
 
 /**

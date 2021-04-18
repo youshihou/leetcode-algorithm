@@ -1,5 +1,5 @@
 //
-//  T18_shan-chu-lian-biao-de-jie-dian-lcof.c
+//  T18-shan-chu-lian-biao-de-jie-dian-lcof.c
 //  algorithm
 //
 //  Created by Ankui on 4/18/21.
@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/
 
 
-#include "T18_shan-chu-lian-biao-de-jie-dian-lcof.h"
+#include "T18-shan-chu-lian-biao-de-jie-dian-lcof.h"
 #include "algorithm-common.h"
 
 

@@ -1,5 +1,5 @@
 //
-//  T22_lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.h
+//  T22-lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.h
 //  algorithm
 //
 //  Created by Ankui on 4/18/21.

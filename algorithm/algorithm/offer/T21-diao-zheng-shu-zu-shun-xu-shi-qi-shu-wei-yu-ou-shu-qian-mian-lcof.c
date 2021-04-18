@@ -1,5 +1,5 @@
 //
-//  T21_diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.c
+//  T21-diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.c
 //  algorithm
 //
 //  Created by Ankui on 4/18/21.
@@ -8,7 +8,7 @@
 
 // https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/
 
-#include "T21_diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.h"
+#include "T21-diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.h"
 #include "algorithm-common.h"
 
 /**

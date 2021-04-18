@@ -1,5 +1,5 @@
 //
-//  T22_lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.c
+//  T22-lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.c
 //  algorithm
 //
 //  Created by Ankui on 4/18/21.
@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/
 
 
-#include "T22_lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.h"
+#include "T22-lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.h"
 #include "algorithm-common.h"
 
 /**

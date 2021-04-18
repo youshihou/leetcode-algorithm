@@ -1,5 +1,5 @@
 //
-//  T21_diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.h
+//  T21-diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.h
 //  algorithm
 //
 //  Created by Ankui on 4/18/21.

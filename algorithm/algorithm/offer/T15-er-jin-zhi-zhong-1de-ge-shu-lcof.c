@@ -1,5 +1,5 @@
 //
-//  T15_er-jin-zhi-zhong-1de-ge-shu-lcof.c
+//  T15-er-jin-zhi-zhong-1de-ge-shu-lcof.c
 //  algorithm
 //
 //  Created by Ankui on 4/18/21.
@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/
 
 
-#include "T15_er-jin-zhi-zhong-1de-ge-shu-lcof.h"
+#include "T15-er-jin-zhi-zhong-1de-ge-shu-lcof.h"
 #include "algorithm-common.h"
 
 int hammingWeight(uint32_t n) {

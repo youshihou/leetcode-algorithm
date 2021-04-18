@@ -1,5 +1,5 @@
 //
-//  T18_shan-chu-lian-biao-de-jie-dian-lcof.h
+//  T18-shan-chu-lian-biao-de-jie-dian-lcof.h
 //  algorithm
 //
 //  Created by Ankui on 4/18/21.
