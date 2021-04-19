@@ -116,6 +116,7 @@
 		0388BFFB262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFFA262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.c */; };
 		0388BFFF262D65AB00929F55 /* T55-I_er-cha-shu-de-shen-du-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFFE262D65AB00929F55 /* T55-I_er-cha-shu-de-shen-du-lcof.c */; };
 		0388C004262D6CC700929F55 /* T57-I_he-wei-sde-liang-ge-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388C003262D6CC700929F55 /* T57-I_he-wei-sde-liang-ge-shu-zi-lcof.c */; };
+		0388C008262D79B600929F55 /* T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388C007262D79B600929F55 /* T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -434,6 +435,8 @@
 		0388BFFE262D65AB00929F55 /* T55-I_er-cha-shu-de-shen-du-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T55-I_er-cha-shu-de-shen-du-lcof.c"; sourceTree = "<group>"; };
 		0388C002262D6CC700929F55 /* T57-I_he-wei-sde-liang-ge-shu-zi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T57-I_he-wei-sde-liang-ge-shu-zi-lcof.h"; sourceTree = "<group>"; };
 		0388C003262D6CC700929F55 /* T57-I_he-wei-sde-liang-ge-shu-zi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T57-I_he-wei-sde-liang-ge-shu-zi-lcof.c"; sourceTree = "<group>"; };
+		0388C006262D79B600929F55 /* T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.h"; sourceTree = "<group>"; };
+		0388C007262D79B600929F55 /* T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF2245BC18900AA6763 /* T64-minimum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T64-minimum-path-sum.h"; sourceTree = "<group>"; };
@@ -873,6 +876,8 @@
 				036FA22F24CC32A70007FFBA /* T55-II_ping-heng-er-cha-shu-lcof.c */,
 				0388C002262D6CC700929F55 /* T57-I_he-wei-sde-liang-ge-shu-zi-lcof.h */,
 				0388C003262D6CC700929F55 /* T57-I_he-wei-sde-liang-ge-shu-zi-lcof.c */,
+				0388C006262D79B600929F55 /* T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.h */,
+				0388C007262D79B600929F55 /* T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.c */,
 			);
 			path = offer;
 			sourceTree = "<group>";
@@ -1300,6 +1305,7 @@
 				036FA22124CAFB5B0007FFBA /* T173-binary-search-tree-iterator.c in Sources */,
 				03B72FE724C526810061BD4C /* T167-two-sum-ii-input-array-is-sorted.c in Sources */,
 				0365C3EC24C7CAC500858658 /* T154-find-minimum-in-rotated-sorted-array-ii.c in Sources */,
+				0388C008262D79B600929F55 /* T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.c in Sources */,
 				03E1906524D5BB0C00DBFEC8 /* T632-smallest-range-covering-elements-from-k-lists.cpp in Sources */,
 				036FA21E24CAFAF80007FFBA /* T230-kth-smallest-element-in-a-bst.c in Sources */,
 				031552F1246805B2001C70B1 /* T23-merge-k-sorted-lists.c in Sources */,
