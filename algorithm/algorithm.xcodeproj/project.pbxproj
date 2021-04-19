@@ -726,8 +726,6 @@
 				035D9F7524600D2B00D22BB8 /* T15-3sum.c */,
 				035D9F772460292500D22BB8 /* T50-powx-n.h */,
 				035D9F782460292500D22BB8 /* T50-powx-n.c */,
-				035D9F7A2460597100D22BB8 /* T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.h */,
-				035D9F7B2460597100D22BB8 /* T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.c */,
 				035D9F7D24606DA100D22BB8 /* T54-spiral-matrix.h */,
 				035D9F7E24606DA100D22BB8 /* T54-spiral-matrix.c */,
 				035D9F802461093E00D22BB8 /* T146-lru-cache.h */,
@@ -893,6 +891,8 @@
 				0388C00F262DA40C00929F55 /* T58-II_zuo-xuan-zhuan-zi-fu-chuan-lcof.c */,
 				0388C012262DB3F700929F55 /* T61-bu-ke-pai-zhong-de-shun-zi-lcof.h */,
 				0388C013262DB3F700929F55 /* T61-bu-ke-pai-zhong-de-shun-zi-lcof.c */,
+				035D9F7A2460597100D22BB8 /* T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.h */,
+				035D9F7B2460597100D22BB8 /* T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.c */,
 			);
 			path = offer;
 			sourceTree = "<group>";
