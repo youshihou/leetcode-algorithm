@@ -114,6 +114,7 @@
 		0388BFE8262D45D800929F55 /* T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFE7262D45D800929F55 /* T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c */; };
 		0388BFEC262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFEB262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.c */; };
 		0388BFFB262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFFA262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.c */; };
+		0388BFFF262D65AB00929F55 /* T55-I_er-cha-shu-de-shen-du-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFFE262D65AB00929F55 /* T55-I_er-cha-shu-de-shen-du-lcof.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -428,6 +429,8 @@
 		0388BFEB262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T53-II_que-shi-de-shu-zi-lcof.c"; sourceTree = "<group>"; };
 		0388BFF9262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.h"; sourceTree = "<group>"; };
 		0388BFFA262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.c"; sourceTree = "<group>"; };
+		0388BFFD262D65AB00929F55 /* T55-I_er-cha-shu-de-shen-du-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T55-I_er-cha-shu-de-shen-du-lcof.h"; sourceTree = "<group>"; };
+		0388BFFE262D65AB00929F55 /* T55-I_er-cha-shu-de-shen-du-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T55-I_er-cha-shu-de-shen-du-lcof.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF2245BC18900AA6763 /* T64-minimum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T64-minimum-path-sum.h"; sourceTree = "<group>"; };
@@ -861,6 +864,10 @@
 				0388BFEB262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.c */,
 				0388BFF9262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.h */,
 				0388BFFA262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.c */,
+				0388BFFD262D65AB00929F55 /* T55-I_er-cha-shu-de-shen-du-lcof.h */,
+				0388BFFE262D65AB00929F55 /* T55-I_er-cha-shu-de-shen-du-lcof.c */,
+				036FA22E24CC32A70007FFBA /* T55-ping-heng-er-cha-shu-lcof.h */,
+				036FA22F24CC32A70007FFBA /* T55-ping-heng-er-cha-shu-lcof.c */,
 			);
 			path = offer;
 			sourceTree = "<group>";
@@ -957,8 +964,6 @@
 				036FA22024CAFB5B0007FFBA /* T173-binary-search-tree-iterator.c */,
 				036FA22B24CC31E10007FFBA /* T110-balanced-binary-tree.h */,
 				036FA22C24CC31E10007FFBA /* T110-balanced-binary-tree.c */,
-				036FA22E24CC32A70007FFBA /* T55-ping-heng-er-cha-shu-lcof.h */,
-				036FA22F24CC32A70007FFBA /* T55-ping-heng-er-cha-shu-lcof.c */,
 			);
 			path = "binary-tree";
 			sourceTree = "<group>";
@@ -1250,6 +1255,7 @@
 				035D9F70245FE6E700D22BB8 /* T1-two-sum.c in Sources */,
 				036FA20324CAF65D0007FFBA /* T450-delete-node-in-a-bst.c in Sources */,
 				03C8A64B24544401001D5584 /* T739-daily-temperatures.c in Sources */,
+				0388BFFF262D65AB00929F55 /* T55-I_er-cha-shu-de-shen-du-lcof.c in Sources */,
 				0365C42F24C87F3400858658 /* T889-construct-binary-tree-from-preorder-and-postorder-traversal.c in Sources */,
 				038E9FBC24C439A9005DD7A2 /* T312-burst-balloons.c in Sources */,
 				0345CF602458702700D8E5AE /* T151-reverse-words-in-a-string.c in Sources */,
