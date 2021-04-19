@@ -107,6 +107,7 @@
 		0388BFCC262D130400929F55 /* T28-dui-cheng-de-er-cha-shu-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFCB262D130400929F55 /* T28-dui-cheng-de-er-cha-shu-lcof.c */; };
 		0388BFD0262D176700929F55 /* T29-shun-shi-zhen-da-yin-ju-zhen-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFCF262D176700929F55 /* T29-shun-shi-zhen-da-yin-ju-zhen-lcof.c */; };
 		0388BFD4262D221100929F55 /* T39-shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFD3262D221000929F55 /* T39-shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.c */; };
+		0388BFD8262D2A1200929F55 /* T40-zui-xiao-de-kge-shu-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFD7262D2A1200929F55 /* T40-zui-xiao-de-kge-shu-lcof.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -407,6 +408,8 @@
 		0388BFCF262D176700929F55 /* T29-shun-shi-zhen-da-yin-ju-zhen-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T29-shun-shi-zhen-da-yin-ju-zhen-lcof.c"; sourceTree = "<group>"; };
 		0388BFD2262D221000929F55 /* T39-shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T39-shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.h"; sourceTree = "<group>"; };
 		0388BFD3262D221000929F55 /* T39-shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T39-shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.c"; sourceTree = "<group>"; };
+		0388BFD6262D2A1200929F55 /* T40-zui-xiao-de-kge-shu-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T40-zui-xiao-de-kge-shu-lcof.h"; sourceTree = "<group>"; };
+		0388BFD7262D2A1200929F55 /* T40-zui-xiao-de-kge-shu-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T40-zui-xiao-de-kge-shu-lcof.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF2245BC18900AA6763 /* T64-minimum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T64-minimum-path-sum.h"; sourceTree = "<group>"; };
@@ -826,6 +829,8 @@
 				0388BFCF262D176700929F55 /* T29-shun-shi-zhen-da-yin-ju-zhen-lcof.c */,
 				0388BFD2262D221000929F55 /* T39-shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.h */,
 				0388BFD3262D221000929F55 /* T39-shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.c */,
+				0388BFD6262D2A1200929F55 /* T40-zui-xiao-de-kge-shu-lcof.h */,
+				0388BFD7262D2A1200929F55 /* T40-zui-xiao-de-kge-shu-lcof.c */,
 			);
 			path = offer;
 			sourceTree = "<group>";
@@ -1267,6 +1272,7 @@
 				03F4B5F52479482C00072A3D /* T40-combination-sum-ii.c in Sources */,
 				0365C40B24C874F600858658 /* T94-binary-tree-inorder-traversal.c in Sources */,
 				03F4B5F82479487100072A3D /* T78-subsets.c in Sources */,
+				0388BFD8262D2A1200929F55 /* T40-zui-xiao-de-kge-shu-lcof.c in Sources */,
 				03DE719024C674F1000762F1 /* T95-unique-binary-search-trees-ii.c in Sources */,
 				0365C42624C87AAB00858658 /* T559-maximum-depth-of-n-ary-tree.c in Sources */,
 				03A7606524ACC05C00940BC7 /* T509-fibonacci-number.c in Sources */,
