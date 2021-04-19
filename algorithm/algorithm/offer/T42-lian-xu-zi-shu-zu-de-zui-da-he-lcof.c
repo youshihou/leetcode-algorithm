@@ -13,7 +13,7 @@
 #include "algorithm-common.h"
 
 
-int maxSubArray(int* nums, int numsSize) {
+int __maxSubArray(int* nums, int numsSize) {
     int result = nums[0];
     for (int i = 1; i < numsSize; i++) {
         nums[i] += fmax(nums[i-1], 0);

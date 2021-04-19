@@ -111,7 +111,8 @@
 		0388BFDC262D2CB200929F55 /* T42-lian-xu-zi-shu-zu-de-zui-da-he-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFDB262D2CB200929F55 /* T42-lian-xu-zi-shu-zu-de-zui-da-he-lcof.c */; };
 		0388BFE0262D3E4C00929F55 /* T50-di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFDF262D3E4C00929F55 /* T50-di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.c */; };
 		0388BFE4262D438300929F55 /* T52-liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFE3262D438300929F55 /* T52-liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.c */; };
-		0388BFE8262D45D800929F55 /* T53-zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFE7262D45D800929F55 /* T53-zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c */; };
+		0388BFE8262D45D800929F55 /* T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFE7262D45D800929F55 /* T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c */; };
+		0388BFEC262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFEB262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -420,8 +421,10 @@
 		0388BFDF262D3E4C00929F55 /* T50-di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T50-di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.c"; sourceTree = "<group>"; };
 		0388BFE2262D438300929F55 /* T52-liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T52-liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.h"; sourceTree = "<group>"; };
 		0388BFE3262D438300929F55 /* T52-liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T52-liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.c"; sourceTree = "<group>"; };
-		0388BFE6262D45D800929F55 /* T53-zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T53-zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.h"; sourceTree = "<group>"; };
-		0388BFE7262D45D800929F55 /* T53-zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T53-zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c"; sourceTree = "<group>"; };
+		0388BFE6262D45D800929F55 /* T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.h"; sourceTree = "<group>"; };
+		0388BFE7262D45D800929F55 /* T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c"; sourceTree = "<group>"; };
+		0388BFEA262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T53-II_que-shi-de-shu-zi-lcof.h"; sourceTree = "<group>"; };
+		0388BFEB262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T53-II_que-shi-de-shu-zi-lcof.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF2245BC18900AA6763 /* T64-minimum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T64-minimum-path-sum.h"; sourceTree = "<group>"; };
@@ -849,8 +852,10 @@
 				0388BFDF262D3E4C00929F55 /* T50-di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.c */,
 				0388BFE2262D438300929F55 /* T52-liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.h */,
 				0388BFE3262D438300929F55 /* T52-liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.c */,
-				0388BFE6262D45D800929F55 /* T53-zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.h */,
-				0388BFE7262D45D800929F55 /* T53-zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c */,
+				0388BFE6262D45D800929F55 /* T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.h */,
+				0388BFE7262D45D800929F55 /* T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c */,
+				0388BFEA262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.h */,
+				0388BFEB262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.c */,
 			);
 			path = offer;
 			sourceTree = "<group>";
@@ -1317,10 +1322,11 @@
 				036FA21824CAFA500007FFBA /* T938-range-sum-of-bst.c in Sources */,
 				03C8A6482454260D001D5584 /* stack.c in Sources */,
 				030900BC24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp in Sources */,
-				0388BFE8262D45D800929F55 /* T53-zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c in Sources */,
+				0388BFE8262D45D800929F55 /* T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c in Sources */,
 				0312670A24FE24E600EEC72F /* T460-lfu-cache.cpp in Sources */,
 				039AD437245EB65D00A3935C /* T47-permutations-ii.c in Sources */,
 				03B262F7247A8E1E00BBD985 /* T300-longest-increasing-subsequence.c in Sources */,
+				0388BFEC262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.c in Sources */,
 				033A4F1F24B5552100B00186 /* T16-11-diving-board-lcci.c in Sources */,
 				0391E72924BDE80F007EBA9B /* T876-middle-of-the-linked-list.c in Sources */,
 				0388BFD4262D221100929F55 /* T39-shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.c in Sources */,

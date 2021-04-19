@@ -9,13 +9,13 @@
 // https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/
 
 
-#include "T53-I_-zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.h"
+#include "T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.h"
 #include "algorithm-common.h"
 
 
 
 
-int search(int* nums, int numsSize, int target) {
+int __search(int* nums, int numsSize, int target) {
     int left = 0;
     int right = numsSize;
     int mid = 0;
@@ -59,13 +59,13 @@ int helper(int* nums, int size, int target) {
     return l;
 }
 
-int search2(int* nums, int numsSize, int target) {
+int __search2(int* nums, int numsSize, int target) {
     return helper(nums, numsSize, target) - helper(nums, numsSize, target - 1);
 }
 
 
 
-int search1(int* nums, int numsSize, int target) {
+int __search1(int* nums, int numsSize, int target) {
     int count = 0;
     for (int i = 0; i < numsSize; i++) {
         if (target == nums[i]) {

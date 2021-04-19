@@ -16,7 +16,7 @@
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
-int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSize) {
+int* __spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSize) {
     *returnSize = 0;
     if (matrix == NULL || matrixSize <= 0 || *matrixColSize <= 0) { return NULL; }
     

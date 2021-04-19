@@ -20,7 +20,7 @@
  *     struct ListNode *next;
  * };
  */
-struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {
+struct ListNode* __getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {
     if (headA == NULL || headB == NULL) { return NULL; }
     
     struct ListNode* curA = headA;
