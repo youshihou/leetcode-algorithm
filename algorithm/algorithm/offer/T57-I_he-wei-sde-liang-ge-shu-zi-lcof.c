@@ -30,7 +30,7 @@ int __binary_search(int* nums, int l, int r, int value) {
     return 0;
 }
 
-int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
+int* __twoSum(int* nums, int numsSize, int target, int* returnSize) {
     *returnSize = 2;
     int* list = malloc(sizeof(int) * 2);
     for (int i = 0; i < numsSize; i++) {

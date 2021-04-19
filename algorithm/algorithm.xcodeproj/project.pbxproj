@@ -117,6 +117,7 @@
 		0388BFFF262D65AB00929F55 /* T55-I_er-cha-shu-de-shen-du-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFFE262D65AB00929F55 /* T55-I_er-cha-shu-de-shen-du-lcof.c */; };
 		0388C004262D6CC700929F55 /* T57-I_he-wei-sde-liang-ge-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388C003262D6CC700929F55 /* T57-I_he-wei-sde-liang-ge-shu-zi-lcof.c */; };
 		0388C008262D79B600929F55 /* T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388C007262D79B600929F55 /* T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.c */; };
+		0388C00C262D95CE00929F55 /* T58-I_fan-zhuan-dan-ci-shun-xu-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388C00B262D95CE00929F55 /* T58-I_fan-zhuan-dan-ci-shun-xu-lcof.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -437,6 +438,8 @@
 		0388C003262D6CC700929F55 /* T57-I_he-wei-sde-liang-ge-shu-zi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T57-I_he-wei-sde-liang-ge-shu-zi-lcof.c"; sourceTree = "<group>"; };
 		0388C006262D79B600929F55 /* T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.h"; sourceTree = "<group>"; };
 		0388C007262D79B600929F55 /* T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.c"; sourceTree = "<group>"; };
+		0388C00A262D95CE00929F55 /* T58-I_fan-zhuan-dan-ci-shun-xu-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T58-I_fan-zhuan-dan-ci-shun-xu-lcof.h"; sourceTree = "<group>"; };
+		0388C00B262D95CE00929F55 /* T58-I_fan-zhuan-dan-ci-shun-xu-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T58-I_fan-zhuan-dan-ci-shun-xu-lcof.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF2245BC18900AA6763 /* T64-minimum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T64-minimum-path-sum.h"; sourceTree = "<group>"; };
@@ -878,6 +881,8 @@
 				0388C003262D6CC700929F55 /* T57-I_he-wei-sde-liang-ge-shu-zi-lcof.c */,
 				0388C006262D79B600929F55 /* T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.h */,
 				0388C007262D79B600929F55 /* T57-II_he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.c */,
+				0388C00A262D95CE00929F55 /* T58-I_fan-zhuan-dan-ci-shun-xu-lcof.h */,
+				0388C00B262D95CE00929F55 /* T58-I_fan-zhuan-dan-ci-shun-xu-lcof.c */,
 			);
 			path = offer;
 			sourceTree = "<group>";
@@ -1214,6 +1219,7 @@
 				03D56BFF2462DDAA0074214D /* T42-trapping-rain-water.c in Sources */,
 				03DAEFAA246C231300BFEEAA /* T114-flatten-binary-tree-to-linked-list.c in Sources */,
 				0388BFB4262C5D5700929F55 /* T22-lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.c in Sources */,
+				0388C00C262D95CE00929F55 /* T58-I_fan-zhuan-dan-ci-shun-xu-lcof.c in Sources */,
 				03AA31D5244DF66D008B0B20 /* T164-maximum-gap.c in Sources */,
 				034039A0244D302A00896919 /* T75-sort-colors.c in Sources */,
 				038BDE09245C085A00AA6763 /* T714-best-time-to-buy-and-sell-stock-with-transaction-fee.c in Sources */,
