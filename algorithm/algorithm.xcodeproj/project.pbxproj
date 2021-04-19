@@ -113,6 +113,7 @@
 		0388BFE4262D438300929F55 /* T52-liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFE3262D438300929F55 /* T52-liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.c */; };
 		0388BFE8262D45D800929F55 /* T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFE7262D45D800929F55 /* T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c */; };
 		0388BFEC262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFEB262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.c */; };
+		0388BFFB262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388BFFA262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -425,6 +426,8 @@
 		0388BFE7262D45D800929F55 /* T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c"; sourceTree = "<group>"; };
 		0388BFEA262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T53-II_que-shi-de-shu-zi-lcof.h"; sourceTree = "<group>"; };
 		0388BFEB262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T53-II_que-shi-de-shu-zi-lcof.c"; sourceTree = "<group>"; };
+		0388BFF9262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.h"; sourceTree = "<group>"; };
+		0388BFFA262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF2245BC18900AA6763 /* T64-minimum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T64-minimum-path-sum.h"; sourceTree = "<group>"; };
@@ -856,6 +859,8 @@
 				0388BFE7262D45D800929F55 /* T53-I_zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.c */,
 				0388BFEA262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.h */,
 				0388BFEB262D4FAC00929F55 /* T53-II_que-shi-de-shu-zi-lcof.c */,
+				0388BFF9262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.h */,
+				0388BFFA262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.c */,
 			);
 			path = offer;
 			sourceTree = "<group>";
@@ -1319,6 +1324,7 @@
 				0388BF8A262B1AD900929F55 /* T03_shu-zu-zhong-zhong-fu-de-shu-zi-lcof.c in Sources */,
 				03965273245D83D4008049D8 /* T99-recover-binary-search-tree.c in Sources */,
 				03652F1524B2FC63007D0458 /* T63-unique-paths-ii.c in Sources */,
+				0388BFFB262D5A5100929F55 /* T54-er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.c in Sources */,
 				036FA21824CAFA500007FFBA /* T938-range-sum-of-bst.c in Sources */,
 				03C8A6482454260D001D5584 /* stack.c in Sources */,
 				030900BC24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp in Sources */,
