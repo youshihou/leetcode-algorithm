@@ -1,5 +1,5 @@
 //
-//  T55-ping-heng-er-cha-shu-lcof.c
+//  T55-II_ping-heng-er-cha-shu-lcof.c
 //  algorithm
 //
 //  Created by Ankui on 7/25/20.
@@ -9,7 +9,7 @@
 // https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/
 
 
-#include "T55-ping-heng-er-cha-shu-lcof.h"
+#include "T55-II_ping-heng-er-cha-shu-lcof.h"
 #include "algorithm-common.h"
 
 

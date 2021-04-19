@@ -22,7 +22,7 @@
  */
 
 
-int maxDepth(struct TreeNode* root) {
+int __maxDepth(struct TreeNode* root) {
     if (root == NULL) { return 0; }
     int left = maxDepth(root->left);
     int right = maxDepth(root->right);
