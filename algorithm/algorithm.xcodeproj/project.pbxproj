@@ -121,6 +121,7 @@
 		0388C010262DA40C00929F55 /* T58-II_zuo-xuan-zhuan-zi-fu-chuan-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388C00F262DA40C00929F55 /* T58-II_zuo-xuan-zhuan-zi-fu-chuan-lcof.c */; };
 		0388C014262DB3F700929F55 /* T61-bu-ke-pai-zhong-de-shun-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388C013262DB3F700929F55 /* T61-bu-ke-pai-zhong-de-shun-zi-lcof.c */; };
 		0388C019262DC53E00929F55 /* T65-bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388C018262DC53E00929F55 /* T65-bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.c */; };
+		0388C01D262DC88B00929F55 /* T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388C01C262DC88B00929F55 /* T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -449,6 +450,8 @@
 		0388C013262DB3F700929F55 /* T61-bu-ke-pai-zhong-de-shun-zi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T61-bu-ke-pai-zhong-de-shun-zi-lcof.c"; sourceTree = "<group>"; };
 		0388C017262DC53E00929F55 /* T65-bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T65-bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.h"; sourceTree = "<group>"; };
 		0388C018262DC53E00929F55 /* T65-bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T65-bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.c"; sourceTree = "<group>"; };
+		0388C01B262DC88B00929F55 /* T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.h"; sourceTree = "<group>"; };
+		0388C01C262DC88B00929F55 /* T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF2245BC18900AA6763 /* T64-minimum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T64-minimum-path-sum.h"; sourceTree = "<group>"; };
@@ -898,6 +901,8 @@
 				035D9F7B2460597100D22BB8 /* T62-yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.c */,
 				0388C017262DC53E00929F55 /* T65-bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.h */,
 				0388C018262DC53E00929F55 /* T65-bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.c */,
+				0388C01B262DC88B00929F55 /* T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.h */,
+				0388C01C262DC88B00929F55 /* T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.c */,
 			);
 			path = offer;
 			sourceTree = "<group>";
@@ -1315,6 +1320,7 @@
 				03F4B60424795DF200072A3D /* T605-can-place-flowers.c in Sources */,
 				0365C41724C877C000858658 /* T104-maximum-depth-of-binary-tree.c in Sources */,
 				03A21E5A24B1A0E400E8055E /* T44-wildcard-matching.c in Sources */,
+				0388C01D262DC88B00929F55 /* T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.c in Sources */,
 				03BD7E1724B71D6E00C55AA6 /* T17-13-re-space-lcci.c in Sources */,
 				034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */,
 				0388BFD0262D176700929F55 /* T29-shun-shi-zhen-da-yin-ju-zhen-lcof.c in Sources */,
