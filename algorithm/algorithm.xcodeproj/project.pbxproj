@@ -122,6 +122,7 @@
 		0388C014262DB3F700929F55 /* T61-bu-ke-pai-zhong-de-shun-zi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388C013262DB3F700929F55 /* T61-bu-ke-pai-zhong-de-shun-zi-lcof.c */; };
 		0388C019262DC53E00929F55 /* T65-bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388C018262DC53E00929F55 /* T65-bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.c */; };
 		0388C01D262DC88B00929F55 /* T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388C01C262DC88B00929F55 /* T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.c */; };
+		0388C022262E632000929F55 /* T09_yong-liang-ge-zhan-shi-xian-dui-lie-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 0388C021262E632000929F55 /* T09_yong-liang-ge-zhan-shi-xian-dui-lie-lcof.c */; };
 		038BDDF0245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */; };
 		038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF3245BC18900AA6763 /* T64-minimum-path-sum.c */; };
 		038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */ = {isa = PBXBuildFile; fileRef = 038BDDF6245BC1D100AA6763 /* T62-unique-paths.c */; };
@@ -452,6 +453,8 @@
 		0388C018262DC53E00929F55 /* T65-bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T65-bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.c"; sourceTree = "<group>"; };
 		0388C01B262DC88B00929F55 /* T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.h"; sourceTree = "<group>"; };
 		0388C01C262DC88B00929F55 /* T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.c"; sourceTree = "<group>"; };
+		0388C020262E632000929F55 /* T09_yong-liang-ge-zhan-shi-xian-dui-lie-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T09_yong-liang-ge-zhan-shi-xian-dui-lie-lcof.h"; sourceTree = "<group>"; };
+		0388C021262E632000929F55 /* T09_yong-liang-ge-zhan-shi-xian-dui-lie-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T09_yong-liang-ge-zhan-shi-xian-dui-lie-lcof.c"; sourceTree = "<group>"; };
 		038BDDEE245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.h"; sourceTree = "<group>"; };
 		038BDDEF245BC08C00AA6763 /* T47-li-wu-de-zui-da-jie-zhi-lcof.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T47-li-wu-de-zui-da-jie-zhi-lcof.c"; sourceTree = "<group>"; };
 		038BDDF2245BC18900AA6763 /* T64-minimum-path-sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T64-minimum-path-sum.h"; sourceTree = "<group>"; };
@@ -841,6 +844,8 @@
 				0388BF92262B29ED00929F55 /* T05_ti-huan-kong-ge-lcof.c */,
 				0388BF95262C073B00929F55 /* T06_cong-wei-dao-tou-da-yin-lian-biao-lcof.h */,
 				0388BF96262C073C00929F55 /* T06_cong-wei-dao-tou-da-yin-lian-biao-lcof.c */,
+				0388C020262E632000929F55 /* T09_yong-liang-ge-zhan-shi-xian-dui-lie-lcof.h */,
+				0388C021262E632000929F55 /* T09_yong-liang-ge-zhan-shi-xian-dui-lie-lcof.c */,
 				0388BF99262C0BDB00929F55 /* T10-I_fei-bo-na-qi-shu-lie-lcof.h */,
 				0388BF9A262C0BDB00929F55 /* T10-I_fei-bo-na-qi-shu-lie-lcof.c */,
 				0388BF9D262C169B00929F55 /* T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.h */,
@@ -1280,6 +1285,7 @@
 				033637E324AED01400DDD1AA /* T718-maximum-length-of-repeated-subarray.c in Sources */,
 				036FA23024CC32A70007FFBA /* T55-II_ping-heng-er-cha-shu-lcof.c in Sources */,
 				03EE619C24BACF6100909FC8 /* T174-dungeon-game.c in Sources */,
+				0388C022262E632000929F55 /* T09_yong-liang-ge-zhan-shi-xian-dui-lie-lcof.c in Sources */,
 				03F4B60124795D7600072A3D /* T452-minimum-number-of-arrows-to-burst-balloons.c in Sources */,
 				03D56C0E2462F7900074214D /* T200-number-of-islands.c in Sources */,
 				0365C42924C87C3300858658 /* T106-construct-binary-tree-from-inorder-and-postorder-traversal.c in Sources */,
