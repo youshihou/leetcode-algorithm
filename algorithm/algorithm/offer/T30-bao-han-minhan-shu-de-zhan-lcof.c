@@ -23,7 +23,7 @@ typedef struct {
 
 /** initialize your data structure here. */
 
-MinStack* minStackCreate() {
+MinStack* _minStackCreate() {
     MinStack *s = malloc(sizeof(MinStack));
     s->min = malloc(sizeof(int) * MAX_LEN);
     s->val = malloc(sizeof(int) * MAX_LEN);
@@ -31,7 +31,7 @@ MinStack* minStackCreate() {
     return s;
 }
 
-void minStackPush(MinStack* obj, int x) {
+void _minStackPush(MinStack* obj, int x) {
     obj->val[obj->val_top++] = x;
     if (obj->min_top > 0 && obj->min[obj->min_top - 1] <= x) {
         obj->min[obj->min_top++] = obj->min[obj->min_top - 1];
@@ -40,7 +40,7 @@ void minStackPush(MinStack* obj, int x) {
     }
 }
 
-void minStackPop(MinStack* obj) {
+void _minStackPop(MinStack* obj) {
     if (obj->val_top > 0) {
         obj->val_top--;
     }
@@ -49,15 +49,15 @@ void minStackPop(MinStack* obj) {
     }
 }
 
-int minStackTop(MinStack* obj) {
+int _minStackTop(MinStack* obj) {
     return obj->val[obj->val_top - 1];
 }
 
-int minStackMin(MinStack* obj) {
+int _minStackMin(MinStack* obj) {
     return obj->min[obj->min_top - 1];
 }
 
-void minStackFree(MinStack* obj) {
+void _minStackFree(MinStack* obj) {
     free(obj->val);
     free(obj->min);
     free(obj);

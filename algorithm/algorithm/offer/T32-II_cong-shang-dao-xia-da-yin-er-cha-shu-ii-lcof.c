@@ -29,7 +29,7 @@
  * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
  */
 
-int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes) {
+int** _levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes) {
     *returnSize = 0;
     if (root == NULL) { return NULL; }
     int size = 10000;
