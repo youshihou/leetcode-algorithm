@@ -48,7 +48,7 @@ BOOL isIPv4(NSString *string) {
         NSString *str = array[i];
         if (!isNum(str)) { return NO; }
         NSInteger value = str.integerValue;
-        if (i == 0 && value == 255) {
+        if (i == 0 && (value == 0 || value == 255)) {
             return NO;
         }
         if (i == 3 && value == 0) {
