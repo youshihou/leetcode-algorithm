@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0300364F2451C7E80026657D /* T86-partition-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0300364E2451C7E80026657D /* T86-partition-list.c */; };
 		030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 030036512451D0CD0026657D /* T234-palindrome-linked-list.c */; };
+		0304EB54263D8F4F0057DCD4 /* T1001-sorted-merge-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 0304EB53263D8F4F0057DCD4 /* T1001-sorted-merge-lcci.c */; };
 		03061B6326325F9B008B734F /* T70-climbing-stairs.c in Sources */ = {isa = PBXBuildFile; fileRef = 03061B6226325F9B008B734F /* T70-climbing-stairs.c */; };
 		030900BC24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */; };
 		0310560124F901170096744D /* T92-reverse-linked-list-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 031055FF24F901170096744D /* T92-reverse-linked-list-ii.c */; };
@@ -233,6 +234,8 @@
 		0300364E2451C7E80026657D /* T86-partition-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T86-partition-list.c"; sourceTree = "<group>"; };
 		030036502451D0CD0026657D /* T234-palindrome-linked-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T234-palindrome-linked-list.h"; sourceTree = "<group>"; };
 		030036512451D0CD0026657D /* T234-palindrome-linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T234-palindrome-linked-list.c"; sourceTree = "<group>"; };
+		0304EB52263D8F4F0057DCD4 /* T1001-sorted-merge-lcci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T1001-sorted-merge-lcci.h"; sourceTree = "<group>"; };
+		0304EB53263D8F4F0057DCD4 /* T1001-sorted-merge-lcci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T1001-sorted-merge-lcci.c"; sourceTree = "<group>"; };
 		03061B6126325F9B008B734F /* T70-climbing-stairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T70-climbing-stairs.h"; sourceTree = "<group>"; };
 		03061B6226325F9B008B734F /* T70-climbing-stairs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T70-climbing-stairs.c"; sourceTree = "<group>"; };
 		030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T349-intersection-of-two-arrays.cpp"; sourceTree = "<group>"; };
@@ -1142,6 +1145,8 @@
 				03C062C424FFE3300003EA1D /* T210-course-schedule-ii.hpp */,
 				03E4DF9A2639238D00392768 /* T468-validate-ip-address.h */,
 				03E4DF9B2639238D00392768 /* T468-validate-ip-address.m */,
+				0304EB52263D8F4F0057DCD4 /* T1001-sorted-merge-lcci.h */,
+				0304EB53263D8F4F0057DCD4 /* T1001-sorted-merge-lcci.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1412,6 +1417,7 @@
 				0388BF9F262C169B00929F55 /* T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.c in Sources */,
 				0300364F2451C7E80026657D /* T86-partition-list.c in Sources */,
 				0388BFE0262D3E4C00929F55 /* T50-di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.c in Sources */,
+				0304EB54263D8F4F0057DCD4 /* T1001-sorted-merge-lcci.c in Sources */,
 				038E9FB624C41C62005DD7A2 /* T225-implement-stack-using-queues.c in Sources */,
 				038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */,
 				0310560124F901170096744D /* T92-reverse-linked-list-ii.c in Sources */,
