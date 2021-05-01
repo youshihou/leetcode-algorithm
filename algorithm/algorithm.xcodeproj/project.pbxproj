@@ -11,6 +11,7 @@
 		030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 030036512451D0CD0026657D /* T234-palindrome-linked-list.c */; };
 		0304EB54263D8F4F0057DCD4 /* T1001-sorted-merge-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 0304EB53263D8F4F0057DCD4 /* T1001-sorted-merge-lcci.c */; };
 		0304EB57263D97F10057DCD4 /* T136-single-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 0304EB56263D97F10057DCD4 /* T136-single-number.c */; };
+		0304EB5A263D9A4C0057DCD4 /* T268-missing-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 0304EB59263D9A4C0057DCD4 /* T268-missing-number.c */; };
 		03061B6326325F9B008B734F /* T70-climbing-stairs.c in Sources */ = {isa = PBXBuildFile; fileRef = 03061B6226325F9B008B734F /* T70-climbing-stairs.c */; };
 		030900BC24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */; };
 		0310560124F901170096744D /* T92-reverse-linked-list-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 031055FF24F901170096744D /* T92-reverse-linked-list-ii.c */; };
@@ -239,6 +240,8 @@
 		0304EB53263D8F4F0057DCD4 /* T1001-sorted-merge-lcci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T1001-sorted-merge-lcci.c"; sourceTree = "<group>"; };
 		0304EB55263D97F10057DCD4 /* T136-single-number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T136-single-number.h"; sourceTree = "<group>"; };
 		0304EB56263D97F10057DCD4 /* T136-single-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T136-single-number.c"; sourceTree = "<group>"; };
+		0304EB58263D9A4C0057DCD4 /* T268-missing-number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T268-missing-number.h"; sourceTree = "<group>"; };
+		0304EB59263D9A4C0057DCD4 /* T268-missing-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T268-missing-number.c"; sourceTree = "<group>"; };
 		03061B6126325F9B008B734F /* T70-climbing-stairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T70-climbing-stairs.h"; sourceTree = "<group>"; };
 		03061B6226325F9B008B734F /* T70-climbing-stairs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T70-climbing-stairs.c"; sourceTree = "<group>"; };
 		030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T349-intersection-of-two-arrays.cpp"; sourceTree = "<group>"; };
@@ -1152,6 +1155,8 @@
 				0304EB53263D8F4F0057DCD4 /* T1001-sorted-merge-lcci.c */,
 				0304EB55263D97F10057DCD4 /* T136-single-number.h */,
 				0304EB56263D97F10057DCD4 /* T136-single-number.c */,
+				0304EB58263D9A4C0057DCD4 /* T268-missing-number.h */,
+				0304EB59263D9A4C0057DCD4 /* T268-missing-number.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1380,6 +1385,7 @@
 				03A94817246AE4370007C705 /* T124-binary-tree-maximum-path-sum.c in Sources */,
 				03F4B60424795DF200072A3D /* T605-can-place-flowers.c in Sources */,
 				0365C41724C877C000858658 /* T104-maximum-depth-of-binary-tree.c in Sources */,
+				0304EB5A263D9A4C0057DCD4 /* T268-missing-number.c in Sources */,
 				03A21E5A24B1A0E400E8055E /* T44-wildcard-matching.c in Sources */,
 				0388C01D262DC88B00929F55 /* T68-I_er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.c in Sources */,
 				03BD7E1724B71D6E00C55AA6 /* T17-13-re-space-lcci.c in Sources */,
