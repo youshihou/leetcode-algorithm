@@ -14,6 +14,7 @@
 		0304EB5A263D9A4C0057DCD4 /* T268-missing-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 0304EB59263D9A4C0057DCD4 /* T268-missing-number.c */; };
 		0304EB5D263EF0C70057DCD4 /* T278-first-bad-version.c in Sources */ = {isa = PBXBuildFile; fileRef = 0304EB5C263EF0C70057DCD4 /* T278-first-bad-version.c */; };
 		0304EB60263EF1CE0057DCD4 /* T9-palindrome-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 0304EB5F263EF1CE0057DCD4 /* T9-palindrome-number.c */; };
+		0304EB63263EFD240057DCD4 /* T13-roman-to-integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0304EB62263EFD240057DCD4 /* T13-roman-to-integer.c */; };
 		03061B6326325F9B008B734F /* T70-climbing-stairs.c in Sources */ = {isa = PBXBuildFile; fileRef = 03061B6226325F9B008B734F /* T70-climbing-stairs.c */; };
 		030900BC24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */; };
 		0310560124F901170096744D /* T92-reverse-linked-list-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 031055FF24F901170096744D /* T92-reverse-linked-list-ii.c */; };
@@ -248,6 +249,8 @@
 		0304EB5C263EF0C70057DCD4 /* T278-first-bad-version.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T278-first-bad-version.c"; sourceTree = "<group>"; };
 		0304EB5E263EF1CE0057DCD4 /* T9-palindrome-number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T9-palindrome-number.h"; sourceTree = "<group>"; };
 		0304EB5F263EF1CE0057DCD4 /* T9-palindrome-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T9-palindrome-number.c"; sourceTree = "<group>"; };
+		0304EB61263EFD240057DCD4 /* T13-roman-to-integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T13-roman-to-integer.h"; sourceTree = "<group>"; };
+		0304EB62263EFD240057DCD4 /* T13-roman-to-integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T13-roman-to-integer.c"; sourceTree = "<group>"; };
 		03061B6126325F9B008B734F /* T70-climbing-stairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T70-climbing-stairs.h"; sourceTree = "<group>"; };
 		03061B6226325F9B008B734F /* T70-climbing-stairs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T70-climbing-stairs.c"; sourceTree = "<group>"; };
 		030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T349-intersection-of-two-arrays.cpp"; sourceTree = "<group>"; };
@@ -1167,6 +1170,8 @@
 				0304EB5C263EF0C70057DCD4 /* T278-first-bad-version.c */,
 				0304EB5E263EF1CE0057DCD4 /* T9-palindrome-number.h */,
 				0304EB5F263EF1CE0057DCD4 /* T9-palindrome-number.c */,
+				0304EB61263EFD240057DCD4 /* T13-roman-to-integer.h */,
+				0304EB62263EFD240057DCD4 /* T13-roman-to-integer.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1470,6 +1475,7 @@
 				035D9F7F24606DA100D22BB8 /* T54-spiral-matrix.c in Sources */,
 				0388BFE4262D438300929F55 /* T52-liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.c in Sources */,
 				0365A33F246EE12A00470862 /* T347-top-k-frequent-elements.c in Sources */,
+				0304EB63263EFD240057DCD4 /* T13-roman-to-integer.c in Sources */,
 				03F4B5EF247900CE00072A3D /* T51-n-queens.c in Sources */,
 				03C54A3E24CD222000D90BA4 /* T329-longest-increasing-path-in-a-matrix.cpp in Sources */,
 				0388C026262E6ED500929F55 /* T30-bao-han-minhan-shu-de-zhan-lcof.c in Sources */,
