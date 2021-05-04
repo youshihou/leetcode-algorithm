@@ -15,6 +15,7 @@
 		0304EB5D263EF0C70057DCD4 /* T278-first-bad-version.c in Sources */ = {isa = PBXBuildFile; fileRef = 0304EB5C263EF0C70057DCD4 /* T278-first-bad-version.c */; };
 		0304EB60263EF1CE0057DCD4 /* T9-palindrome-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 0304EB5F263EF1CE0057DCD4 /* T9-palindrome-number.c */; };
 		0304EB63263EFD240057DCD4 /* T13-roman-to-integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0304EB62263EFD240057DCD4 /* T13-roman-to-integer.c */; };
+		0304EB66264032DF0057DCD4 /* T14-longest-common-prefix.c in Sources */ = {isa = PBXBuildFile; fileRef = 0304EB65264032DF0057DCD4 /* T14-longest-common-prefix.c */; };
 		03061B6326325F9B008B734F /* T70-climbing-stairs.c in Sources */ = {isa = PBXBuildFile; fileRef = 03061B6226325F9B008B734F /* T70-climbing-stairs.c */; };
 		030900BC24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */; };
 		0310560124F901170096744D /* T92-reverse-linked-list-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 031055FF24F901170096744D /* T92-reverse-linked-list-ii.c */; };
@@ -251,6 +252,8 @@
 		0304EB5F263EF1CE0057DCD4 /* T9-palindrome-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T9-palindrome-number.c"; sourceTree = "<group>"; };
 		0304EB61263EFD240057DCD4 /* T13-roman-to-integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T13-roman-to-integer.h"; sourceTree = "<group>"; };
 		0304EB62263EFD240057DCD4 /* T13-roman-to-integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T13-roman-to-integer.c"; sourceTree = "<group>"; };
+		0304EB64264032DF0057DCD4 /* T14-longest-common-prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T14-longest-common-prefix.h"; sourceTree = "<group>"; };
+		0304EB65264032DF0057DCD4 /* T14-longest-common-prefix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T14-longest-common-prefix.c"; sourceTree = "<group>"; };
 		03061B6126325F9B008B734F /* T70-climbing-stairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T70-climbing-stairs.h"; sourceTree = "<group>"; };
 		03061B6226325F9B008B734F /* T70-climbing-stairs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T70-climbing-stairs.c"; sourceTree = "<group>"; };
 		030900BA24D1AD76009C3DEE /* T349-intersection-of-two-arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "T349-intersection-of-two-arrays.cpp"; sourceTree = "<group>"; };
@@ -1172,6 +1175,8 @@
 				0304EB5F263EF1CE0057DCD4 /* T9-palindrome-number.c */,
 				0304EB61263EFD240057DCD4 /* T13-roman-to-integer.h */,
 				0304EB62263EFD240057DCD4 /* T13-roman-to-integer.c */,
+				0304EB64264032DF0057DCD4 /* T14-longest-common-prefix.h */,
+				0304EB65264032DF0057DCD4 /* T14-longest-common-prefix.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1378,6 +1383,7 @@
 				038E9FBC24C439A9005DD7A2 /* T312-burst-balloons.c in Sources */,
 				0345CF602458702700D8E5AE /* T151-reverse-words-in-a-string.c in Sources */,
 				03A21E1B24B0B47A00E8055E /* T32-longest-valid-parentheses.c in Sources */,
+				0304EB66264032DF0057DCD4 /* T14-longest-common-prefix.c in Sources */,
 				03D56C052462F6E80074214D /* T315-count-of-smaller-numbers-after-self.c in Sources */,
 				035021F724ADBA210024BD6A /* T378-kth-smallest-element-in-a-sorted-matrix.c in Sources */,
 				038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */,
