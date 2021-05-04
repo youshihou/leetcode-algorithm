@@ -55,7 +55,7 @@ char * longestCommonPrefix(char ** strs, int strsSize) {
 
 
 
-char * _longestCommonPrefi(char ** strs, int strsSize) {
+char * _longestCommonPrefix(char ** strs, int strsSize) {
     if (strs == NULL || strsSize == 0) { return ""; }
     int len = (int)strlen(strs[0]);
     for (int i = 0; i < len; i++) {
@@ -67,4 +67,48 @@ char * _longestCommonPrefi(char ** strs, int strsSize) {
         }
     }
     return strs[0];
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+char* commonPrefix(char* left, char* right) {
+    int min = fmin(strlen(left), strlen(right));
+    for (int i = 0; i < min; i++) {
+        if (left[i] != right[i]) {
+            char* res = malloc(sizeof(char) * (i + 1));
+            memset(res, '\0', sizeof(char) * (i + 1));
+            res = strncpy(res, left, i);
+            return res;
+        }
+    }
+    char* res = malloc(sizeof(char) * (min + 1));
+    memset(res, '\0', sizeof(char) * (min + 1));
+    res = strncpy(res, left, min);
+    return res;
+}
+
+char* longestCommonPrefix_(char** strs, int begin, int end) {
+    if (begin == end) {
+        return strs[begin];
+    }
+    
+    int mid = begin + ((end - begin) >> 1);
+    char* left = longestCommonPrefix_(strs, begin, mid);
+    char* right = longestCommonPrefix_(strs, mid + 1, end);
+    return commonPrefix(left, right);
+}
+
+char * __longestCommonPrefix(char ** strs, int strsSize) {
+    if (strs == NULL || strsSize == 0) { return ""; }
+    return longestCommonPrefix_(strs, 0, strsSize - 1);
 }
