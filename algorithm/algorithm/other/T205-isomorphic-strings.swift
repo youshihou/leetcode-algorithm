@@ -7,3 +7,24 @@
 //
 
 import Foundation
+
+class Solution {
+    func isIsomorphic(_ s: String, _ t: String) -> Bool {
+        let sc = Array(s)
+        let tc = Array(t)
+        var s2t: [Character: Character] = [:]
+        for i in 0..<sc.count {
+            if let c = s2t[sc[i]] {
+                if c != tc[i] {
+                    return false
+                }
+            } else {
+                if s2t.values.contains(tc[i]) {
+                    return false
+                }
+                s2t[sc[i]] = tc[i]
+            }
+        }
+        return true
+    }
+}

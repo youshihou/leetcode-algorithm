@@ -40,6 +40,7 @@
 		034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399D244D302A00896919 /* T16-sub-sort-lcci.c */; };
 		034039A2244D302B00896919 /* T88-merge-sorted-array.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399E244D302A00896919 /* T88-merge-sorted-array.c */; };
 		0343460426412FB700493CD0 /* T171-excel-sheet-column-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 0343460326412FB700493CD0 /* T171-excel-sheet-column-number.c */; };
+		034346072641358600493CD0 /* T205-isomorphic-strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034346062641358600493CD0 /* T205-isomorphic-strings.swift */; };
 		0344426824BBEB840030765D /* T350-intersection-of-two-arrays-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 0344426724BBEB840030765D /* T350-intersection-of-two-arrays-ii.c */; };
 		0344427E24BCA3450030765D /* T237-delete-node-in-a-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0344427D24BCA3450030765D /* T237-delete-node-in-a-linked-list.c */; };
 		0344428124BCA7A20030765D /* T206-reverse-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0344428024BCA7A20030765D /* T206-reverse-linked-list.c */; };
@@ -304,6 +305,8 @@
 		0340399F244D302A00896919 /* T75-sort-colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "T75-sort-colors.h"; sourceTree = "<group>"; };
 		0343460226412FB700493CD0 /* T171-excel-sheet-column-number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T171-excel-sheet-column-number.h"; sourceTree = "<group>"; };
 		0343460326412FB700493CD0 /* T171-excel-sheet-column-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T171-excel-sheet-column-number.c"; sourceTree = "<group>"; };
+		034346052641358500493CD0 /* algorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "algorithm-Bridging-Header.h"; sourceTree = "<group>"; };
+		034346062641358600493CD0 /* T205-isomorphic-strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T205-isomorphic-strings.swift"; sourceTree = "<group>"; };
 		0344426624BBEB840030765D /* T350-intersection-of-two-arrays-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T350-intersection-of-two-arrays-ii.h"; sourceTree = "<group>"; };
 		0344426724BBEB840030765D /* T350-intersection-of-two-arrays-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T350-intersection-of-two-arrays-ii.c"; sourceTree = "<group>"; };
 		0344427C24BCA3450030765D /* T237-delete-node-in-a-linked-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T237-delete-node-in-a-linked-list.h"; sourceTree = "<group>"; };
@@ -1182,6 +1185,8 @@
 				0304EB65264032DF0057DCD4 /* T14-longest-common-prefix.c */,
 				0343460226412FB700493CD0 /* T171-excel-sheet-column-number.h */,
 				0343460326412FB700493CD0 /* T171-excel-sheet-column-number.c */,
+				034346062641358600493CD0 /* T205-isomorphic-strings.swift */,
+				034346052641358500493CD0 /* algorithm-Bridging-Header.h */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1263,6 +1268,7 @@
 				TargetAttributes = {
 					0340398E244D300E00896919 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -1501,6 +1507,7 @@
 				038BDDFA245C002E00AA6763 /* T121-best-time-to-buy-and-sell-stock.c in Sources */,
 				0388BFC0262C61E700929F55 /* T24-fan-zhuan-lian-biao-lcof.c in Sources */,
 				038E9FB924C41C95005DD7A2 /* queue.c in Sources */,
+				034346072641358600493CD0 /* T205-isomorphic-strings.swift in Sources */,
 				03F438D12459BBC800E668AA /* T3-longest-substring-without-repeating-characters.c in Sources */,
 				030036522451D0CD0026657D /* T234-palindrome-linked-list.c in Sources */,
 				0388BFCC262D130400929F55 /* T28-dui-cheng-de-er-cha-shu-lcof.c in Sources */,
@@ -1624,18 +1631,35 @@
 		03403997244D300E00896919 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "algorithm/other/algorithm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		03403998244D300E00896919 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "algorithm/other/algorithm-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
