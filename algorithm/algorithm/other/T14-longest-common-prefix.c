@@ -37,7 +37,8 @@ char * longestCommonPrefix(char ** strs, int strsSize) {
     int l = 0;
     int r = len;
     while (l < r) {
-        int mid = l + (r - l + 1) / 2;
+        int mid = l + ((r - l + 1) >> 1);
+        // int mid = l + ((r - l) >> 1); // ERROR!!!
         if (isCommonPrefix(strs, strsSize, mid)) {
             l = mid;
         } else {
