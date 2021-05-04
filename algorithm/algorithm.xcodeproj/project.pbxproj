@@ -39,6 +39,7 @@
 		034039A0244D302A00896919 /* T75-sort-colors.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399C244D302A00896919 /* T75-sort-colors.c */; };
 		034039A1244D302B00896919 /* T16-sub-sort-lcci.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399D244D302A00896919 /* T16-sub-sort-lcci.c */; };
 		034039A2244D302B00896919 /* T88-merge-sorted-array.c in Sources */ = {isa = PBXBuildFile; fileRef = 0340399E244D302A00896919 /* T88-merge-sorted-array.c */; };
+		0343460426412FB700493CD0 /* T171-excel-sheet-column-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 0343460326412FB700493CD0 /* T171-excel-sheet-column-number.c */; };
 		0344426824BBEB840030765D /* T350-intersection-of-two-arrays-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 0344426724BBEB840030765D /* T350-intersection-of-two-arrays-ii.c */; };
 		0344427E24BCA3450030765D /* T237-delete-node-in-a-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0344427D24BCA3450030765D /* T237-delete-node-in-a-linked-list.c */; };
 		0344428124BCA7A20030765D /* T206-reverse-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0344428024BCA7A20030765D /* T206-reverse-linked-list.c */; };
@@ -301,6 +302,8 @@
 		0340399D244D302A00896919 /* T16-sub-sort-lcci.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "T16-sub-sort-lcci.c"; sourceTree = "<group>"; };
 		0340399E244D302A00896919 /* T88-merge-sorted-array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "T88-merge-sorted-array.c"; sourceTree = "<group>"; };
 		0340399F244D302A00896919 /* T75-sort-colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "T75-sort-colors.h"; sourceTree = "<group>"; };
+		0343460226412FB700493CD0 /* T171-excel-sheet-column-number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T171-excel-sheet-column-number.h"; sourceTree = "<group>"; };
+		0343460326412FB700493CD0 /* T171-excel-sheet-column-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T171-excel-sheet-column-number.c"; sourceTree = "<group>"; };
 		0344426624BBEB840030765D /* T350-intersection-of-two-arrays-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T350-intersection-of-two-arrays-ii.h"; sourceTree = "<group>"; };
 		0344426724BBEB840030765D /* T350-intersection-of-two-arrays-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T350-intersection-of-two-arrays-ii.c"; sourceTree = "<group>"; };
 		0344427C24BCA3450030765D /* T237-delete-node-in-a-linked-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T237-delete-node-in-a-linked-list.h"; sourceTree = "<group>"; };
@@ -1177,6 +1180,8 @@
 				0304EB62263EFD240057DCD4 /* T13-roman-to-integer.c */,
 				0304EB64264032DF0057DCD4 /* T14-longest-common-prefix.h */,
 				0304EB65264032DF0057DCD4 /* T14-longest-common-prefix.c */,
+				0343460226412FB700493CD0 /* T171-excel-sheet-column-number.h */,
+				0343460326412FB700493CD0 /* T171-excel-sheet-column-number.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1433,6 +1438,7 @@
 				0388BFB0262C41C200929F55 /* T21-diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.c in Sources */,
 				03B262FA247A98FB00BBD985 /* T1143-longest-common-subsequence.c in Sources */,
 				0331BFBB24B7FBD5001EC331 /* T309-best-time-to-buy-and-sell-stock-with-cooldown.c in Sources */,
+				0343460426412FB700493CD0 /* T171-excel-sheet-column-number.c in Sources */,
 				038BDE06245C082900AA6763 /* T188-best-time-to-buy-and-sell-stock-iv.c in Sources */,
 				0365C42324C87A5200858658 /* T590-n-ary-tree-postorder-traversal.c in Sources */,
 				03D36D67247C0744002C5B4D /* knapsack.c in Sources */,
