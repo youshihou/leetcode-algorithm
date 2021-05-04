@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Solution {
+class t205_Solution {
     func isIsomorphic(_ s: String, _ t: String) -> Bool {
         let sc = Array(s)
         let tc = Array(t)

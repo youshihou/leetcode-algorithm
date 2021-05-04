@@ -224,6 +224,7 @@
 		03F935872450732100FCF702 /* T2-add-two-numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F935862450732000FCF702 /* T2-add-two-numbers.c */; };
 		03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */; };
 		03FB4970264180FB0021D9FE /* T292-nim-game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB496F264180FB0021D9FE /* T292-nim-game.swift */; };
+		03FB4972264181810021D9FE /* T303-range-sum-query-immutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB4971264181800021D9FE /* T303-range-sum-query-immutable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -674,6 +675,7 @@
 		03F9358824508A3E00FCF702 /* T160-intersection-of-two-linked-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T160-intersection-of-two-linked-lists.h"; sourceTree = "<group>"; };
 		03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T160-intersection-of-two-linked-lists.c"; sourceTree = "<group>"; };
 		03FB496F264180FB0021D9FE /* T292-nim-game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T292-nim-game.swift"; sourceTree = "<group>"; };
+		03FB4971264181800021D9FE /* T303-range-sum-query-immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T303-range-sum-query-immutable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1190,6 +1192,7 @@
 				034346052641358500493CD0 /* algorithm-Bridging-Header.h */,
 				034346062641358600493CD0 /* T205-isomorphic-strings.swift */,
 				03FB496F264180FB0021D9FE /* T292-nim-game.swift */,
+				03FB4971264181800021D9FE /* T303-range-sum-query-immutable.swift */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1323,6 +1326,7 @@
 				0365C3E324C7C8A700858658 /* T11_xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.c in Sources */,
 				035D9F8B2461916200D22BB8 /* T253-meeting-rooms-ii.c in Sources */,
 				03D56C0B2462F75C0074214D /* T149-max-points-on-a-line.c in Sources */,
+				03FB4972264181810021D9FE /* T303-range-sum-query-immutable.swift in Sources */,
 				036FA20C24CAF79B0007FFBA /* T98-validate-binary-search-tree.c in Sources */,
 				038BDE03245C07DD00AA6763 /* T123-best-time-to-buy-and-sell-stock-iii.c in Sources */,
 				0365A33B246EC82800470862 /* T198-house-robber.c in Sources */,
