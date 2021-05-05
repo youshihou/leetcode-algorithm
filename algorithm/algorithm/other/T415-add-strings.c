@@ -13,8 +13,8 @@
 #include "algorithm-common.h"
 
 char * addStrings(char * num1, char * num2) {
-    int i = (int)strlen(num1);
-    int j = (int)strlen(num2);
+    int i = (int)strlen(num1) - 1;
+    int j = (int)strlen(num2) - 1;
     char* res = malloc(sizeof(char) * (fmax(i, j) + 3));
     int add = 0;
     int len = 0;
