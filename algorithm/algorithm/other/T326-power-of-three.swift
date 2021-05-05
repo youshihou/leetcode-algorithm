@@ -19,5 +19,7 @@ class t326_Solution {
             res /= 3
         }
         return res == 1
+        
+//        return n > 0 && 1162261467 % n == 0
     }
 }
