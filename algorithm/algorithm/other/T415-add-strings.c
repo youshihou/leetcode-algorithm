@@ -29,8 +29,8 @@ char * addStrings(char * num1, char * num2) {
     }
     for (int i = 0; i * 2 < len; i++) {
         int t = res[i];
-        res[i] = res[len - i -1];
-        res[len - i -1] = t;
+        res[i] = res[len - i - 1];
+        res[len - i - 1] = t;
     }
     res[len++] = 0;
     return res;
