@@ -227,6 +227,7 @@
 		03FB4972264181810021D9FE /* T303-range-sum-query-immutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB4971264181800021D9FE /* T303-range-sum-query-immutable.swift */; };
 		03FB497426423F040021D9FE /* T326-power-of-three.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497326423F040021D9FE /* T326-power-of-three.swift */; };
 		03FB497726425D0D0021D9FE /* T415-add-strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497626425D0D0021D9FE /* T415-add-strings.c */; };
+		03FB497A26427F9E0021D9FE /* T746-min-cost-climbing-stairs.c in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497926427F9E0021D9FE /* T746-min-cost-climbing-stairs.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -681,6 +682,8 @@
 		03FB497326423F040021D9FE /* T326-power-of-three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T326-power-of-three.swift"; sourceTree = "<group>"; };
 		03FB497526425D0D0021D9FE /* T415-add-strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T415-add-strings.h"; sourceTree = "<group>"; };
 		03FB497626425D0D0021D9FE /* T415-add-strings.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T415-add-strings.c"; sourceTree = "<group>"; };
+		03FB497826427F9E0021D9FE /* T746-min-cost-climbing-stairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T746-min-cost-climbing-stairs.h"; sourceTree = "<group>"; };
+		03FB497926427F9E0021D9FE /* T746-min-cost-climbing-stairs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T746-min-cost-climbing-stairs.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1201,6 +1204,8 @@
 				03FB497326423F040021D9FE /* T326-power-of-three.swift */,
 				03FB497526425D0D0021D9FE /* T415-add-strings.h */,
 				03FB497626425D0D0021D9FE /* T415-add-strings.c */,
+				03FB497826427F9E0021D9FE /* T746-min-cost-climbing-stairs.h */,
+				03FB497926427F9E0021D9FE /* T746-min-cost-climbing-stairs.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1476,6 +1481,7 @@
 				0365C42624C87AAB00858658 /* T559-maximum-depth-of-n-ary-tree.c in Sources */,
 				03A7606524ACC05C00940BC7 /* T509-fibonacci-number.c in Sources */,
 				035D9F822461093E00D22BB8 /* T146-lru-cache.c in Sources */,
+				03FB497A26427F9E0021D9FE /* T746-min-cost-climbing-stairs.c in Sources */,
 				036FA20F24CAF7EF0007FFBA /* T783-minimum-distance-between-bst-nodes.c in Sources */,
 				038E9F9924C3024D005DD7A2 /* T856-score-of-parentheses.c in Sources */,
 				0388BF9F262C169B00929F55 /* T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.c in Sources */,
