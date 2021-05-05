@@ -228,6 +228,7 @@
 		03FB497426423F040021D9FE /* T326-power-of-three.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497326423F040021D9FE /* T326-power-of-three.swift */; };
 		03FB497726425D0D0021D9FE /* T415-add-strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497626425D0D0021D9FE /* T415-add-strings.c */; };
 		03FB497A26427F9E0021D9FE /* T746-min-cost-climbing-stairs.c in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497926427F9E0021D9FE /* T746-min-cost-climbing-stairs.c */; };
+		03FB497D26428A840021D9FE /* T1603-design-parking-system.c in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497C26428A840021D9FE /* T1603-design-parking-system.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -684,6 +685,8 @@
 		03FB497626425D0D0021D9FE /* T415-add-strings.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T415-add-strings.c"; sourceTree = "<group>"; };
 		03FB497826427F9E0021D9FE /* T746-min-cost-climbing-stairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T746-min-cost-climbing-stairs.h"; sourceTree = "<group>"; };
 		03FB497926427F9E0021D9FE /* T746-min-cost-climbing-stairs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T746-min-cost-climbing-stairs.c"; sourceTree = "<group>"; };
+		03FB497B26428A840021D9FE /* T1603-design-parking-system.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T1603-design-parking-system.h"; sourceTree = "<group>"; };
+		03FB497C26428A840021D9FE /* T1603-design-parking-system.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T1603-design-parking-system.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1206,6 +1209,8 @@
 				03FB497626425D0D0021D9FE /* T415-add-strings.c */,
 				03FB497826427F9E0021D9FE /* T746-min-cost-climbing-stairs.h */,
 				03FB497926427F9E0021D9FE /* T746-min-cost-climbing-stairs.c */,
+				03FB497B26428A840021D9FE /* T1603-design-parking-system.h */,
+				03FB497C26428A840021D9FE /* T1603-design-parking-system.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1484,6 +1489,7 @@
 				03FB497A26427F9E0021D9FE /* T746-min-cost-climbing-stairs.c in Sources */,
 				036FA20F24CAF7EF0007FFBA /* T783-minimum-distance-between-bst-nodes.c in Sources */,
 				038E9F9924C3024D005DD7A2 /* T856-score-of-parentheses.c in Sources */,
+				03FB497D26428A840021D9FE /* T1603-design-parking-system.c in Sources */,
 				0388BF9F262C169B00929F55 /* T10-II_qing-wa-tiao-tai-jie-wen-ti-lcof.c in Sources */,
 				0300364F2451C7E80026657D /* T86-partition-list.c in Sources */,
 				0388BFE0262D3E4C00929F55 /* T50-di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.c in Sources */,
