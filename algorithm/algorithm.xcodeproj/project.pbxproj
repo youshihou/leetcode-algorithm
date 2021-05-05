@@ -226,6 +226,7 @@
 		03FB4970264180FB0021D9FE /* T292-nim-game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB496F264180FB0021D9FE /* T292-nim-game.swift */; };
 		03FB4972264181810021D9FE /* T303-range-sum-query-immutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB4971264181800021D9FE /* T303-range-sum-query-immutable.swift */; };
 		03FB497426423F040021D9FE /* T326-power-of-three.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497326423F040021D9FE /* T326-power-of-three.swift */; };
+		03FB497726425D0D0021D9FE /* T415-add-strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497626425D0D0021D9FE /* T415-add-strings.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -678,6 +679,8 @@
 		03FB496F264180FB0021D9FE /* T292-nim-game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T292-nim-game.swift"; sourceTree = "<group>"; };
 		03FB4971264181800021D9FE /* T303-range-sum-query-immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T303-range-sum-query-immutable.swift"; sourceTree = "<group>"; };
 		03FB497326423F040021D9FE /* T326-power-of-three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T326-power-of-three.swift"; sourceTree = "<group>"; };
+		03FB497526425D0D0021D9FE /* T415-add-strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T415-add-strings.h"; sourceTree = "<group>"; };
+		03FB497626425D0D0021D9FE /* T415-add-strings.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T415-add-strings.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1196,6 +1199,8 @@
 				03FB496F264180FB0021D9FE /* T292-nim-game.swift */,
 				03FB4971264181800021D9FE /* T303-range-sum-query-immutable.swift */,
 				03FB497326423F040021D9FE /* T326-power-of-three.swift */,
+				03FB497526425D0D0021D9FE /* T415-add-strings.h */,
+				03FB497626425D0D0021D9FE /* T415-add-strings.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1406,6 +1411,7 @@
 				03A21E1B24B0B47A00E8055E /* T32-longest-valid-parentheses.c in Sources */,
 				0304EB66264032DF0057DCD4 /* T14-longest-common-prefix.c in Sources */,
 				03D56C052462F6E80074214D /* T315-count-of-smaller-numbers-after-self.c in Sources */,
+				03FB497726425D0D0021D9FE /* T415-add-strings.c in Sources */,
 				03FB497426423F040021D9FE /* T326-power-of-three.swift in Sources */,
 				035021F724ADBA210024BD6A /* T378-kth-smallest-element-in-a-sorted-matrix.c in Sources */,
 				038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */,
