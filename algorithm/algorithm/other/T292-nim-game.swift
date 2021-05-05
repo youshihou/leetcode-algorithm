@@ -6,6 +6,9 @@
 //  Copyright © 2021 Ankui. All rights reserved.
 //
 
+// https://leetcode-cn.com/problems/nim-game/
+
+
 import Foundation
 
 class t292_Solution {

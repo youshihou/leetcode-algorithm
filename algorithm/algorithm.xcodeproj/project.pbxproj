@@ -225,6 +225,7 @@
 		03F9358A24508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */; };
 		03FB4970264180FB0021D9FE /* T292-nim-game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB496F264180FB0021D9FE /* T292-nim-game.swift */; };
 		03FB4972264181810021D9FE /* T303-range-sum-query-immutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB4971264181800021D9FE /* T303-range-sum-query-immutable.swift */; };
+		03FB497426423F040021D9FE /* T326-power-of-three.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497326423F040021D9FE /* T326-power-of-three.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -676,6 +677,7 @@
 		03F9358924508A3E00FCF702 /* T160-intersection-of-two-linked-lists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T160-intersection-of-two-linked-lists.c"; sourceTree = "<group>"; };
 		03FB496F264180FB0021D9FE /* T292-nim-game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T292-nim-game.swift"; sourceTree = "<group>"; };
 		03FB4971264181800021D9FE /* T303-range-sum-query-immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T303-range-sum-query-immutable.swift"; sourceTree = "<group>"; };
+		03FB497326423F040021D9FE /* T326-power-of-three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T326-power-of-three.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1193,6 +1195,7 @@
 				034346062641358600493CD0 /* T205-isomorphic-strings.swift */,
 				03FB496F264180FB0021D9FE /* T292-nim-game.swift */,
 				03FB4971264181800021D9FE /* T303-range-sum-query-immutable.swift */,
+				03FB497326423F040021D9FE /* T326-power-of-three.swift */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1403,6 +1406,7 @@
 				03A21E1B24B0B47A00E8055E /* T32-longest-valid-parentheses.c in Sources */,
 				0304EB66264032DF0057DCD4 /* T14-longest-common-prefix.c in Sources */,
 				03D56C052462F6E80074214D /* T315-count-of-smaller-numbers-after-self.c in Sources */,
+				03FB497426423F040021D9FE /* T326-power-of-three.swift in Sources */,
 				035021F724ADBA210024BD6A /* T378-kth-smallest-element-in-a-sorted-matrix.c in Sources */,
 				038BDDF7245BC1D100AA6763 /* T62-unique-paths.c in Sources */,
 				0365C43224C87F8700858658 /* T101-symmetric-tree.c in Sources */,

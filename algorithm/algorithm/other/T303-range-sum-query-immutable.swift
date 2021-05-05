@@ -6,10 +6,13 @@
 //  Copyright © 2021 Ankui. All rights reserved.
 //
 
+// https://leetcode-cn.com/problems/range-sum-query-immutable/
+
+
 import Foundation
 
 
-class NumArray {
+class t303_NumArray {
     var sums: [Int] = []
     init(_ nums: [Int]) {
         self.sums = Array(repeating: 0, count: nums.count + 1)
@@ -26,7 +29,7 @@ class NumArray {
 
 
 
-class __NumArray {
+class t303_NumArray__ {
     var nums: [Int]
     init(_ nums: [Int]) {
         self.nums = nums
@@ -47,7 +50,7 @@ class __NumArray {
 
 
 
-class _NumArray {
+class t303_NumArray_ {
     var nums: [Int]
     init(_ nums: [Int]) {
         self.nums = nums

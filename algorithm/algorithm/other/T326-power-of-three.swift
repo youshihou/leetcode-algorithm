@@ -6,4 +6,18 @@
 //  Copyright © 2021 Ankui. All rights reserved.
 //
 
+// https://leetcode-cn.com/problems/power-of-three/
+
+
 import Foundation
+
+class t326_Solution {
+    func isPowerOfThree(_ n: Int) -> Bool {
+        if (n < 1) { return false }
+        var res = n
+        while res % 3 == 0 {
+            res /= 3
+        }
+        return res == 1
+    }
+}

@@ -6,6 +6,10 @@
 //  Copyright © 2021 Ankui. All rights reserved.
 //
 
+// https://leetcode-cn.com/problems/isomorphic-strings/
+
+
+
 import Foundation
 
 class t205_Solution {
