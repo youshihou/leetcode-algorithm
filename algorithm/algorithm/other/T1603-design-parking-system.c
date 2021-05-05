@@ -55,7 +55,7 @@ typedef struct {
 
 
 ParkingSystem_* _parkingSystemCreate(int big, int medium, int small) {
-    ParkingSystem *p = malloc(sizeof(ParkingSystem_));
+    ParkingSystem_ *p = malloc(sizeof(ParkingSystem_));
     p->big = big;
     p->medium = medium;
     p->small = small;

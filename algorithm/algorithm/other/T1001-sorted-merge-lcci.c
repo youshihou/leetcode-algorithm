@@ -13,7 +13,7 @@
 #include "algorithm-common.h"
 
 
-void merge(int* A, int ASize, int m, int* B, int BSize, int n) {
+void ___merge(int* A, int ASize, int m, int* B, int BSize, int n) {
     int rA = m - 1;
     int rB = n - 1;
     int cur = m + n - 1;

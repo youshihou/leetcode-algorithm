@@ -13,7 +13,7 @@
 #include "algorithm-common.h"
 
 
-bool isPalindrome(int x) {
+bool __isPalindrome(int x) {
     if (x < 0 || (x % 10 == 0 && x != 0)) { return false; }
     
     int result = 0;

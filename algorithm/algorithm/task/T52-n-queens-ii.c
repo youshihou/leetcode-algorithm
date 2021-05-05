@@ -37,7 +37,7 @@ void place8(int row, int* count, char cols, short leftTop, short rightTop) {
     }
 }
 
-int total8Queens() {
+int total8Queens(void) {
     int count = 0;
     char cols = '\0';
     short leftTop = 0;

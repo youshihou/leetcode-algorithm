@@ -62,7 +62,7 @@ void heap_pop(int* heap, int* size, int flag) {
 }
 
 
-MedianFinder* medianFinderCreate() {
+MedianFinder* medianFinderCreate(void) {
     g_data.num = 0;
     bsize = ssize = 0;
     return &g_data;

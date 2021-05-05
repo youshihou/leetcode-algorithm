@@ -18,7 +18,7 @@ typedef struct {
 
 /** Initialize your data structure here. */
 
-MyStack* myStackCreate() {
+MyStack* myStackCreate(void) {
     MyStack *s = malloc(sizeof(MyStack));
     s->queue = queue_create();
     return s;

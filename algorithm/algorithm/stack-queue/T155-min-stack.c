@@ -33,7 +33,7 @@ typedef struct Node_ {
 
 /** initialize your data structure here. */
 
-MinStack* minStackCreate() {
+MinStack* minStackCreate(void) {
     MinStack* stack = malloc(sizeof(MinStack));
     stack->next = NULL;
     stack->min = INT_MAX;

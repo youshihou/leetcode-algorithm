@@ -77,7 +77,7 @@ struct HashMapNode* createHashMapNode(int key, struct LinkedListNode* value, str
 }
 
 
-struct HashMapNode** hashMapInit() {
+struct HashMapNode** hashMapInit(void) {
     struct HashMapNode** m = malloc(sizeof(struct HashMapNode*) * HashMapSize);
     for (int i = 0; i < HashMapSize; i++) {
         m[i] = createHashMapNode(-1, 0, NULL);

@@ -23,7 +23,7 @@ typedef struct {
 
 /** initialize your data structure here. */
 
-MinStack* _minStackCreate() {
+MinStack* _minStackCreate(void) {
     MinStack *s = malloc(sizeof(MinStack));
     s->min = malloc(sizeof(int) * MAX_LEN);
     s->val = malloc(sizeof(int) * MAX_LEN);

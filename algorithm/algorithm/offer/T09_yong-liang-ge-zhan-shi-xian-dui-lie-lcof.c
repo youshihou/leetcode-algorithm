@@ -22,7 +22,7 @@ typedef struct {
 
 #define MAX_SIZE 1000
 
-CQueue* cQueueCreate() {
+CQueue* cQueueCreate(void) {
     CQueue* q = malloc(sizeof(CQueue));
     q->stackA = malloc(sizeof(int) * MAX_SIZE);
     q->topA = 0;

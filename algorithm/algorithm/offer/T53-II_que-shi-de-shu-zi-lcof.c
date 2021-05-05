@@ -13,7 +13,7 @@
 #include "algorithm-common.h"
 
 
-int missingNumber(int* nums, int numsSize) {
+int ____missingNumber(int* nums, int numsSize) {
     int l = 0, r = numsSize, m = 0;
     while (l < r) {
         m = l + ((r - l) >> 1);

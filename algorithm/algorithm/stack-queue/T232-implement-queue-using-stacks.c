@@ -20,7 +20,7 @@ typedef struct {
 
 /** Initialize your data structure here. */
 
-MyQueue* myQueueCreate() {
+MyQueue* myQueueCreate(void) {
     MyQueue *q = malloc(sizeof(MyQueue));
     q->inStack = create();
     q->outStack = create();

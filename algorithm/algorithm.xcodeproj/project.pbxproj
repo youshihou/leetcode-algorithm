@@ -229,6 +229,7 @@
 		03FB497726425D0D0021D9FE /* T415-add-strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497626425D0D0021D9FE /* T415-add-strings.c */; };
 		03FB497A26427F9E0021D9FE /* T746-min-cost-climbing-stairs.c in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497926427F9E0021D9FE /* T746-min-cost-climbing-stairs.c */; };
 		03FB497D26428A840021D9FE /* T1603-design-parking-system.c in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497C26428A840021D9FE /* T1603-design-parking-system.c */; };
+		03FB4980264297620021D9FE /* T1030-matrix-cells-in-distance-order.c in Sources */ = {isa = PBXBuildFile; fileRef = 03FB497F264297620021D9FE /* T1030-matrix-cells-in-distance-order.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -687,6 +688,8 @@
 		03FB497926427F9E0021D9FE /* T746-min-cost-climbing-stairs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T746-min-cost-climbing-stairs.c"; sourceTree = "<group>"; };
 		03FB497B26428A840021D9FE /* T1603-design-parking-system.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T1603-design-parking-system.h"; sourceTree = "<group>"; };
 		03FB497C26428A840021D9FE /* T1603-design-parking-system.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T1603-design-parking-system.c"; sourceTree = "<group>"; };
+		03FB497E264297620021D9FE /* T1030-matrix-cells-in-distance-order.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T1030-matrix-cells-in-distance-order.h"; sourceTree = "<group>"; };
+		03FB497F264297620021D9FE /* T1030-matrix-cells-in-distance-order.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T1030-matrix-cells-in-distance-order.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1211,6 +1214,8 @@
 				03FB497926427F9E0021D9FE /* T746-min-cost-climbing-stairs.c */,
 				03FB497B26428A840021D9FE /* T1603-design-parking-system.h */,
 				03FB497C26428A840021D9FE /* T1603-design-parking-system.c */,
+				03FB497E264297620021D9FE /* T1030-matrix-cells-in-distance-order.h */,
+				03FB497F264297620021D9FE /* T1030-matrix-cells-in-distance-order.c */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1497,6 +1502,7 @@
 				038E9FB624C41C62005DD7A2 /* T225-implement-stack-using-queues.c in Sources */,
 				038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */,
 				0310560124F901170096744D /* T92-reverse-linked-list-ii.c in Sources */,
+				03FB4980264297620021D9FE /* T1030-matrix-cells-in-distance-order.c in Sources */,
 				038E9F9624C2FA43005DD7A2 /* T20-valid-parentheses.c in Sources */,
 				03FB4970264180FB0021D9FE /* T292-nim-game.swift in Sources */,
 				0388C014262DB3F700929F55 /* T61-bu-ke-pai-zhong-de-shun-zi-lcof.c in Sources */,
