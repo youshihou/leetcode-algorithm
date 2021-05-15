@@ -26,6 +26,7 @@
 		031552F1246805B2001C70B1 /* T23-merge-k-sorted-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 031552F0246805B2001C70B1 /* T23-merge-k-sorted-lists.c */; };
 		031552F424684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c in Sources */ = {isa = PBXBuildFile; fileRef = 031552F324684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c */; };
 		03211BA4245721E400632DD8 /* T242-valid-anagram.c in Sources */ = {isa = PBXBuildFile; fileRef = 03211BA3245721E400632DD8 /* T242-valid-anagram.c */; };
+		03289D45264FD02200FCE070 /* T56-I_shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03289D44264FD02200FCE070 /* T56-I_shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof.swift */; };
 		03298524246965D100A7D5A8 /* T98-validate-binary-search-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 03298523246965D100A7D5A8 /* T98-validate-binary-search-tree.c */; };
 		032C778824BE8B5D0067045D /* T96-unique-binary-search-trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 032C778724BE8B5D0067045D /* T96-unique-binary-search-trees.c */; };
 		032FB04624BFE1E800759049 /* T785-is-graph-bipartite.c in Sources */ = {isa = PBXBuildFile; fileRef = 032FB04524BFE1E800759049 /* T785-is-graph-bipartite.c */; };
@@ -285,6 +286,7 @@
 		031552F324684B9C001C70B1 /* T150-evaluate-reverse-polish-notation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T150-evaluate-reverse-polish-notation.c"; sourceTree = "<group>"; };
 		03211BA2245721E400632DD8 /* T242-valid-anagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T242-valid-anagram.h"; sourceTree = "<group>"; };
 		03211BA3245721E400632DD8 /* T242-valid-anagram.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T242-valid-anagram.c"; sourceTree = "<group>"; };
+		03289D44264FD02200FCE070 /* T56-I_shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T56-I_shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof.swift"; sourceTree = "<group>"; };
 		03298522246965D100A7D5A8 /* T98-validate-binary-search-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T98-validate-binary-search-tree.h"; sourceTree = "<group>"; };
 		03298523246965D100A7D5A8 /* T98-validate-binary-search-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T98-validate-binary-search-tree.c"; sourceTree = "<group>"; };
 		032985282469664D00A7D5A8 /* algorithm-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "algorithm-common.h"; sourceTree = "<group>"; };
@@ -1001,6 +1003,7 @@
 				033B986C26494F22008D917F /* T64-qiu-12n-lcof.c */,
 				03BE567C264B781200E2E078 /* T56-II_shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof.h */,
 				03BE567D264B781200E2E078 /* T56-II_shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof.c */,
+				03289D44264FD02200FCE070 /* T56-I_shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof.swift */,
 			);
 			path = offer;
 			sourceTree = "<group>";
@@ -1513,6 +1516,7 @@
 				038E9FB624C41C62005DD7A2 /* T225-implement-stack-using-queues.c in Sources */,
 				038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */,
 				0310560124F901170096744D /* T92-reverse-linked-list-ii.c in Sources */,
+				03289D45264FD02200FCE070 /* T56-I_shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof.swift in Sources */,
 				03FB4980264297620021D9FE /* T1030-matrix-cells-in-distance-order.c in Sources */,
 				038E9F9624C2FA43005DD7A2 /* T20-valid-parentheses.c in Sources */,
 				03FB4970264180FB0021D9FE /* T292-nim-game.swift in Sources */,
