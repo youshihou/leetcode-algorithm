@@ -12,7 +12,7 @@
 #include "T56-II_shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof.h"
 #include "algorithm-common.h"
 
-int singleNumber(int* nums, int numsSize) {
+int __singleNumber(int* nums, int numsSize) {
     int res = 0;
     for (int i = 0; i < 32; i++) {
         int count = 0;
