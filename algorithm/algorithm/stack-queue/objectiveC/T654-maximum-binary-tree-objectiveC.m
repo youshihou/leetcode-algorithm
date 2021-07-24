@@ -36,23 +36,51 @@
 
 
 - (NSArray<NSNumber *> *)parentIndexes:(NSArray<NSNumber *> *)nums {
-    NSMutableArray<NSNumber *> *lis = [NSMutableArray array];
-    NSMutableArray<NSNumber *> *ris = [NSMutableArray array];
+    if (nums.count == 0) { return nil; }
+    
     NSMutableArray<NSNumber *> *stack = [NSMutableArray array];
-    for (NSInteger i = 0; i < nums.count; i++) {
-        while (stack.count && [nums[i] integerValue] > [nums[[stack.firstObject integerValue]] integerValue]) {
-            [stack removeObjectAtIndex:0];
-            [ris addObject:@(i)];
+    NSInteger count = nums.count;
+    NSMutableArray<NSNumber *> *lis = [NSMutableArray arrayWithCapacity:count];
+    NSMutableArray<NSNumber *> *ris = [NSMutableArray arrayWithCapacity:count];
+    for (NSInteger i = 0; i < count; i++) {
+        lis[i] = ris[i] = @-1;
+    }
+    for (NSInteger i = 0; i < count; i++) {
+        while (stack.count && [nums[i] integerValue] > [nums[[stack.lastObject integerValue]] integerValue]) {
+            ris[[stack.lastObject integerValue]] = @(i);
+            [stack removeLastObject];
         }
-        NSNumber *idx = @-1;
+
         if (stack.count) {
-            idx = stack.firstObject;
+            lis[i] = stack.lastObject;
         }
-        [lis addObject:idx];
         [stack addObject:@(i)];
     }
     
-    return [stack copy];
+//    NSLog(@"%@", lis);
+//    NSLog(@"%@", ris);
+    
+    NSMutableArray<NSNumber *> *pis = [NSMutableArray arrayWithCapacity:count];
+    for (NSInteger i = 0; i < count; i++) {
+        NSInteger l = [lis[i] integerValue];
+        NSInteger r = [ris[i] integerValue];
+        if (l == -1 && r == -1) {
+            pis[i] = @-1;
+            continue;
+        }
+        
+        if (l == -1) {
+            pis[i] = ris[i];
+        } else if (r == -1) {
+            pis[i] = lis[i];
+        } else if ([nums[l] integerValue] < [nums[r] integerValue]) {
+            pis[i] = lis[i];
+        } else {
+            pis[i] = ris[i];
+        }
+    }
+    
+    return [pis copy];
 }
 
 @end
