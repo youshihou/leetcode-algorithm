@@ -12,7 +12,7 @@
 
 @implementation T239_sliding_window_maximum_objectiveC
 
-- (NSArray *)maxSlidingWindow:(NSArray *)nums k:(NSInteger)k {
+- (NSArray<NSNumber *> *)maxSlidingWindow:(NSArray<NSNumber *> *)nums k:(NSInteger)k {
 //    return [self maxSlidingWindow1:nums k:k];
     return [self maxSlidingWindow2:nums k:k];
 }
@@ -46,14 +46,14 @@
     return [list copy];
 }
 
-- (NSArray *)maxSlidingWindow1:(NSArray *)nums k:(NSInteger)k {
+- (NSArray<NSNumber *> *)maxSlidingWindow1:(NSArray<NSNumber *> *)nums k:(NSInteger)k {
     if (nums.count == 0 || k < 1) { return nil; }
     if (k == 1) { return nums; }
     
-//    NSMutableArray *list = [NSMutableArray arrayWithCapacity:(nums.count - k + 1)];
-    NSMutableArray *list = [NSMutableArray array];
+//    NSMutableArray<NSNumber *> *list = [NSMutableArray arrayWithCapacity:(nums.count - k + 1)];
+    NSMutableArray<NSNumber *> *list = [NSMutableArray array];
 
-    NSMutableArray *deque = [NSMutableArray array];
+    NSMutableArray<NSNumber *> *deque = [NSMutableArray array];
     for (NSInteger i = 0; i < nums.count; i++) {
         while (deque.count && [nums[i] integerValue] >= [nums[[deque.lastObject integerValue]] integerValue]) {
             [deque removeLastObject];

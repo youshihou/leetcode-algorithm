@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface T239_sliding_window_maximum_objectiveC : NSObject
 
-- (NSArray *)maxSlidingWindow:(NSArray *)nums k:(NSInteger)k;
+- (NSArray<NSNumber *> *)maxSlidingWindow:(NSArray<NSNumber *> *)nums k:(NSInteger)k;
 
 @end
 

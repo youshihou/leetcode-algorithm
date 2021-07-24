@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface T739_T739_daily_temperatures_objectiveC : NSObject
 
+- (NSArray<NSNumber *> *)dailyTemperatures:(NSArray<NSNumber *> *)nums;
+
 @end
 
 NS_ASSUME_NONNULL_END
