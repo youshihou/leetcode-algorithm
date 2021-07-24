@@ -13,6 +13,40 @@
 @implementation T239_sliding_window_maximum_objectiveC
 
 - (NSArray *)maxSlidingWindow:(NSArray *)nums k:(NSInteger)k {
+//    return [self maxSlidingWindow1:nums k:k];
+    return [self maxSlidingWindow2:nums k:k];
+}
+
+- (NSArray<NSNumber *> *)maxSlidingWindow2:(NSArray<NSNumber *> *)nums k:(NSInteger)k {
+    if (nums.count == 0 || k < 1) { return @[]; }
+    if (k == 1) { return nums; }
+    
+    NSInteger capacity = nums.count - k + 1;
+    NSMutableArray<NSNumber *> *list = [NSMutableArray arrayWithCapacity:capacity];
+    NSInteger maxIdx = 0;
+    for (NSInteger i = 1; i < k; i++) {
+        if ([nums[i] integerValue] > [nums[maxIdx] integerValue]) {
+            maxIdx = i;
+        }
+    }
+    for (NSInteger li = 0; li < capacity; li++) {
+        NSInteger ri = li + k - 1;
+        if (maxIdx < li) {
+            for (NSInteger i = li + 1; i <= ri; i++) {
+                if ([nums[i] integerValue] > [nums[maxIdx] integerValue]) {
+                    maxIdx = i;
+                }
+            }
+        } else if ([nums[ri] integerValue] >= [nums[maxIdx] integerValue]) {
+            maxIdx = ri;
+        }
+        [list addObject:nums[maxIdx]];
+    }
+    
+    return [list copy];
+}
+
+- (NSArray *)maxSlidingWindow1:(NSArray *)nums k:(NSInteger)k {
     if (nums.count == 0 || k < 1) { return nil; }
     if (k == 1) { return nums; }
     
