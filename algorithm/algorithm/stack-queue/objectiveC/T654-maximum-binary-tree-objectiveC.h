@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (TreeNode *)constructMaximumBinaryTree:(NSArray<NSNumber *> *)nums;
 
+- (NSArray<NSNumber *> *)parentIndexes:(NSArray<NSNumber *> *)nums;
+
 @end
 
 NS_ASSUME_NONNULL_END

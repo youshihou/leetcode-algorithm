@@ -34,4 +34,25 @@
     return root;
 }
 
+
+- (NSArray<NSNumber *> *)parentIndexes:(NSArray<NSNumber *> *)nums {
+    NSMutableArray<NSNumber *> *lis = [NSMutableArray array];
+    NSMutableArray<NSNumber *> *ris = [NSMutableArray array];
+    NSMutableArray<NSNumber *> *stack = [NSMutableArray array];
+    for (NSInteger i = 0; i < nums.count; i++) {
+        while (stack.count && [nums[i] integerValue] > [nums[[stack.firstObject integerValue]] integerValue]) {
+            [stack removeObjectAtIndex:0];
+            [ris addObject:@(i)];
+        }
+        NSNumber *idx = @-1;
+        if (stack.count) {
+            idx = stack.firstObject;
+        }
+        [lis addObject:idx];
+        [stack addObject:@(i)];
+    }
+    
+    return [stack copy];
+}
+
 @end
