@@ -10,6 +10,65 @@
 
 @implementation T739_T739_daily_temperatures_objectiveC
 
+- (NSArray<NSNumber *> *)dailyTemperatures2:(NSArray<NSNumber *> *)nums {
+    if (nums.count == 0) { return nil; }
+
+    NSInteger count = nums.count;
+    NSMutableArray<NSNumber *> *list = [NSMutableArray arrayWithCapacity:count];
+    for (NSInteger i = 0; i < count; i++) {
+        list[i] = @0;
+    }
+    for (NSInteger i = count - 2; i >= 0; i--) {
+        NSInteger j = i + 1;
+        while (true) {
+            NSInteger vi = [nums[i] integerValue];
+            NSInteger vj = [nums[j] integerValue];
+            NSInteger lj = [list[j] integerValue];
+            if (vi < vj) {
+                list[i] = @(j - i);
+                break;
+            } else if (lj == 0) {
+//                list[i] = @0;
+                break;
+            }
+            j = j + lj;
+        }
+    }
+    return [list copy];
+}
+
+- (NSArray<NSNumber *> *)dailyTemperatures1:(NSArray<NSNumber *> *)nums {
+    if (nums.count == 0) { return nil; }
+
+    NSInteger count = nums.count;
+    NSMutableArray<NSNumber *> *list = [NSMutableArray arrayWithCapacity:count];
+    for (NSInteger i = 0; i < count; i++) {
+        list[i] = @0;
+    }
+    for (NSInteger i = count - 2; i >= 0; i--) {
+        NSInteger j = i + 1;
+        while (true) {
+            NSInteger vi = [nums[i] integerValue];
+            NSInteger vj = [nums[j] integerValue];
+            NSInteger lj = [list[j] integerValue];
+            if (vi < vj) {
+                list[i] = @(j - i);
+                break;
+            } else if (lj == 0) {
+//                list[i] = @0;
+                break;
+            } else if (vi == vj) {
+                list[i] = @(lj + j - i);
+                break;
+            } else {
+                j = j + lj;
+            }
+        }
+    }
+    
+    return [list copy];
+}
+
 - (NSArray<NSNumber *> *)dailyTemperatures:(NSArray<NSNumber *> *)nums {
     if (nums.count == 0) { return nil; }
     
