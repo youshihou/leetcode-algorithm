@@ -14,6 +14,7 @@
     id min;
     Node *next;
 }
+
 @end
 
 @implementation Node

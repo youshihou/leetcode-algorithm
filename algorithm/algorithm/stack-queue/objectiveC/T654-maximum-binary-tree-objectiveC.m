@@ -7,7 +7,6 @@
 //
 
 #import "T654-maximum-binary-tree-objectiveC.h"
-#import "TreeNode.h"
 
 @implementation T654_maximum_binary_tree_objectiveC
 
@@ -82,5 +81,14 @@
     
     return [pis copy];
 }
+
+@end
+
+
+
+
+
+
+@implementation TreeNode
 
 @end

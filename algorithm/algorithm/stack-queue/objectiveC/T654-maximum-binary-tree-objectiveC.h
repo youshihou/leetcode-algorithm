@@ -8,9 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
-@class TreeNode;
-
 NS_ASSUME_NONNULL_BEGIN
+
+@interface TreeNode : NSObject {
+@public
+    id val;
+    TreeNode *left;
+    TreeNode *right;
+}
+
+@end
+
+
 
 @interface T654_maximum_binary_tree_objectiveC : NSObject
 
