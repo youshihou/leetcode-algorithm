@@ -1,5 +1,5 @@
 //
-//  T739-T739-daily-temperatures-objectiveC.h
+//  T739_daily_temperatures_objectiveC.h
 //  algorithm
 //
 //  Created by Ankui on 7/24/21.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface T739_T739_daily_temperatures_objectiveC : NSObject
+@interface T739_daily_temperatures_objectiveC : NSObject
 
 - (NSArray<NSNumber *> *)dailyTemperatures:(NSArray<NSNumber *> *)nums;
 
