@@ -6,7 +6,7 @@
 //  Copyright © 2021 Ankui. All rights reserved.
 //
 
-#import "T739_daily_temperatures_objectiveC.h"
+#import "T739-daily-temperatures-objectiveC.h"
 
 @implementation T739_daily_temperatures_objectiveC
 

@@ -67,7 +67,7 @@
 		035D9F8E2461A27900D22BB8 /* T11-container-with-most-water.c in Sources */ = {isa = PBXBuildFile; fileRef = 035D9F8D2461A27900D22BB8 /* T11-container-with-most-water.c */; };
 		035F22AA24C12F92003B3C1A /* T35-search-insert-position.c in Sources */ = {isa = PBXBuildFile; fileRef = 035F22A924C12F92003B3C1A /* T35-search-insert-position.c */; };
 		03648C7726AC473000AA135C /* T654-maximum-binary-tree-objectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03648C7626AC473000AA135C /* T654-maximum-binary-tree-objectiveC.m */; };
-		03648C7E26AC6AB300AA135C /* T739_daily_temperatures_objectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03648C7D26AC6AB300AA135C /* T739_daily_temperatures_objectiveC.m */; };
+		03648C7E26AC6AB300AA135C /* T739-daily-temperatures-objectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03648C7D26AC6AB300AA135C /* T739-daily-temperatures-objectiveC.m */; };
 		03648C9A26AD220F00AA135C /* T155-min-stack-objectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03648C9926AD220F00AA135C /* T155-min-stack-objectiveC.m */; };
 		03652F1524B2FC63007D0458 /* T63-unique-paths-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03652F1424B2FC63007D0458 /* T63-unique-paths-ii.c */; };
 		0365A33B246EC82800470862 /* T198-house-robber.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365A33A246EC82800470862 /* T198-house-robber.c */; };
@@ -372,8 +372,8 @@
 		035F22A924C12F92003B3C1A /* T35-search-insert-position.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T35-search-insert-position.c"; sourceTree = "<group>"; };
 		03648C7526AC473000AA135C /* T654-maximum-binary-tree-objectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T654-maximum-binary-tree-objectiveC.h"; sourceTree = "<group>"; };
 		03648C7626AC473000AA135C /* T654-maximum-binary-tree-objectiveC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "T654-maximum-binary-tree-objectiveC.m"; sourceTree = "<group>"; };
-		03648C7C26AC6AB300AA135C /* T739_daily_temperatures_objectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T739_daily_temperatures_objectiveC.h; sourceTree = "<group>"; };
-		03648C7D26AC6AB300AA135C /* T739_daily_temperatures_objectiveC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = T739_daily_temperatures_objectiveC.m; sourceTree = "<group>"; };
+		03648C7C26AC6AB300AA135C /* T739-daily-temperatures-objectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T739-daily-temperatures-objectiveC.h"; sourceTree = "<group>"; };
+		03648C7D26AC6AB300AA135C /* T739-daily-temperatures-objectiveC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "T739-daily-temperatures-objectiveC.m"; sourceTree = "<group>"; };
 		03648C9826AD220F00AA135C /* T155-min-stack-objectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T155-min-stack-objectiveC.h"; sourceTree = "<group>"; };
 		03648C9926AD220F00AA135C /* T155-min-stack-objectiveC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "T155-min-stack-objectiveC.m"; sourceTree = "<group>"; };
 		03652F1324B2FC63007D0458 /* T63-unique-paths-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T63-unique-paths-ii.h"; sourceTree = "<group>"; };
@@ -871,8 +871,8 @@
 				031778B626A9AB7B00D9128B /* T239-sliding-window-maximum-objectiveC.m */,
 				03648C7526AC473000AA135C /* T654-maximum-binary-tree-objectiveC.h */,
 				03648C7626AC473000AA135C /* T654-maximum-binary-tree-objectiveC.m */,
-				03648C7C26AC6AB300AA135C /* T739_daily_temperatures_objectiveC.h */,
-				03648C7D26AC6AB300AA135C /* T739_daily_temperatures_objectiveC.m */,
+				03648C7C26AC6AB300AA135C /* T739-daily-temperatures-objectiveC.h */,
+				03648C7D26AC6AB300AA135C /* T739-daily-temperatures-objectiveC.m */,
 			);
 			path = objectiveC;
 			sourceTree = "<group>";
@@ -1507,7 +1507,7 @@
 				038BDDFD245C00F100AA6763 /* T63-gu-piao-de-zui-da-li-run-lcof.c in Sources */,
 				0304EB5D263EF0C70057DCD4 /* T278-first-bad-version.c in Sources */,
 				036FA22124CAFB5B0007FFBA /* T173-binary-search-tree-iterator.c in Sources */,
-				03648C7E26AC6AB300AA135C /* T739_daily_temperatures_objectiveC.m in Sources */,
+				03648C7E26AC6AB300AA135C /* T739-daily-temperatures-objectiveC.m in Sources */,
 				03061B6326325F9B008B734F /* T70-climbing-stairs.c in Sources */,
 				03B72FE724C526810061BD4C /* T167-two-sum-ii-input-array-is-sorted.c in Sources */,
 				0304EB60263EF1CE0057DCD4 /* T9-palindrome-number.c in Sources */,
