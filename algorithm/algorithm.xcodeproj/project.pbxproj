@@ -69,6 +69,7 @@
 		03648C7726AC473000AA135C /* T654-maximum-binary-tree-objectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03648C7626AC473000AA135C /* T654-maximum-binary-tree-objectiveC.m */; };
 		03648C7A26AC477100AA135C /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 03648C7926AC477000AA135C /* TreeNode.m */; };
 		03648C7E26AC6AB300AA135C /* T739-T739-daily-temperatures-objectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03648C7D26AC6AB300AA135C /* T739-T739-daily-temperatures-objectiveC.m */; };
+		03648C9A26AD220F00AA135C /* T155-min-stack-objectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03648C9926AD220F00AA135C /* T155-min-stack-objectiveC.m */; };
 		03652F1524B2FC63007D0458 /* T63-unique-paths-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03652F1424B2FC63007D0458 /* T63-unique-paths-ii.c */; };
 		0365A33B246EC82800470862 /* T198-house-robber.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365A33A246EC82800470862 /* T198-house-robber.c */; };
 		0365A33F246EE12A00470862 /* T347-top-k-frequent-elements.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365A33E246EE12A00470862 /* T347-top-k-frequent-elements.c */; };
@@ -376,6 +377,8 @@
 		03648C7926AC477000AA135C /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
 		03648C7C26AC6AB300AA135C /* T739-T739-daily-temperatures-objectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T739-T739-daily-temperatures-objectiveC.h"; sourceTree = "<group>"; };
 		03648C7D26AC6AB300AA135C /* T739-T739-daily-temperatures-objectiveC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "T739-T739-daily-temperatures-objectiveC.m"; sourceTree = "<group>"; };
+		03648C9826AD220F00AA135C /* T155-min-stack-objectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T155-min-stack-objectiveC.h"; sourceTree = "<group>"; };
+		03648C9926AD220F00AA135C /* T155-min-stack-objectiveC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "T155-min-stack-objectiveC.m"; sourceTree = "<group>"; };
 		03652F1324B2FC63007D0458 /* T63-unique-paths-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T63-unique-paths-ii.h"; sourceTree = "<group>"; };
 		03652F1424B2FC63007D0458 /* T63-unique-paths-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T63-unique-paths-ii.c"; sourceTree = "<group>"; };
 		0365A339246EC82800470862 /* T198-house-robber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T198-house-robber.h"; sourceTree = "<group>"; };
@@ -865,6 +868,8 @@
 		03648C7B26AC48C900AA135C /* objectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				03648C9826AD220F00AA135C /* T155-min-stack-objectiveC.h */,
+				03648C9926AD220F00AA135C /* T155-min-stack-objectiveC.m */,
 				031778B526A9AB7B00D9128B /* T239-sliding-window-maximum-objectiveC.h */,
 				031778B626A9AB7B00D9128B /* T239-sliding-window-maximum-objectiveC.m */,
 				03648C7826AC477000AA135C /* TreeNode.h */,
@@ -1546,6 +1551,7 @@
 				0304EB54263D8F4F0057DCD4 /* T1001-sorted-merge-lcci.c in Sources */,
 				038E9FB624C41C62005DD7A2 /* T225-implement-stack-using-queues.c in Sources */,
 				038BDDF4245BC18900AA6763 /* T64-minimum-path-sum.c in Sources */,
+				03648C9A26AD220F00AA135C /* T155-min-stack-objectiveC.m in Sources */,
 				0310560124F901170096744D /* T92-reverse-linked-list-ii.c in Sources */,
 				03289D45264FD02200FCE070 /* T56-I_shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof.swift in Sources */,
 				03FB4980264297620021D9FE /* T1030-matrix-cells-in-distance-order.c in Sources */,

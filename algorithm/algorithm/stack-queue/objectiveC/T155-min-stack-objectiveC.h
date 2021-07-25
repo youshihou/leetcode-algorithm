@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface T155_min_stack_objectiveC : NSObject
 
++ (instancetype)minstack;
+- (void)push:(id)object;
+- (void)pop;
+- (id)top;
+- (id)getMin;
+
 @end
 
 NS_ASSUME_NONNULL_END
