@@ -55,11 +55,25 @@ class Solution2 {
         
         queue.append(root)
         while !queue.isEmpty {
-            var count = queue.count - 1
+//            var count = queue.count - 1
+//            while count >= 0 {
+//                let node = queue.removeFirst()
+//                if count == 0 {
+//                    result.append(node.val)
+//                }
+//                if let left = node.left {
+//                    queue.append(left)
+//                }
+//                if let right = node.right {
+//                    queue.append(right)
+//                }
+//                count -= 1
+//            }
             
-            while count >= 0 {
+            let count = queue.count
+            for i in 0..<count {
                 let node = queue.removeFirst()
-                if count == 0 {
+                if i == count - 1 {
                     result.append(node.val)
                 }
                 if let left = node.left {
@@ -68,7 +82,6 @@ class Solution2 {
                 if let right = node.right {
                     queue.append(right)
                 }
-                count -= 1
             }
         }
         
