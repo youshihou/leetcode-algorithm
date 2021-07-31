@@ -26,4 +26,27 @@ func fourSumCount(_ nums1: [Int], _ nums2: [Int], _ nums3: [Int], _ nums4: [Int]
     }
     
     return count
+    
+    
+}
+
+
+func fourSumCount1(_ nums1: [Int], _ nums2: [Int], _ nums3: [Int], _ nums4: [Int]) -> Int
+{
+    var count = 0
+    var map: [Int: Int] = [:]
+    for i in 0..<nums1.count {
+        for j in 0..<nums2.count {
+            let sum = nums1[i] + nums2[j]
+            map[sum] = (map[sum] ?? 0) + 1
+        }
+    }
+    for i in 0..<nums3.count {
+        for j in 0..<nums4.count {
+            let sum = nums3[i] + nums4[j]
+            count += map[-sum] ?? 0
+        }
+    }
+    
+    return count
 }
