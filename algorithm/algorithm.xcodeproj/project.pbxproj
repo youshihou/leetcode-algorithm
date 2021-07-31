@@ -72,6 +72,7 @@
 		03648C9D26AF014700AA135C /* T912-sort-an-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03648C9C26AF014700AA135C /* T912-sort-an-array.swift */; };
 		03648C9F26B19D3500AA135C /* T199-binary-tree-right-side-view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03648C9E26B19D3500AA135C /* T199-binary-tree-right-side-view.swift */; };
 		03648CA126B2F44B00AA135C /* T1104-path-in-zigzag-labelled-binary-tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03648CA026B2F44B00AA135C /* T1104-path-in-zigzag-labelled-binary-tree.swift */; };
+		03648CA326B5918C00AA135C /* T454-4sum-ii.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03648CA226B5918C00AA135C /* T454-4sum-ii.swift */; };
 		03652F1524B2FC63007D0458 /* T63-unique-paths-ii.c in Sources */ = {isa = PBXBuildFile; fileRef = 03652F1424B2FC63007D0458 /* T63-unique-paths-ii.c */; };
 		0365A33B246EC82800470862 /* T198-house-robber.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365A33A246EC82800470862 /* T198-house-robber.c */; };
 		0365A33F246EE12A00470862 /* T347-top-k-frequent-elements.c in Sources */ = {isa = PBXBuildFile; fileRef = 0365A33E246EE12A00470862 /* T347-top-k-frequent-elements.c */; };
@@ -382,6 +383,7 @@
 		03648C9C26AF014700AA135C /* T912-sort-an-array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T912-sort-an-array.swift"; sourceTree = "<group>"; };
 		03648C9E26B19D3500AA135C /* T199-binary-tree-right-side-view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T199-binary-tree-right-side-view.swift"; sourceTree = "<group>"; };
 		03648CA026B2F44B00AA135C /* T1104-path-in-zigzag-labelled-binary-tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T1104-path-in-zigzag-labelled-binary-tree.swift"; sourceTree = "<group>"; };
+		03648CA226B5918C00AA135C /* T454-4sum-ii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "T454-4sum-ii.swift"; path = "algorithm/binary-tree/T454-4sum-ii.swift"; sourceTree = SOURCE_ROOT; };
 		03652F1324B2FC63007D0458 /* T63-unique-paths-ii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T63-unique-paths-ii.h"; sourceTree = "<group>"; };
 		03652F1424B2FC63007D0458 /* T63-unique-paths-ii.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "T63-unique-paths-ii.c"; sourceTree = "<group>"; };
 		0365A339246EC82800470862 /* T198-house-robber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T198-house-robber.h"; sourceTree = "<group>"; };
@@ -905,6 +907,7 @@
 				0365A33E246EE12A00470862 /* T347-top-k-frequent-elements.c */,
 				035D21FA246FA6D20020BF33 /* T36-valid-sudoku.h */,
 				035D21FB246FA6D20020BF33 /* T36-valid-sudoku.c */,
+				03648CA226B5918C00AA135C /* T454-4sum-ii.swift */,
 			);
 			path = weekly;
 			sourceTree = "<group>";
@@ -1425,6 +1428,7 @@
 				0388BFC8262C678600929F55 /* T27-er-cha-shu-de-jing-xiang-lcof.c in Sources */,
 				0388C010262DA40C00929F55 /* T58-II_zuo-xuan-zhuan-zi-fu-chuan-lcof.c in Sources */,
 				03E1904D24D3A45800DBFEC8 /* T0803-magic-index-lcci.cpp in Sources */,
+				03648CA326B5918C00AA135C /* T454-4sum-ii.swift in Sources */,
 				033637E024AEC31E00DDD1AA /* T108-convert-sorted-array-to-binary-search-tree.c in Sources */,
 				0344427E24BCA3450030765D /* T237-delete-node-in-a-linked-list.c in Sources */,
 				0365C40824C872F600858658 /* T144-binary-tree-preorder-traversal.c in Sources */,
